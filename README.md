@@ -10,6 +10,7 @@ This project is a panel configurator for ADIF, built with React, Vite, and Tailw
 ## Setup
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/rubenbupe/adif-panel-configurator
    cd adif
@@ -35,7 +36,6 @@ This will start the development server at [http://localhost:5173](http://localho
 - `bun run preview` — Preview the production build.
 - `bun run lint` — Run Prettier to check code style.
 - `bun run lint:fix` — Run Prettier and automatically fix issues.
-
 
 ---
 
