@@ -1,0 +1,11110 @@
+[
+	{
+		"code": "01001",
+		"description": "EL SORBITO (APD-CGD)"
+	},
+	{
+		"code": "01002",
+		"description": "LA TRINIDAD   (APT-CGD)"
+	},
+	{
+		"code": "01003",
+		"description": "ARAHAL"
+	},
+	{
+		"code": "01004",
+		"description": "PARADAS (APD-CGD)"
+	},
+	{
+		"code": "01005",
+		"description": "MARCHENA"
+	},
+	{
+		"code": "01006",
+		"description": "OJUELOS-LANTEJUELA (APD)"
+	},
+	{
+		"code": "01007",
+		"description": "OSUNA"
+	},
+	{
+		"code": "01008",
+		"description": "AGUADULCE (APD)"
+	},
+	{
+		"code": "01009",
+		"description": "PEDRERA"
+	},
+	{
+		"code": "02002",
+		"description": "PUENTE GENIL-HERRERA"
+	},
+	{
+		"code": "02003",
+		"description": "ANTEQUERA-SANTA ANA"
+	},
+	{
+		"code": "02030",
+		"description": "ANTEQUERA AV"
+	},
+	{
+		"code": "02110",
+		"description": "CAJA CENTRAL (MADRID"
+	},
+	{
+		"code": "02115",
+		"description": "CAJA DE BARCELONA"
+	},
+	{
+		"code": "03001",
+		"description": "MENGÍBAR-ARTICHUELA (APD-CGD)"
+	},
+	{
+		"code": "03002",
+		"description": "VILLARGORDO (APD)"
+	},
+	{
+		"code": "03003",
+		"description": "GRANENA (APD-CGD)"
+	},
+	{
+		"code": "03100",
+		"description": "JAÉN"
+	},
+	{
+		"code": "03102",
+		"description": "TORREDELCAMP(APD-CGD)"
+	},
+	{
+		"code": "03103",
+		"description": "TORREDONJIMENO  (APD-CGD)"
+	},
+	{
+		"code": "03104",
+		"description": "MARTOS  (APD-CGD)"
+	},
+	{
+		"code": "03105",
+		"description": "VADO-JAEN (APD)"
+	},
+	{
+		"code": "03106",
+		"description": "ALCAUDETE-FTE. DE ORBE"
+	},
+	{
+		"code": "03107",
+		"description": "COLLADO DE LAS ARCAS (APD)"
+	},
+	{
+		"code": "03108",
+		"description": "LUQUE"
+	},
+	{
+		"code": "03109",
+		"description": "ZUHEROS (APD)"
+	},
+	{
+		"code": "03110",
+		"description": "DONA MENCIA (APD)"
+	},
+	{
+		"code": "03111",
+		"description": "CABRA DE CORDOBA"
+	},
+	{
+		"code": "03112",
+		"description": "LUCENA"
+	},
+	{
+		"code": "03113",
+		"description": "MORILES"
+	},
+	{
+		"code": "03208",
+		"description": "CUENCA FERNANDO ZÓBEL"
+	},
+	{
+		"code": "03213",
+		"description": "REQUENA UTIEL"
+	},
+	{
+		"code": "03216",
+		"description": "VALENCIA JOAQUÍN SOROLLA"
+	},
+	{
+		"code": "03309",
+		"description": "VILLENA AV"
+	},
+	{
+		"code": "03410",
+		"description": "ELCHE AV/ELX AV"
+	},
+	{
+		"code": "03412",
+		"description": "CALLOSA DE SEGURA - COX"
+	},
+	{
+		"code": "04001",
+		"description": "LINARES-PASEO LINAREJOS"
+	},
+	{
+		"code": "04007",
+		"description": "GUADALAJARA - YEBES"
+	},
+	{
+		"code": "04040",
+		"description": "ZARAGOZA-DELICIAS"
+	},
+	{
+		"code": "04104",
+		"description": "CAMP TARRAGONA"
+	},
+	{
+		"code": "04307",
+		"description": "FIGUERES VILAFANT"
+	},
+	{
+		"code": "05000",
+		"description": "GRANADA"
+	},
+	{
+		"code": "05002",
+		"description": "ATARFE-SANTAFE"
+	},
+	{
+		"code": "05003",
+		"description": "SIERRA ELVIRA (APD-CGD)"
+	},
+	{
+		"code": "05004",
+		"description": "PINOS PONTE   (APT-CGD)"
+	},
+	{
+		"code": "05005",
+		"description": "ANZOLA (APD)"
+	},
+	{
+		"code": "05006",
+		"description": "SAN PASCUAL (APD-CGD)"
+	},
+	{
+		"code": "05007",
+		"description": "ILLORA-LACHAR (APD)"
+	},
+	{
+		"code": "05008",
+		"description": "ALOMARTES (APD)"
+	},
+	{
+		"code": "05009",
+		"description": "TOCON-MONTEFRIO   (APT)"
+	},
+	{
+		"code": "05010",
+		"description": "VILLANUEVA MESIA (APD)"
+	},
+	{
+		"code": "05011",
+		"description": "HUETOR-TAJAR (APD)"
+	},
+	{
+		"code": "05012",
+		"description": "LOJA"
+	},
+	{
+		"code": "05013",
+		"description": "LOJA-SAN FRANCISCO"
+	},
+	{
+		"code": "05014",
+		"description": "RIOFRIO (APD)"
+	},
+	{
+		"code": "05015",
+		"description": "SALINAS-VILLANUEVA TAPIA (APT)"
+	},
+	{
+		"code": "05016",
+		"description": "ARCHIDONA   (APT)"
+	},
+	{
+		"code": "05019",
+		"description": "ANTEQUERA-CIUDAD"
+	},
+	{
+		"code": "05020",
+		"description": "LAS MARAVILLAS (APD)"
+	},
+	{
+		"code": "05023",
+		"description": "LA PENA (APT-CGD)"
+	},
+	{
+		"code": "05102",
+		"description": "SAN XOÁN"
+	},
+	{
+		"code": "05103",
+		"description": "SANTA ICÍA"
+	},
+	{
+		"code": "05104",
+		"description": "VIRXE DO MAR"
+	},
+	{
+		"code": "05105",
+		"description": "PIÑEIROS"
+	},
+	{
+		"code": "05106",
+		"description": "O PONTO"
+	},
+	{
+		"code": "05107",
+		"description": "XUVIA"
+	},
+	{
+		"code": "05108",
+		"description": "O ALTO DO CASTIÑEIRO"
+	},
+	{
+		"code": "05109",
+		"description": "FERRERÍAS"
+	},
+	{
+		"code": "05110",
+		"description": "SANTANDER-FEVE"
+	},
+	{
+		"code": "05111",
+		"description": "SEDES"
+	},
+	{
+		"code": "05113",
+		"description": "PEDROSO DE NARÓN"
+	},
+	{
+		"code": "05115",
+		"description": "SAN SADURNIÑO"
+	},
+	{
+		"code": "05117",
+		"description": "LAMAS"
+	},
+	{
+		"code": "05119",
+		"description": "APALLA"
+	},
+	{
+		"code": "05121",
+		"description": "MOECHE"
+	},
+	{
+		"code": "05123",
+		"description": "LABACENGOS"
+	},
+	{
+		"code": "05125",
+		"description": "ENTRAMBARRÍAS"
+	},
+	{
+		"code": "05127",
+		"description": "CERDIDO"
+	},
+	{
+		"code": "05129",
+		"description": "A CUQUEIRA"
+	},
+	{
+		"code": "05131",
+		"description": "SANTA MARIA DE MERA"
+	},
+	{
+		"code": "05133",
+		"description": "PONTEMERA"
+	},
+	{
+		"code": "05135",
+		"description": "SAN CLODIO"
+	},
+	{
+		"code": "05137",
+		"description": "SERNA"
+	},
+	{
+		"code": "05139",
+		"description": "ORTIGUEIRA"
+	},
+	{
+		"code": "05141",
+		"description": "ESPASANTE"
+	},
+	{
+		"code": "05143",
+		"description": "LOIBA"
+	},
+	{
+		"code": "05145",
+		"description": "O BARQUEIRO"
+	},
+	{
+		"code": "05147",
+		"description": "O VICEDO"
+	},
+	{
+		"code": "05149",
+		"description": "MOSENDE"
+	},
+	{
+		"code": "05151",
+		"description": "FOLGUEIRO"
+	},
+	{
+		"code": "05153",
+		"description": "FEVE-COVAS DE VIVEIRO"
+	},
+	{
+		"code": "05155",
+		"description": "VIVEIRO"
+	},
+	{
+		"code": "05156",
+		"description": "VIVEIRO APDRO."
+	},
+	{
+		"code": "05157",
+		"description": "XUANCES"
+	},
+	{
+		"code": "05159",
+		"description": "XOVE POBO"
+	},
+	{
+		"code": "05161",
+		"description": "XOVE"
+	},
+	{
+		"code": "05163",
+		"description": "LAGO"
+	},
+	{
+		"code": "05165",
+		"description": "BIDUEIROS"
+	},
+	{
+		"code": "05167",
+		"description": "SAN CIBRAO"
+	},
+	{
+		"code": "05169",
+		"description": "MADEIRO"
+	},
+	{
+		"code": "05171",
+		"description": "BURELA"
+	},
+	{
+		"code": "05173",
+		"description": "CANGAS DE FOZ"
+	},
+	{
+		"code": "05175",
+		"description": "NOIS"
+	},
+	{
+		"code": "05177",
+		"description": "FAZOURO"
+	},
+	{
+		"code": "05179",
+		"description": "MARZÁN"
+	},
+	{
+		"code": "05181",
+		"description": "FOZ"
+	},
+	{
+		"code": "05183",
+		"description": "BARREIROS"
+	},
+	{
+		"code": "05185",
+		"description": "REINANTE"
+	},
+	{
+		"code": "05187",
+		"description": "ESTEIRO"
+	},
+	{
+		"code": "05189",
+		"description": "OS CASTROS"
+	},
+	{
+		"code": "05191",
+		"description": "RINLO"
+	},
+	{
+		"code": "05193",
+		"description": "RIBADEO"
+	},
+	{
+		"code": "05195",
+		"description": "VEGADEO"
+	},
+	{
+		"code": "05197",
+		"description": "A VEIGA/VEGADEO"
+	},
+	{
+		"code": "05199",
+		"description": "VILAVEDEYE"
+	},
+	{
+		"code": "05201",
+		"description": "GIJÓN RAM"
+	},
+	{
+		"code": "05203",
+		"description": "TREMAÑES-CARREÑO"
+	},
+	{
+		"code": "05204",
+		"description": "CENTRU DE TRESPORTES"
+	},
+	{
+		"code": "05207",
+		"description": "ABOÑO APD"
+	},
+	{
+		"code": "05208",
+		"description": "XIBARES"
+	},
+	{
+		"code": "05209",
+		"description": "PERLORA"
+	},
+	{
+		"code": "05210",
+		"description": "CANDÁS APD"
+	},
+	{
+		"code": "05211",
+		"description": "CANDÁS"
+	},
+	{
+		"code": "05213",
+		"description": "EL REGUERAL"
+	},
+	{
+		"code": "05215",
+		"description": "SAN ZABORNÍN"
+	},
+	{
+		"code": "05216",
+		"description": "GUDÍN-LLAMINACIÓN"
+	},
+	{
+		"code": "05217",
+		"description": "TRASONA/TRESONA"
+	},
+	{
+		"code": "05218",
+		"description": "OFICINES"
+	},
+	{
+		"code": "05219",
+		"description": "LLARANES"
+	},
+	{
+		"code": "05220",
+		"description": "CRISTALERÍA"
+	},
+	{
+		"code": "05221",
+		"description": "AVILÉS APD"
+	},
+	{
+		"code": "05222",
+		"description": "AVILÉS-CIM"
+	},
+	{
+		"code": "05224",
+		"description": "RAÍCES NUEVO/LA FUNDICIÓN"
+	},
+	{
+		"code": "05225",
+		"description": "SALINAS"
+	},
+	{
+		"code": "05227",
+		"description": "PIEDRASBLANCAS"
+	},
+	{
+		"code": "05229",
+		"description": "VEGARROZADAS"
+	},
+	{
+		"code": "05231",
+		"description": "SANTIAGU'L MONTE"
+	},
+	{
+		"code": "05232",
+		"description": "EL PARADOR"
+	},
+	{
+		"code": "05233",
+		"description": "SOTU'L BARCU"
+	},
+	{
+		"code": "05235",
+		"description": "RIBERAS"
+	},
+	{
+		"code": "05237",
+		"description": "PEÑAULLÁN"
+	},
+	{
+		"code": "05239",
+		"description": "SANTIANES"
+	},
+	{
+		"code": "05241",
+		"description": "LOS CABOS"
+	},
+	{
+		"code": "05243",
+		"description": "MUROS DE NALÓN"
+	},
+	{
+		"code": "05244",
+		"description": "EL PITO-PIÑERA"
+	},
+	{
+		"code": "05245",
+		"description": "CUDILLERO"
+	},
+	{
+		"code": "05247",
+		"description": "VILLADEMAR"
+	},
+	{
+		"code": "05249",
+		"description": "LA MAGDALENA"
+	},
+	{
+		"code": "05251",
+		"description": "SAN MARTÍN DE LUIÑA"
+	},
+	{
+		"code": "05253",
+		"description": "SAN COSME"
+	},
+	{
+		"code": "05255",
+		"description": "SOTO DE LUIÑA"
+	},
+	{
+		"code": "05257",
+		"description": "VALDREDO"
+	},
+	{
+		"code": "05259",
+		"description": "NOVELLANA"
+	},
+	{
+		"code": "05261",
+		"description": "SANTA MARINA"
+	},
+	{
+		"code": "05263",
+		"description": "BALLOTA"
+	},
+	{
+		"code": "05265",
+		"description": "TABLIZU"
+	},
+	{
+		"code": "05267",
+		"description": "CADAVÉU"
+	},
+	{
+		"code": "05269",
+		"description": "SAN CRISTUÉBANU"
+	},
+	{
+		"code": "05271",
+		"description": "CANEIRU"
+	},
+	{
+		"code": "05273",
+		"description": "BARCIA"
+	},
+	{
+		"code": "05275",
+		"description": "LUARCA/L.LUARCA"
+	},
+	{
+		"code": "05277",
+		"description": "OUTUR"
+	},
+	{
+		"code": "05279",
+		"description": "VILLAPEDRE"
+	},
+	{
+		"code": "05281",
+		"description": "PIÑERA-VILLAORIL"
+	},
+	{
+		"code": "05283",
+		"description": "NAVIA"
+	},
+	{
+		"code": "05285",
+		"description": "MEDAL"
+	},
+	{
+		"code": "05287",
+		"description": "LLOZA"
+	},
+	{
+		"code": "05289",
+		"description": "CARTAVIO"
+	},
+	{
+		"code": "05291",
+		"description": "A CARIDÁ"
+	},
+	{
+		"code": "05293",
+		"description": "TAPIA"
+	},
+	{
+		"code": "05295",
+		"description": "TOL"
+	},
+	{
+		"code": "05297",
+		"description": "LES CAMPES"
+	},
+	{
+		"code": "05299",
+		"description": "CASTROPOL"
+	},
+	{
+		"code": "05300",
+		"description": "EL VALLOBÍN"
+	},
+	{
+		"code": "05301",
+		"description": "L'ARGAÑOSA - LLAPIÉS"
+	},
+	{
+		"code": "05302",
+		"description": "AS CAMPAS"
+	},
+	{
+		"code": "05303",
+		"description": "LES MACES"
+	},
+	{
+		"code": "05304",
+		"description": "SAN CLAUDIO/SAN CLOYO"
+	},
+	{
+		"code": "05305",
+		"description": "FUSO DE LA REINA"
+	},
+	{
+		"code": "05306",
+		"description": "SAN PEDRU NORA"
+	},
+	{
+		"code": "05308",
+		"description": "SOTU-UDRIÓN"
+	},
+	{
+		"code": "05309",
+		"description": "CACES"
+	},
+	{
+		"code": "05311",
+		"description": "TRUBIA"
+	},
+	{
+		"code": "05313",
+		"description": "SANTA MARÍA GRAU"
+	},
+	{
+		"code": "05315",
+		"description": "VEIGA D'ANZU"
+	},
+	{
+		"code": "05316",
+		"description": "PEÑAFLOR"
+	},
+	{
+		"code": "05317",
+		"description": "GRAU/GRADO"
+	},
+	{
+		"code": "05319",
+		"description": "SANDICHE"
+	},
+	{
+		"code": "05320",
+		"description": "ACES"
+	},
+	{
+		"code": "05321",
+		"description": "SAN ROMÁN"
+	},
+	{
+		"code": "05323",
+		"description": "BEIFAR"
+	},
+	{
+		"code": "05325",
+		"description": "PRAVIA"
+	},
+	{
+		"code": "05327",
+		"description": "SAN RANÓN"
+	},
+	{
+		"code": "05329",
+		"description": "SAN ESTEBAN"
+	},
+	{
+		"code": "05351",
+		"description": "PALOMAR"
+	},
+	{
+		"code": "05353",
+		"description": "SOTO DE RIBERA"
+	},
+	{
+		"code": "05355",
+		"description": "PARTEAYER"
+	},
+	{
+		"code": "05361",
+		"description": "BAÍÑA"
+	},
+	{
+		"code": "05369",
+		"description": "MIERES DEL CAMÍN-EL VASCO"
+	},
+	{
+		"code": "05371",
+		"description": "SANTUYANO-CAUDALIA"
+	},
+	{
+		"code": "05373",
+		"description": "FIGAREO"
+	},
+	{
+		"code": "05375",
+		"description": "UXO-TARUELO"
+	},
+	{
+		"code": "05376",
+		"description": "SANTA CRUZ"
+	},
+	{
+		"code": "05377",
+		"description": "CABORANA"
+	},
+	{
+		"code": "05379",
+		"description": "MOREA/MOREDA"
+	},
+	{
+		"code": "05380",
+		"description": "SAN ANTONIO"
+	},
+	{
+		"code": "05381",
+		"description": "L'OYANCO"
+	},
+	{
+		"code": "05382",
+		"description": "CORIGOS"
+	},
+	{
+		"code": "05383",
+		"description": "PIÑERES"
+	},
+	{
+		"code": "05384",
+		"description": "SANTANA-SOTO"
+	},
+	{
+		"code": "05385",
+		"description": "CABAÑAQUINTA/CABANAQUINTA"
+	},
+	{
+		"code": "05387",
+		"description": "L.LEVINCO"
+	},
+	{
+		"code": "05389",
+		"description": "COL.LANZO"
+	},
+	{
+		"code": "05401",
+		"description": "LA BRAÑA"
+	},
+	{
+		"code": "05403",
+		"description": "TREMAÑES-LLANGRÉU/LANGREO"
+	},
+	{
+		"code": "05405",
+		"description": "SOTIELLO"
+	},
+	{
+		"code": "05407",
+		"description": "PINZALES"
+	},
+	{
+		"code": "05409",
+		"description": "AGUDA"
+	},
+	{
+		"code": "05410",
+		"description": "XIXÚN"
+	},
+	{
+		"code": "05411",
+		"description": "LA FLORIDA"
+	},
+	{
+		"code": "05412",
+		"description": "PUENTE BURACOS"
+	},
+	{
+		"code": "05413",
+		"description": "NOREÑA"
+	},
+	{
+		"code": "05415",
+		"description": "BENDICIÓN"
+	},
+	{
+		"code": "05416",
+		"description": "VALDESOTO"
+	},
+	{
+		"code": "05417",
+		"description": "CARBAYÍN"
+	},
+	{
+		"code": "05420",
+		"description": "CURUXONA"
+	},
+	{
+		"code": "05421",
+		"description": "TIUYA/TUILLA"
+	},
+	{
+		"code": "05425",
+		"description": "LA FELGUERA-VEGA"
+	},
+	{
+		"code": "05429",
+		"description": "SAMA-LOS LLERONES"
+	},
+	{
+		"code": "05431",
+		"description": "CIAÑU"
+	},
+	{
+		"code": "05432",
+		"description": "SAN VICENTE"
+	},
+	{
+		"code": "05433",
+		"description": "L'ENTREGU-LA ESCURA"
+	},
+	{
+		"code": "05435",
+		"description": "CARROCERA"
+	},
+	{
+		"code": "05436",
+		"description": "SAMARTÍN"
+	},
+	{
+		"code": "05437",
+		"description": "SOTRONDIO"
+	},
+	{
+		"code": "05439",
+		"description": "BLIMEA"
+	},
+	{
+		"code": "05441",
+		"description": "LOS BARREROS/BARREDOS"
+	},
+	{
+		"code": "05443",
+		"description": "LA POLA DE LLAVIANA/POLA DE LAVIANA"
+	},
+	{
+		"code": "05451",
+		"description": "BILBAO LA CONCORDIA"
+	},
+	{
+		"code": "05455",
+		"description": "BASURTO HOSPITAL"
+	},
+	{
+		"code": "05457",
+		"description": "FEVE-ZORROZA ZORROZGOITI"
+	},
+	{
+		"code": "05459",
+		"description": "SANTA AGUEDA"
+	},
+	{
+		"code": "05460",
+		"description": "KASTREXANA"
+	},
+	{
+		"code": "05461",
+		"description": "IRAUREGUI"
+	},
+	{
+		"code": "05463",
+		"description": "ZARAMILLO"
+	},
+	{
+		"code": "05465",
+		"description": "LA QUADRA"
+	},
+	{
+		"code": "05467",
+		"description": "SODUPE"
+	},
+	{
+		"code": "05469",
+		"description": "ARTXUBE"
+	},
+	{
+		"code": "05470",
+		"description": "LAMBARRI"
+	},
+	{
+		"code": "05471",
+		"description": "GÜEÑES"
+	},
+	{
+		"code": "05473",
+		"description": "ARANGUREN"
+	},
+	{
+		"code": "05474",
+		"description": "ARANGUREN/APDRO."
+	},
+	{
+		"code": "05475",
+		"description": "ZALLA"
+	},
+	{
+		"code": "05477",
+		"description": "COLEGIO"
+	},
+	{
+		"code": "05479",
+		"description": "IBARRA"
+	},
+	{
+		"code": "05480",
+		"description": "BOLUMBURU"
+	},
+	{
+		"code": "05481",
+		"description": "LA HERRERA"
+	},
+	{
+		"code": "05483",
+		"description": "BALMASEDA"
+	},
+	{
+		"code": "05484",
+		"description": "MIMETIZ"
+	},
+	{
+		"code": "05485",
+		"description": "LA CALZADA"
+	},
+	{
+		"code": "05487",
+		"description": "TRASLAVIÑA"
+	},
+	{
+		"code": "05489",
+		"description": "ARZENTALES"
+	},
+	{
+		"code": "05493",
+		"description": "VILLAVERDE DE TRUCIOS"
+	},
+	{
+		"code": "05497",
+		"description": "KARRANZA"
+	},
+	{
+		"code": "05501",
+		"description": "OVIEDO RAM"
+	},
+	{
+		"code": "05503",
+		"description": "LA CORREDORIA RAM"
+	},
+	{
+		"code": "05504",
+		"description": "PARQUE PRINCIPADO"
+	},
+	{
+		"code": "05505",
+		"description": "COLLOTO/CUALLOTO"
+	},
+	{
+		"code": "05507",
+		"description": "MERES"
+	},
+	{
+		"code": "05508",
+		"description": "FONCIELLO"
+	},
+	{
+		"code": "05509",
+		"description": "EL BERRÓN"
+	},
+	{
+		"code": "05511",
+		"description": "LA CARRERA"
+	},
+	{
+		"code": "05513",
+		"description": "LA POLA SIERO"
+	},
+	{
+		"code": "05515",
+		"description": "LOS CORROS"
+	},
+	{
+		"code": "05517",
+		"description": "LIERES"
+	},
+	{
+		"code": "05519",
+		"description": "RIANES"
+	},
+	{
+		"code": "05521",
+		"description": "EL REMEDIU"
+	},
+	{
+		"code": "05522",
+		"description": "LLAMES"
+	},
+	{
+		"code": "05523",
+		"description": "NAVA"
+	},
+	{
+		"code": "05525",
+		"description": "FUENTESANTA/HUENTESANTA"
+	},
+	{
+		"code": "05527",
+		"description": "CECEDA/CECEA"
+	},
+	{
+		"code": "05529",
+		"description": "CARANCOS"
+	},
+	{
+		"code": "05531",
+		"description": "PINTUELES"
+	},
+	{
+		"code": "05533",
+		"description": "L'INFIESTU"
+	},
+	{
+		"code": "05534",
+		"description": "L'INFIESTU APD"
+	},
+	{
+		"code": "05535",
+		"description": "VILLAMAYOR"
+	},
+	{
+		"code": "05537",
+		"description": "SEBARES"
+	},
+	{
+		"code": "05539",
+		"description": "SOTU"
+	},
+	{
+		"code": "05541",
+		"description": "OZANES"
+	},
+	{
+		"code": "05542",
+		"description": "POLICLÍNICU"
+	},
+	{
+		"code": "05543",
+		"description": "ARRIONDAS/LES ARRIONDES"
+	},
+	{
+		"code": "05545",
+		"description": "H.UENTES"
+	},
+	{
+		"code": "05547",
+		"description": "TORAÑU"
+	},
+	{
+		"code": "05549",
+		"description": "CUEVES"
+	},
+	{
+		"code": "05551",
+		"description": "LLOVIU"
+	},
+	{
+		"code": "05552",
+		"description": "RIBADESELLA PUERTO"
+	},
+	{
+		"code": "05553",
+		"description": "RIBADESELLA/RIBESEYA"
+	},
+	{
+		"code": "05555",
+		"description": "CAMANGU"
+	},
+	{
+		"code": "05557",
+		"description": "BELMONTE"
+	},
+	{
+		"code": "05559",
+		"description": "NUEVA"
+	},
+	{
+		"code": "05561",
+		"description": "VILLAHORMES"
+	},
+	{
+		"code": "05563",
+		"description": "POSADA"
+	},
+	{
+		"code": "05565",
+		"description": "VALMORI"
+	},
+	{
+		"code": "05567",
+		"description": "CELORIU"
+	},
+	{
+		"code": "05569",
+		"description": "PO"
+	},
+	{
+		"code": "05571",
+		"description": "LLANES"
+	},
+	{
+		"code": "05573",
+		"description": "SAN ROQUE L'ACEBAL"
+	},
+	{
+		"code": "05575",
+		"description": "VIDIAGO"
+	},
+	{
+		"code": "05577",
+		"description": "PENDUELES"
+	},
+	{
+		"code": "05579",
+		"description": "COLOMBRES"
+	},
+	{
+		"code": "05601",
+		"description": "SANTANDER RAM"
+	},
+	{
+		"code": "05602",
+		"description": "VALDECILLA LA MARGA"
+	},
+	{
+		"code": "05603",
+		"description": "CAZOÑA"
+	},
+	{
+		"code": "05604",
+		"description": "ADARZO"
+	},
+	{
+		"code": "05605",
+		"description": "BEZANA"
+	},
+	{
+		"code": "05607",
+		"description": "MORTERA"
+	},
+	{
+		"code": "05609",
+		"description": "BOO DE PIÉLAGO"
+	},
+	{
+		"code": "05611",
+		"description": "MOGRO"
+	},
+	{
+		"code": "05613",
+		"description": "GORNAZO"
+	},
+	{
+		"code": "05615",
+		"description": "MAR"
+	},
+	{
+		"code": "05617",
+		"description": "REQUEJADA"
+	},
+	{
+		"code": "05619",
+		"description": "BARREDA"
+	},
+	{
+		"code": "05620",
+		"description": "ALTAMIRA"
+	},
+	{
+		"code": "05621",
+		"description": "TORRELAVEGA/CENTRO"
+	},
+	{
+		"code": "05622",
+		"description": "GANZO"
+	},
+	{
+		"code": "05623",
+		"description": "PUENTE SAN MIGUEL"
+	},
+	{
+		"code": "05625",
+		"description": "SANTA ISABEL DE QUIJAS"
+	},
+	{
+		"code": "05627",
+		"description": "SAN PEDRO DE RUDAGÜERA"
+	},
+	{
+		"code": "05629",
+		"description": "GOLBARDO"
+	},
+	{
+		"code": "05631",
+		"description": "CASAR DE PERIEDO"
+	},
+	{
+		"code": "05633",
+		"description": "VIRGEN DE LA PEÑA"
+	},
+	{
+		"code": "05635",
+		"description": "ONTORIA"
+	},
+	{
+		"code": "05637",
+		"description": "CABEZÓN DE LA SAL"
+	},
+	{
+		"code": "05641",
+		"description": "TRECEÑO"
+	},
+	{
+		"code": "05643",
+		"description": "ROIZ"
+	},
+	{
+		"code": "05644",
+		"description": "EL BARCENAL"
+	},
+	{
+		"code": "05645",
+		"description": "SAN VICENTE DE LA BARQUERA"
+	},
+	{
+		"code": "05647",
+		"description": "PESÚES"
+	},
+	{
+		"code": "05649",
+		"description": "UNQUERA"
+	},
+	{
+		"code": "05651",
+		"description": "NUEVA MONTAÑA"
+	},
+	{
+		"code": "05652",
+		"description": "VALLE REAL"
+	},
+	{
+		"code": "05655",
+		"description": "MALIAÑO LA VIDRIERA"
+	},
+	{
+		"code": "05657",
+		"description": "ASTILLERO"
+	},
+	{
+		"code": "05658",
+		"description": "LA CANTÁBRICA"
+	},
+	{
+		"code": "05659",
+		"description": "SAN SALVADOR"
+	},
+	{
+		"code": "05661",
+		"description": "HERAS"
+	},
+	{
+		"code": "05663",
+		"description": "OREJO"
+	},
+	{
+		"code": "05665",
+		"description": "SOLARES"
+	},
+	{
+		"code": "05667",
+		"description": "CECEÑAS"
+	},
+	{
+		"code": "05669",
+		"description": "LA CAVADA"
+	},
+	{
+		"code": "05671",
+		"description": "LIÉRGANES"
+	},
+	{
+		"code": "05672",
+		"description": "PUENTE AGÜERO"
+	},
+	{
+		"code": "05673",
+		"description": "VILLAVERDE DE PONTONES"
+	},
+	{
+		"code": "05675",
+		"description": "HOZ DE ANERO"
+	},
+	{
+		"code": "05677",
+		"description": "BERANGA"
+	},
+	{
+		"code": "05679",
+		"description": "GAMA"
+	},
+	{
+		"code": "05681",
+		"description": "CICERO"
+	},
+	{
+		"code": "05683",
+		"description": "TRETO"
+	},
+	{
+		"code": "05685",
+		"description": "LIMPIAS"
+	},
+	{
+		"code": "05687",
+		"description": "MARRÓN"
+	},
+	{
+		"code": "05689",
+		"description": "UDALLA"
+	},
+	{
+		"code": "05691",
+		"description": "GIBAJA"
+	},
+	{
+		"code": "05721",
+		"description": "ARLA-BERRÓN"
+	},
+	{
+		"code": "05722",
+		"description": "UNGO NAVA"
+	},
+	{
+		"code": "05724",
+		"description": "MERCADILLO-VILLASANA"
+	},
+	{
+		"code": "05727",
+		"description": "CADAGUA"
+	},
+	{
+		"code": "05730",
+		"description": "BERCEDO MONTIJA"
+	},
+	{
+		"code": "05731",
+		"description": "QUINTANA DE LOS PRADOS"
+	},
+	{
+		"code": "05732",
+		"description": "ESPINOSA DE LOS MONTEROS"
+	},
+	{
+		"code": "05733",
+		"description": "REDONDO"
+	},
+	{
+		"code": "05734",
+		"description": "SOTOSCUEVA"
+	},
+	{
+		"code": "05735",
+		"description": "PEDROSA"
+	},
+	{
+		"code": "05736",
+		"description": "DOSANTE CIDAD"
+	},
+	{
+		"code": "05737",
+		"description": "ROBREDO AHEDO"
+	},
+	{
+		"code": "05738",
+		"description": "SONCILLO"
+	},
+	{
+		"code": "05739",
+		"description": "CABAÑAS DE VIRTUS"
+	},
+	{
+		"code": "05740",
+		"description": "ARIJA"
+	},
+	{
+		"code": "05741",
+		"description": "LLANO"
+	},
+	{
+		"code": "05742",
+		"description": "FEVE-LAS ROZAS DE VALDEARROYO"
+	},
+	{
+		"code": "05743",
+		"description": "MONTES CLAROS"
+	},
+	{
+		"code": "05744",
+		"description": "LOS CARABEOS"
+	},
+	{
+		"code": "05747",
+		"description": "CILLAMAYOR"
+	},
+	{
+		"code": "05748",
+		"description": "SALINAS DE PISUERGA"
+	},
+	{
+		"code": "05749",
+		"description": "VADO CERVERA"
+	},
+	{
+		"code": "05750",
+		"description": "CASTREJÓN DE LA PEÑA"
+	},
+	{
+		"code": "05751",
+		"description": "VILLAVERDE TARILONTE"
+	},
+	{
+		"code": "05752",
+		"description": "SANTIBAÑEZ DE LA PEÑA"
+	},
+	{
+		"code": "05753",
+		"description": "GUARDO/APDRO."
+	},
+	{
+		"code": "05754",
+		"description": "GUARDO"
+	},
+	{
+		"code": "05755",
+		"description": "LA LLAMA DE LA GUZPEÑA"
+	},
+	{
+		"code": "05756",
+		"description": "LA ESPINA"
+	},
+	{
+		"code": "05757",
+		"description": "VALCUENDE"
+	},
+	{
+		"code": "05758",
+		"description": "PUENTE ALMUHEY"
+	},
+	{
+		"code": "05759",
+		"description": "PRADO DE LA GUZPEÑA"
+	},
+	{
+		"code": "05760",
+		"description": "VALLE DE LAS CASAS"
+	},
+	{
+		"code": "05761",
+		"description": "CISTIERNA"
+	},
+	{
+		"code": "05762",
+		"description": "YUGUEROS"
+	},
+	{
+		"code": "05763",
+		"description": "LA ERCINA"
+	},
+	{
+		"code": "05764",
+		"description": "BARRILLOS"
+	},
+	{
+		"code": "05765",
+		"description": "FEVE-LA LOSILLA"
+	},
+	{
+		"code": "05766",
+		"description": "BOÑAR"
+	},
+	{
+		"code": "05767",
+		"description": "LA VECILLA"
+	},
+	{
+		"code": "05768",
+		"description": "AVIADOS"
+	},
+	{
+		"code": "05769",
+		"description": "LA VALCUEVA"
+	},
+	{
+		"code": "05770",
+		"description": "MATALLANA"
+	},
+	{
+		"code": "05771",
+		"description": "PARDAVÉ"
+	},
+	{
+		"code": "05772",
+		"description": "PEDRÚN"
+	},
+	{
+		"code": "05773",
+		"description": "MANZANEDA"
+	},
+	{
+		"code": "05774",
+		"description": "GARRAFE"
+	},
+	{
+		"code": "05775",
+		"description": "PALAZUELO"
+	},
+	{
+		"code": "05776",
+		"description": "SAN FELIZ"
+	},
+	{
+		"code": "05777",
+		"description": "VILLAQUILAMBRE"
+	},
+	{
+		"code": "05778",
+		"description": "FEVE-LEÓN"
+	},
+	{
+		"code": "05784",
+		"description": "HOSPITALES"
+	},
+	{
+		"code": "05785",
+		"description": "VILLASINTA"
+	},
+	{
+		"code": "05786",
+		"description": "MATUECA DE TORIO"
+	},
+	{
+		"code": "05787",
+		"description": "NAREDO DE FENAR"
+	},
+	{
+		"code": "05788",
+		"description": "ROBLES"
+	},
+	{
+		"code": "05789",
+		"description": "CAMPOHERMOSO"
+	},
+	{
+		"code": "05790",
+		"description": "SORRIBA"
+	},
+	{
+		"code": "05793",
+		"description": "LA MATA DE LA RIBA"
+	},
+	{
+		"code": "05794",
+		"description": "LA RAYA"
+	},
+	{
+		"code": "05795",
+		"description": "FEVE-OTERO"
+	},
+	{
+		"code": "05796",
+		"description": "VILLA ROMANA"
+	},
+	{
+		"code": "05797",
+		"description": "VALDEPIÉLAGO"
+	},
+	{
+		"code": "05798",
+		"description": "LA DEVESA"
+	},
+	{
+		"code": "05799",
+		"description": "CEREZAL DE LA GUZPEÑA"
+	},
+	{
+		"code": "05801",
+		"description": "VENTAS/S.MAMÉS"
+	},
+	{
+		"code": "05803",
+		"description": "LA ASUNCIÓN/UNIVERSIDAD"
+	},
+	{
+		"code": "05805",
+		"description": "BARRIO DE LAS OLLAS"
+	},
+	{
+		"code": "05807",
+		"description": "VALDERILLA"
+	},
+	{
+		"code": "05951",
+		"description": "FEVE-CARTAGENA PLAZA BASTARRECHE"
+	},
+	{
+		"code": "05952",
+		"description": "HOSPITAL"
+	},
+	{
+		"code": "05953",
+		"description": "MEDIA LEGUA"
+	},
+	{
+		"code": "05955",
+		"description": "VISTA ALEGRE"
+	},
+	{
+		"code": "05957",
+		"description": "EL ABREVADERO"
+	},
+	{
+		"code": "05959",
+		"description": "ALUMBRES"
+	},
+	{
+		"code": "05961",
+		"description": "LA ESPERANZA"
+	},
+	{
+		"code": "05963",
+		"description": "LA UNIÓN VIEJA"
+	},
+	{
+		"code": "05965",
+		"description": "LA UNIÓN"
+	},
+	{
+		"code": "05967",
+		"description": "SIERRA MINERA"
+	},
+	{
+		"code": "05969",
+		"description": "LLANO DEL BEAL"
+	},
+	{
+		"code": "05971",
+		"description": "EL ESTRECHO"
+	},
+	{
+		"code": "05973",
+		"description": "LOS NIETOS VIEJOS"
+	},
+	{
+		"code": "05975",
+		"description": "LOS NIETOS PESCADERÍA"
+	},
+	{
+		"code": "05977",
+		"description": "LOS NIETOS"
+	},
+	{
+		"code": "06001",
+		"description": "LIBRILLA (APD)"
+	},
+	{
+		"code": "06002",
+		"description": "ALHAMA DE MURCIA"
+	},
+	{
+		"code": "06003",
+		"description": "TOTANA"
+	},
+	{
+		"code": "06004",
+		"description": "LA HOYA (APD)"
+	},
+	{
+		"code": "06005",
+		"description": "LORCA-SAN DIEGO (APD)"
+	},
+	{
+		"code": "06006",
+		"description": "LORCA SUTULLENA"
+	},
+	{
+		"code": "06007",
+		"description": "PUERTO LUMBRERAS (APT)"
+	},
+	{
+		"code": "06008",
+		"description": "ALCANTARILLA LOS ROMANOS"
+	},
+	{
+		"code": "06100",
+		"description": "ALMENDRICOS"
+	},
+	{
+		"code": "06101",
+		"description": "LAS NORIAS (APD)"
+	},
+	{
+		"code": "06102",
+		"description": "HUERCAL-OVERA"
+	},
+	{
+		"code": "06103",
+		"description": "ALMAJALEJO (APD)"
+	},
+	{
+		"code": "06104",
+		"description": "ZURGENA"
+	},
+	{
+		"code": "06105",
+		"description": "ARBOLEAS (APD)"
+	},
+	{
+		"code": "06106",
+		"description": "ALBOX"
+	},
+	{
+		"code": "06107",
+		"description": "CANTORIA (APD)"
+	},
+	{
+		"code": "06108",
+		"description": "FINES-OLULA"
+	},
+	{
+		"code": "06109",
+		"description": "PURCHENA (APD)"
+	},
+	{
+		"code": "06110",
+		"description": "TIJOLA (APT)"
+	},
+	{
+		"code": "06111",
+		"description": "SERON (APT)"
+	},
+	{
+		"code": "06112",
+		"description": "HIJATE (APT)"
+	},
+	{
+		"code": "06113",
+		"description": "CANILES"
+	},
+	{
+		"code": "06200",
+		"description": "BAZA"
+	},
+	{
+		"code": "06201",
+		"description": "ZUJAR-FREILA (APD)"
+	},
+	{
+		"code": "06202",
+		"description": "BAUL"
+	},
+	{
+		"code": "06203",
+		"description": "GORAFE (APD-CGD)"
+	},
+	{
+		"code": "06204",
+		"description": "QUEBRADILLA DE GOR (APD)"
+	},
+	{
+		"code": "06205",
+		"description": "GOR (APD)"
+	},
+	{
+		"code": "06206",
+		"description": "HERNAN-VALLE (APD)"
+	},
+	{
+		"code": "07001",
+		"description": "PULPI (APD)"
+	},
+	{
+		"code": "07003",
+		"description": "JARAVIA (APD)"
+	},
+	{
+		"code": "07004",
+		"description": "ÁGUILAS"
+	},
+	{
+		"code": "07005",
+		"description": "AGUILAS EL LABRADORCICO"
+	},
+	{
+		"code": "07007",
+		"description": "ÁGUILAS EL LABRADORCICO"
+	},
+	{
+		"code": "08004",
+		"description": "SEGOVIA GUIOMAR"
+	},
+	{
+		"code": "08223",
+		"description": "VIGO URZAIZ"
+	},
+	{
+		"code": "08224",
+		"description": "REDONDELA AV"
+	},
+	{
+		"code": "08240",
+		"description": "MEDINA DEL CAMPO ALTA VELOCIDAD"
+	},
+	{
+		"code": "08247",
+		"description": "SANABRIA ALTA VELOCIDAD"
+	},
+	{
+		"code": "08251",
+		"description": "A GUDIÑA-PORTA DE GALICIA"
+	},
+	{
+		"code": "09666",
+		"description": "AGUADULCE"
+	},
+	{
+		"code": "09667",
+		"description": "ROQUETAS DE MAR"
+	},
+	{
+		"code": "10000",
+		"description": "MADRID-PRINCIPE PIO"
+	},
+	{
+		"code": "10001",
+		"description": "ARAVACA (APD-CGD)"
+	},
+	{
+		"code": "10002",
+		"description": "POZUELO"
+	},
+	{
+		"code": "10003",
+		"description": "EL PLANTIO (APD)"
+	},
+	{
+		"code": "10004",
+		"description": "EL PLANTIO-MAJADAHONDA (APT)"
+	},
+	{
+		"code": "10005",
+		"description": "LAS ROZAS (APD)"
+	},
+	{
+		"code": "10007",
+		"description": "MAJADAHOND"
+	},
+	{
+		"code": "10010",
+		"description": "EL BARRIAL"
+	},
+	{
+		"code": "10100",
+		"description": "PINAR DE LAS ROZAS"
+	},
+	{
+		"code": "10101",
+		"description": "LAS MATAS"
+	},
+	{
+		"code": "10102",
+		"description": "LOS PENASCALES (APD)"
+	},
+	{
+		"code": "10103",
+		"description": "TORRELODONES"
+	},
+	{
+		"code": "10104",
+		"description": "GALAPAGAR-LA NAVATA"
+	},
+	{
+		"code": "10200",
+		"description": "VILLALBA DE GUADARRAMA"
+	},
+	{
+		"code": "10201",
+		"description": "SAN YAGO"
+	},
+	{
+		"code": "10202",
+		"description": "LAS ZORRERAS-NAVALQUEJIGO"
+	},
+	{
+		"code": "10203",
+		"description": "EL ESCORIAL"
+	},
+	{
+		"code": "10204",
+		"description": "ZARZALEJO"
+	},
+	{
+		"code": "10205",
+		"description": "ROBLEDO DE CHAVELA"
+	},
+	{
+		"code": "10206",
+		"description": "SANTA MARÍA DE LA ALAMEDA-PEGUERINOS"
+	},
+	{
+		"code": "10207",
+		"description": "LAS NAVAS DEL MARQUÉS"
+	},
+	{
+		"code": "10208",
+		"description": "NAVALPERAL"
+	},
+	{
+		"code": "10209",
+		"description": "EL PIMPOLLAR"
+	},
+	{
+		"code": "10300",
+		"description": "HERRADÓN-LA CAÑADA"
+	},
+	{
+		"code": "10301",
+		"description": "NAVALGRANDE (APT)"
+	},
+	{
+		"code": "10302",
+		"description": "GUIMORCONDO"
+	},
+	{
+		"code": "10400",
+		"description": "ÁVILA"
+	},
+	{
+		"code": "10401",
+		"description": "PEDROSILLO (APD)"
+	},
+	{
+		"code": "10403",
+		"description": "MINGORRIA (APT-CGD)"
+	},
+	{
+		"code": "10404",
+		"description": "VELAYOS"
+	},
+	{
+		"code": "10405",
+		"description": "SANCHIDRIAN (APT-CGD)"
+	},
+	{
+		"code": "10406",
+		"description": "ADANERO (APD)"
+	},
+	{
+		"code": "10407",
+		"description": "ADANERO-MUNOZ   (APT)"
+	},
+	{
+		"code": "10408",
+		"description": "ORBITA-ESPINOSA (APD)"
+	},
+	{
+		"code": "10409",
+		"description": "ARÉVALO"
+	},
+	{
+		"code": "10410",
+		"description": "PALACIOS DE GODA (APD)"
+	},
+	{
+		"code": "10411",
+		"description": "ATAQUINES"
+	},
+	{
+		"code": "10412",
+		"description": "GOMEZNARRO (APT)"
+	},
+	{
+		"code": "10500",
+		"description": "MEDINA DEL CAMPO"
+	},
+	{
+		"code": "10501",
+		"description": "POZALDEZ"
+	},
+	{
+		"code": "10502",
+		"description": "MATAPOZUELOS"
+	},
+	{
+		"code": "10503",
+		"description": "VALDESTILLAS"
+	},
+	{
+		"code": "10504",
+		"description": "VIANA"
+	},
+	{
+		"code": "10505",
+		"description": "EL PINAR (APD)"
+	},
+	{
+		"code": "10600",
+		"description": "VALLADOLID"
+	},
+	{
+		"code": "10602",
+		"description": "CABEZÓN DEL PISUERGA"
+	},
+	{
+		"code": "10603",
+		"description": "CORCOS-AGUILAREJO"
+	},
+	{
+		"code": "10604",
+		"description": "CUBILLAS DE SANTA MARTA"
+	},
+	{
+		"code": "10605",
+		"description": "DUEÑAS"
+	},
+	{
+		"code": "10610",
+		"description": "VALLADOLID-UNIVERSIDAD"
+	},
+	{
+		"code": "11000",
+		"description": "VENTA DE BAÑOS"
+	},
+	{
+		"code": "11004",
+		"description": "MAGAZ"
+	},
+	{
+		"code": "11005",
+		"description": "TORQUEMADA"
+	},
+	{
+		"code": "11006",
+		"description": "QUINTANA DEL PUENTE"
+	},
+	{
+		"code": "11007",
+		"description": "VILLODRIGO"
+	},
+	{
+		"code": "11008",
+		"description": "LOS BALBASES (APD)"
+	},
+	{
+		"code": "11009",
+		"description": "VILLAQUIRÁN"
+	},
+	{
+		"code": "11010",
+		"description": "ESTEPAR"
+	},
+	{
+		"code": "11011",
+		"description": "QUINTANILLEJA"
+	},
+	{
+		"code": "11012",
+		"description": "ALAMEDA (APD-CGD)"
+	},
+	{
+		"code": "11014",
+		"description": "BURGOS ROSA MANZANO"
+	},
+	{
+		"code": "11100",
+		"description": "BURGOS"
+	},
+	{
+		"code": "11102",
+		"description": "VILLAFRIA (APT)"
+	},
+	{
+		"code": "11103",
+		"description": "QUINTANAPALLA"
+	},
+	{
+		"code": "11104",
+		"description": "BARRIOS DE COLINA (APD)"
+	},
+	{
+		"code": "11106",
+		"description": "SANTA OLALLA DE BUREBA"
+	},
+	{
+		"code": "11108",
+		"description": "CASTIL DE PEONES (APD)"
+	},
+	{
+		"code": "11109",
+		"description": "BRIVIESCA"
+	},
+	{
+		"code": "11110",
+		"description": "CALZADA DE BUREBA"
+	},
+	{
+		"code": "11111",
+		"description": "PANCORBO"
+	},
+	{
+		"code": "11112",
+		"description": "BUJEDO (APD)"
+	},
+	{
+		"code": "11200",
+		"description": "MIRANDA DE EBRO"
+	},
+	{
+		"code": "11203",
+		"description": "MANZANOS"
+	},
+	{
+		"code": "11204",
+		"description": "LA PUEBLA DE ARGANZÓN"
+	},
+	{
+		"code": "11205",
+		"description": "NANCLARES/LANGRAIZ"
+	},
+	{
+		"code": "11206",
+		"description": "TRESPUENTES"
+	},
+	{
+		"code": "11208",
+		"description": "VITORIA/GASTEIZ"
+	},
+	{
+		"code": "11209",
+		"description": "ESTÍBALIZ-OREITIA"
+	},
+	{
+		"code": "11210",
+		"description": "ALEGRÍA DE ÁLAVA-DULANTZI"
+	},
+	{
+		"code": "11211",
+		"description": "EZKEREKOTXA  (APD)"
+	},
+	{
+		"code": "11212",
+		"description": "SALVATIERRA/AGURAIN"
+	},
+	{
+		"code": "11213",
+		"description": "ARAIA"
+	},
+	{
+		"code": "11214",
+		"description": "EGUINO (APD)"
+	},
+	{
+		"code": "11215",
+		"description": "ZIORDIA"
+	},
+	{
+		"code": "11216",
+		"description": "OLAZTI/OLAZAGUTIA"
+	},
+	{
+		"code": "11300",
+		"description": "ALTSASU/ALSASUA-ESTACIÓN"
+	},
+	{
+		"code": "11303",
+		"description": "ZEGAMA-OTZAURTE (APT)"
+	},
+	{
+		"code": "11304",
+		"description": "ZEGAMA-OTZAURTE"
+	},
+	{
+		"code": "11305",
+		"description": "BRINKOLA-OÑATI"
+	},
+	{
+		"code": "11306",
+		"description": "LEGAZPI"
+	},
+	{
+		"code": "11400",
+		"description": "ZUMARRAGA"
+	},
+	{
+		"code": "11401",
+		"description": "GABIRIA (APD)"
+	},
+	{
+		"code": "11402",
+		"description": "ORMAIZTEGI"
+	},
+	{
+		"code": "11403",
+		"description": "SALBATORE"
+	},
+	{
+		"code": "11404",
+		"description": "BEASAIN"
+	},
+	{
+		"code": "11405",
+		"description": "ORDIZIA/ORDICIA"
+	},
+	{
+		"code": "11406",
+		"description": "ITSASONDO(APD)"
+	},
+	{
+		"code": "11407",
+		"description": "LEGORRETA"
+	},
+	{
+		"code": "11408",
+		"description": "IKAZTEGUIETA (APD)"
+	},
+	{
+		"code": "11409",
+		"description": "ALEGIA"
+	},
+	{
+		"code": "11500",
+		"description": "TOLOSA"
+	},
+	{
+		"code": "11501",
+		"description": "TOLOSA CENTRO"
+	},
+	{
+		"code": "11502",
+		"description": "ANOETA"
+	},
+	{
+		"code": "11503",
+		"description": "VILLABONA-ZIZURKIL"
+	},
+	{
+		"code": "11504",
+		"description": "ANDOAIN-CENTRO"
+	},
+	{
+		"code": "11505",
+		"description": "ANDOAIN"
+	},
+	{
+		"code": "11506",
+		"description": "URNIETA"
+	},
+	{
+		"code": "11507",
+		"description": "HERNANI-CENTRO"
+	},
+	{
+		"code": "11508",
+		"description": "HERNANI"
+	},
+	{
+		"code": "11509",
+		"description": "MARTUTENE"
+	},
+	{
+		"code": "11510",
+		"description": "LOIOLA"
+	},
+	{
+		"code": "11511",
+		"description": "SAN SEBASTIÁN/DONOSTIA"
+	},
+	{
+		"code": "11512",
+		"description": "GROS"
+	},
+	{
+		"code": "11513",
+		"description": "ATEGORRIETA (APD)"
+	},
+	{
+		"code": "11514",
+		"description": "HERRERA (APD)"
+	},
+	{
+		"code": "11515",
+		"description": "PASAIA"
+	},
+	{
+		"code": "11516",
+		"description": "LEZO-ERRENTERIA"
+	},
+	{
+		"code": "11517",
+		"description": "GAINCHURIZQUETA (APD)"
+	},
+	{
+		"code": "11518",
+		"description": "VENTAS DE IRUN"
+	},
+	{
+		"code": "11522",
+		"description": "INTXAURRONDO"
+	},
+	{
+		"code": "11600",
+		"description": "IRUN"
+	},
+	{
+		"code": "11602",
+		"description": "HENDAYA"
+	},
+	{
+		"code": "12001",
+		"description": "LOS NEGRALES"
+	},
+	{
+		"code": "12002",
+		"description": "ALPEDRETE-MATAESPESA"
+	},
+	{
+		"code": "12004",
+		"description": "COLLADO MEDIANO"
+	},
+	{
+		"code": "12005",
+		"description": "LOS MOLINOS-GUADARRAMA"
+	},
+	{
+		"code": "12006",
+		"description": "CERCEDILLA"
+	},
+	{
+		"code": "12007",
+		"description": "TABLADA"
+	},
+	{
+		"code": "12008",
+		"description": "GUDILLOS"
+	},
+	{
+		"code": "12009",
+		"description": "SAN RAFAEL"
+	},
+	{
+		"code": "12010",
+		"description": "EL ESPINAR"
+	},
+	{
+		"code": "12011",
+		"description": "LOS ÁNGELES DE SAN RAFAEL"
+	},
+	{
+		"code": "12012",
+		"description": "OTERO-HERREROS"
+	},
+	{
+		"code": "12013",
+		"description": "ORTIGOSA DEL MONTE"
+	},
+	{
+		"code": "12014",
+		"description": "NAVAS DE RIOFRÍO- LA LOSA"
+	},
+	{
+		"code": "12015",
+		"description": "CERCEDILLA-PUEBLO (APD)"
+	},
+	{
+		"code": "12016",
+		"description": "HERAS Y LOS CASTANOS (APD)"
+	},
+	{
+		"code": "12017",
+		"description": "CAMORRITOS (APT)"
+	},
+	{
+		"code": "12018",
+		"description": "SIETE PICOS"
+	},
+	{
+		"code": "12019",
+		"description": "COLLADO ALBO (APT)"
+	},
+	{
+		"code": "12020",
+		"description": "PUERTO NAVACERRADA (APT)"
+	},
+	{
+		"code": "12021",
+		"description": "DOS CASTILLAS (APD)"
+	},
+	{
+		"code": "12022",
+		"description": "VAQUERIZAS (APT)"
+	},
+	{
+		"code": "12023",
+		"description": "LOS COTOS (APT)"
+	},
+	{
+		"code": "12100",
+		"description": "SEGOVIA"
+	},
+	{
+		"code": "12101",
+		"description": "HONTANARES DE ERESMA"
+	},
+	{
+		"code": "12102",
+		"description": "AUSIN (APD)"
+	},
+	{
+		"code": "12103",
+		"description": "YANGUAS DE E.-CARBONERO EL MAYOR"
+	},
+	{
+		"code": "12104",
+		"description": "ARMUNA-BERNARDOS  (APD)"
+	},
+	{
+		"code": "12105",
+		"description": "ORTIGOSA PESTANO  (APT-CGD)"
+	},
+	{
+		"code": "12106",
+		"description": "NAVA DE LA ASUNCION"
+	},
+	{
+		"code": "12107",
+		"description": "COCA  (APT-CGD)"
+	},
+	{
+		"code": "12108",
+		"description": "CIRUELOS (APT)"
+	},
+	{
+		"code": "12109",
+		"description": "FUENTE DE SANTA CRUZ COCA (APD)"
+	},
+	{
+		"code": "12110",
+		"description": "FUENTE OLMEDO (APD)"
+	},
+	{
+		"code": "12111",
+		"description": "OLMEDO DE ADAJA"
+	},
+	{
+		"code": "12112",
+		"description": "POZAL DE GALLINAS"
+	},
+	{
+		"code": "13001",
+		"description": "POBES"
+	},
+	{
+		"code": "13002",
+		"description": "ZUAZO (APT)"
+	},
+	{
+		"code": "13003",
+		"description": "IZARRA"
+	},
+	{
+		"code": "13004",
+		"description": "INOSO-OIARDO     )"
+	},
+	{
+		"code": "13005",
+		"description": "LEZAMA"
+	},
+	{
+		"code": "13006",
+		"description": "ARTOMANA (APT)"
+	},
+	{
+		"code": "13100",
+		"description": "ORDUÑA"
+	},
+	{
+		"code": "13101",
+		"description": "AMURRIO"
+	},
+	{
+		"code": "13102",
+		"description": "SALBIO"
+	},
+	{
+		"code": "13103",
+		"description": "LUIAONDO"
+	},
+	{
+		"code": "13104",
+		"description": "SANTA CRUZ DE LLODIO"
+	},
+	{
+		"code": "13105",
+		"description": "BAKIOLA (APD)"
+	},
+	{
+		"code": "13106",
+		"description": "LLODIO"
+	},
+	{
+		"code": "13107",
+		"description": "ARETA"
+	},
+	{
+		"code": "13108",
+		"description": "ARBIDE"
+	},
+	{
+		"code": "13109",
+		"description": "ARRANKUDIAGA (APD)"
+	},
+	{
+		"code": "13110",
+		"description": "UGAO-MIRABALLES"
+	},
+	{
+		"code": "13111",
+		"description": "ARRIGORRIAGA"
+	},
+	{
+		"code": "13112",
+		"description": "BASAURI (APD)"
+	},
+	{
+		"code": "13113",
+		"description": "BIDEBIETA-BASAURI"
+	},
+	{
+		"code": "13114",
+		"description": "OLLARGAN"
+	},
+	{
+		"code": "13115",
+		"description": "BAKIOLA"
+	},
+	{
+		"code": "13116",
+		"description": "IÑARRATXU"
+	},
+	{
+		"code": "13117",
+		"description": "ARAKALDO"
+	},
+	{
+		"code": "13118",
+		"description": "ABAROA-SM"
+	},
+	{
+		"code": "13119",
+		"description": "LA PEÑA"
+	},
+	{
+		"code": "13120",
+		"description": "MIRIBILLA"
+	},
+	{
+		"code": "13121",
+		"description": "AMURRIO IPARRALDE"
+	},
+	{
+		"code": "13200",
+		"description": "BILBAO-ABANDO INDALECIO PRIETO"
+	},
+	{
+		"code": "13205",
+		"description": "ZABALBURU"
+	},
+	{
+		"code": "13206",
+		"description": "AMETZOLA"
+	},
+	{
+		"code": "13207",
+		"description": "AUTONOMIA"
+	},
+	{
+		"code": "13208",
+		"description": "S. MAMES"
+	},
+	{
+		"code": "13300",
+		"description": "BILBAO-LA NAJA"
+	},
+	{
+		"code": "13302",
+		"description": "BILBAO-PARKEA"
+	},
+	{
+		"code": "13303",
+		"description": "OLABEAGA"
+	},
+	{
+		"code": "13304",
+		"description": "ZORROTZA"
+	},
+	{
+		"code": "13305",
+		"description": "LUTXANA"
+	},
+	{
+		"code": "13400",
+		"description": "BARAKALDO"
+	},
+	{
+		"code": "13401",
+		"description": "SESTAO"
+	},
+	{
+		"code": "13402",
+		"description": "LA IBERIA (APD)"
+	},
+	{
+		"code": "13403",
+		"description": "PORTUGALETE"
+	},
+	{
+		"code": "13404",
+		"description": "PEÑOTA"
+	},
+	{
+		"code": "13405",
+		"description": "SANTURTZI"
+	},
+	{
+		"code": "13501",
+		"description": "GALINDO"
+	},
+	{
+		"code": "13502",
+		"description": "TRAPAGA"
+	},
+	{
+		"code": "13503",
+		"description": "VALLE DE TRAPAGA/TRAPAGARAN"
+	},
+	{
+		"code": "13504",
+		"description": "ORTUELLA"
+	},
+	{
+		"code": "13505",
+		"description": "PUTXETA"
+	},
+	{
+		"code": "13506",
+		"description": "MUSKIZ"
+	},
+	{
+		"code": "13507",
+		"description": "URIOSTE"
+	},
+	{
+		"code": "13508",
+		"description": "GALLARTA (APD)"
+	},
+	{
+		"code": "13509",
+		"description": "SAGRADA F."
+	},
+	{
+		"code": "14100",
+		"description": "PALENCIA"
+	},
+	{
+		"code": "14101",
+		"description": "MONZÓN DE CAMPOS"
+	},
+	{
+		"code": "14102",
+		"description": "AMUSCO"
+	},
+	{
+		"code": "14103",
+		"description": "PIÑA"
+	},
+	{
+		"code": "14104",
+		"description": "FROMISTA"
+	},
+	{
+		"code": "14105",
+		"description": "MARCILLA DE CAMPOS"
+	},
+	{
+		"code": "14106",
+		"description": "LAS CABANAS DE CASTILLA (APD)"
+	},
+	{
+		"code": "14107",
+		"description": "OSORNO"
+	},
+	{
+		"code": "14108",
+		"description": "ESPINOSA DE VILLAGONZALO (APD)"
+	},
+	{
+		"code": "14109",
+		"description": "ESPINOSA DE VILLAGONZALO"
+	},
+	{
+		"code": "14110",
+		"description": "SAN CRISTOBAL DE BOEDO (APD)"
+	},
+	{
+		"code": "14111",
+		"description": "HERRERA DE PISUERGA"
+	},
+	{
+		"code": "14112",
+		"description": "ALAR DEL REY-SAN QUIRCE"
+	},
+	{
+		"code": "14113",
+		"description": "MAVE"
+	},
+	{
+		"code": "14114",
+		"description": "AGUILAR DE CAMPOO"
+	},
+	{
+		"code": "14115",
+		"description": "QUINTANILLA DE LAS TORRES"
+	},
+	{
+		"code": "14116",
+		"description": "EL CARRIÓN (APD)"
+	},
+	{
+		"code": "14117",
+		"description": "EL CARRIÓN"
+	},
+	{
+		"code": "14200",
+		"description": "MATAPORQUERA"
+	},
+	{
+		"code": "14201",
+		"description": "POZAZAL"
+	},
+	{
+		"code": "14202",
+		"description": "REINOSA"
+	},
+	{
+		"code": "14203",
+		"description": "LANTUENO-SANTIURDE"
+	},
+	{
+		"code": "14204",
+		"description": "PESQUERA"
+	},
+	{
+		"code": "14205",
+		"description": "MONTABLIZ (APT)"
+	},
+	{
+		"code": "14206",
+		"description": "BÁRCENA"
+	},
+	{
+		"code": "14207",
+		"description": "MOLLEDO-PORTOLÍN"
+	},
+	{
+		"code": "14208",
+		"description": "SANTA CRUZ DE IGUÑA"
+	},
+	{
+		"code": "14209",
+		"description": "LAS FRAGUAS"
+	},
+	{
+		"code": "14210",
+		"description": "LOS CORRALES DE BUELNA"
+	},
+	{
+		"code": "14211",
+		"description": "LAS CALDAS DE BESAYA"
+	},
+	{
+		"code": "14212",
+		"description": "VIERNOLES"
+	},
+	{
+		"code": "14213",
+		"description": "TORRELAVEGA/TANOS"
+	},
+	{
+		"code": "14214",
+		"description": "SIERRAPANDO"
+	},
+	{
+		"code": "14215",
+		"description": "ZURITA"
+	},
+	{
+		"code": "14216",
+		"description": "RENEDO"
+	},
+	{
+		"code": "14217",
+		"description": "PARBAYÓN"
+	},
+	{
+		"code": "14218",
+		"description": "GUARNIZO"
+	},
+	{
+		"code": "14219",
+		"description": "BOO"
+	},
+	{
+		"code": "14220",
+		"description": "MALIAÑO"
+	},
+	{
+		"code": "14221",
+		"description": "MURIEDAS"
+	},
+	{
+		"code": "14223",
+		"description": "SANTANDER"
+	},
+	{
+		"code": "14229",
+		"description": "ZURITA"
+	},
+	{
+		"code": "14230",
+		"description": "VALDECILLA"
+	},
+	{
+		"code": "14231",
+		"description": "NUEVA MONTAÑA"
+	},
+	{
+		"code": "14232",
+		"description": "LOMBERA"
+	},
+	{
+		"code": "14233",
+		"description": "RÍO EBRO"
+	},
+	{
+		"code": "14234",
+		"description": "PUJAYO"
+	},
+	{
+		"code": "14235",
+		"description": "ARENAS DE IGUÑA"
+	},
+	{
+		"code": "14236",
+		"description": "VIOÑO"
+	},
+	{
+		"code": "14237",
+		"description": "MURIEDAS-BAHÍA"
+	},
+	{
+		"code": "14301",
+		"description": "CILLAMAYOR (APD)"
+	},
+	{
+		"code": "14302",
+		"description": "BARRUELO DE SANTULLAN (APD-CGD)"
+	},
+	{
+		"code": "1462B",
+		"description": "LAREDO"
+	},
+	{
+		"code": "14621",
+		"description": "LAREDO"
+	},
+	{
+		"code": "15001",
+		"description": "GRIJOTA"
+	},
+	{
+		"code": "15002",
+		"description": "VILLAUMBRALES (APD)"
+	},
+	{
+		"code": "15003",
+		"description": "BECERRIL"
+	},
+	{
+		"code": "15004",
+		"description": "PAREDES DE NAVA"
+	},
+	{
+		"code": "15005",
+		"description": "VILLALUMBROSO (APD)"
+	},
+	{
+		"code": "15006",
+		"description": "CISNEROS"
+	},
+	{
+		"code": "15007",
+		"description": "VILLADA"
+	},
+	{
+		"code": "15008",
+		"description": "GRAJAL"
+	},
+	{
+		"code": "15009",
+		"description": "SAHAGÚN"
+	},
+	{
+		"code": "15010",
+		"description": "CALZADA DEL COTO"
+	},
+	{
+		"code": "15011",
+		"description": "BERCIANOS DEL REAL CAMINO (APD)"
+	},
+	{
+		"code": "15012",
+		"description": "EL BURGO RANERO"
+	},
+	{
+		"code": "15013",
+		"description": "VILLAMARCO (APD)"
+	},
+	{
+		"code": "15014",
+		"description": "SANTAS MARTAS"
+	},
+	{
+		"code": "15015",
+		"description": "PALANQUINOS"
+	},
+	{
+		"code": "15016",
+		"description": "VEGA DE LOS INFANZONES (APD)"
+	},
+	{
+		"code": "15017",
+		"description": "TORNEROS (APT)"
+	},
+	{
+		"code": "15100",
+		"description": "LEÓN"
+	},
+	{
+		"code": "15103",
+		"description": "SANTIBANEZ"
+	},
+	{
+		"code": "15104",
+		"description": "CUADROS"
+	},
+	{
+		"code": "15105",
+		"description": "LA SECA (APT)"
+	},
+	{
+		"code": "15106",
+		"description": "LA ROBLA"
+	},
+	{
+		"code": "15107",
+		"description": "TORNEROS"
+	},
+	{
+		"code": "15108",
+		"description": "LA POLA DE GORDÓN"
+	},
+	{
+		"code": "15109",
+		"description": "SANTA LUCÍA"
+	},
+	{
+		"code": "15110",
+		"description": "CIÑERA"
+	},
+	{
+		"code": "15111",
+		"description": "VILLASIMPLIZ (APD)"
+	},
+	{
+		"code": "15112",
+		"description": "VILLAMANÍN"
+	},
+	{
+		"code": "15113",
+		"description": "BUSDONGO"
+	},
+	{
+		"code": "15114",
+		"description": "PAJARES"
+	},
+	{
+		"code": "15115",
+		"description": "NAVIDIELLO-PARANA (APT)"
+	},
+	{
+		"code": "15116",
+		"description": "LINARES-CONGOSTINAS"
+	},
+	{
+		"code": "15117",
+		"description": "MALVEDO (APT)"
+	},
+	{
+		"code": "15118",
+		"description": "FIERROS"
+	},
+	{
+		"code": "15119",
+		"description": "LA FRECHA"
+	},
+	{
+		"code": "15120",
+		"description": "CAMPUMANES"
+	},
+	{
+		"code": "15121",
+		"description": "LA COBERTORIA"
+	},
+	{
+		"code": "15122",
+		"description": "LA POLA"
+	},
+	{
+		"code": "15123",
+		"description": "VIL.LAYANA"
+	},
+	{
+		"code": "15200",
+		"description": "UXO"
+	},
+	{
+		"code": "15202",
+		"description": "SANTUYANO"
+	},
+	{
+		"code": "15203",
+		"description": "MIERES DEL CAMÍN"
+	},
+	{
+		"code": "15204",
+		"description": "MIERES"
+	},
+	{
+		"code": "15205",
+		"description": "ABLAÑA"
+	},
+	{
+		"code": "15206",
+		"description": "LA PEREA"
+	},
+	{
+		"code": "15207",
+		"description": "OLLONIEGO/LLUNIEGO"
+	},
+	{
+		"code": "15208",
+		"description": "SOTO REI/SOTO DE REY"
+	},
+	{
+		"code": "15209",
+		"description": "LES SEGAES/LAS SEGADAS DE ABAJO"
+	},
+	{
+		"code": "15210",
+		"description": "EL CALEYU"
+	},
+	{
+		"code": "15211",
+		"description": "OVIEDO/UVIÉU"
+	},
+	{
+		"code": "15212",
+		"description": "LUGONES/LLUGONES"
+	},
+	{
+		"code": "15217",
+		"description": "LA CORREDORIA"
+	},
+	{
+		"code": "15218",
+		"description": "LLAMAQUIQUE"
+	},
+	{
+		"code": "15300",
+		"description": "LUGO DE LLANERA"
+	},
+	{
+		"code": "15301",
+		"description": "VILLABONA"
+	},
+	{
+		"code": "15302",
+		"description": "SERÍN"
+	},
+	{
+		"code": "15303",
+		"description": "MONTIANA"
+	},
+	{
+		"code": "15305",
+		"description": "TABLADIELLO"
+	},
+	{
+		"code": "15400",
+		"description": "VERIÑA"
+	},
+	{
+		"code": "15401",
+		"description": "LA CALZADA"
+	},
+	{
+		"code": "15402",
+		"description": "GIJÓN/XIXÓN"
+	},
+	{
+		"code": "15403",
+		"description": "GIJÓN/XIXÓN"
+	},
+	{
+		"code": "15410",
+		"description": "GIJÓN/XIXÓN"
+	},
+	{
+		"code": "16001",
+		"description": "SANTOLAYA"
+	},
+	{
+		"code": "16002",
+		"description": "VEGUÍN"
+	},
+	{
+		"code": "16005",
+		"description": "PEÑARRUBIA"
+	},
+	{
+		"code": "16006",
+		"description": "BARROS"
+	},
+	{
+		"code": "16008",
+		"description": "LA FELGUERA"
+	},
+	{
+		"code": "16009",
+		"description": "SAMA"
+	},
+	{
+		"code": "16010",
+		"description": "CIAÑU"
+	},
+	{
+		"code": "16011",
+		"description": "L'ENTREGU/EL ENTREGO"
+	},
+	{
+		"code": "16201",
+		"description": "SAN CLAUDIO (APD)"
+	},
+	{
+		"code": "16202",
+		"description": "SAN PEDRO DE NORA (APD)"
+	},
+	{
+		"code": "16203",
+		"description": "SOTO DE ABAJO (APD)"
+	},
+	{
+		"code": "16204",
+		"description": "TRUBIA"
+	},
+	{
+		"code": "16301",
+		"description": "FERROÑES"
+	},
+	{
+		"code": "16302",
+		"description": "CANCIENES"
+	},
+	{
+		"code": "16400",
+		"description": "NUBLEDO/NUBLEO"
+	},
+	{
+		"code": "16401",
+		"description": "VILLALEGRE"
+	},
+	{
+		"code": "16402",
+		"description": "LA ROCICA"
+	},
+	{
+		"code": "16403",
+		"description": "AVILÉS"
+	},
+	{
+		"code": "16405",
+		"description": "SAN XUAN"
+	},
+	{
+		"code": "16406",
+		"description": "LOS CAMPOS"
+	},
+	{
+		"code": "16408",
+		"description": "LOS CAMPOS"
+	},
+	{
+		"code": "16604",
+		"description": "GIJON-PUERTO"
+	},
+	{
+		"code": "17000",
+		"description": "MADRID-CHAMARTÍN-CLARA CAMPOAMOR"
+	},
+	{
+		"code": "17001",
+		"description": "FUENCARRAL (APT)"
+	},
+	{
+		"code": "17002",
+		"description": "VALDELATAS (APT)"
+	},
+	{
+		"code": "17003",
+		"description": "EL GOLOSO (APD)"
+	},
+	{
+		"code": "17004",
+		"description": "TRES CANTOS (APT)"
+	},
+	{
+		"code": "17005",
+		"description": "COLMENAR VIEJO"
+	},
+	{
+		"code": "17006",
+		"description": "MANZANARES-SOTO EL REAL"
+	},
+	{
+		"code": "17007",
+		"description": "SOTO EL REAL (APD)"
+	},
+	{
+		"code": "17008",
+		"description": "MIRAFLORES DE LA SIERRA"
+	},
+	{
+		"code": "17009",
+		"description": "UNIVERSIDAD CANTO BLANCO"
+	},
+	{
+		"code": "17010",
+		"description": "DIPUTACION  (APD)"
+	},
+	{
+		"code": "17100",
+		"description": "BUSTARVIEJO-VALDEMANCO"
+	},
+	{
+		"code": "17101",
+		"description": "VALDEMANCO (APD)"
+	},
+	{
+		"code": "17102",
+		"description": "LOZOYUELA (APD)"
+	},
+	{
+		"code": "17103",
+		"description": "GARGANTILLA-LOZOYA (APD)"
+	},
+	{
+		"code": "17104",
+		"description": "NAVARREDONDA-S.MAMES (APD)"
+	},
+	{
+		"code": "17105",
+		"description": "GASCONES-BUITRAGO"
+	},
+	{
+		"code": "17106",
+		"description": "BRAOJOS LA SERNA"
+	},
+	{
+		"code": "17107",
+		"description": "ROBREGORDO-SOMOSIERRA"
+	},
+	{
+		"code": "17108",
+		"description": "SANTO TOME DEL PUERTO (APD)"
+	},
+	{
+		"code": "17109",
+		"description": "RIAZA"
+	},
+	{
+		"code": "17110",
+		"description": "TURRUBUELO-SEPULVEDA (APD)"
+	},
+	{
+		"code": "17111",
+		"description": "CAMPO DE SAN PEDRO"
+	},
+	{
+		"code": "17112",
+		"description": "MADERUELO-LINARES (APD)"
+	},
+	{
+		"code": "17113",
+		"description": "FUENTELCESPED-SANTA CRUZ (APD)"
+	},
+	{
+		"code": "17114",
+		"description": "GARGANTA DE LOS MONTES (APD)"
+	},
+	{
+		"code": "17115",
+		"description": "LA ACEBEDA (APD)"
+	},
+	{
+		"code": "17116",
+		"description": "SANTA CRUZ DE LA SALCEDA (APD)"
+	},
+	{
+		"code": "17117",
+		"description": "LA SERNA  (APT)"
+	},
+	{
+		"code": "17200",
+		"description": "ARANDA DE DUERO-MONTECILLO"
+	},
+	{
+		"code": "17201",
+		"description": "GUMIEL DE HIZAN"
+	},
+	{
+		"code": "17202",
+		"description": "OQUILLAS (APD)"
+	},
+	{
+		"code": "17203",
+		"description": "BAHABON DE ESGUEVA (APD)"
+	},
+	{
+		"code": "17204",
+		"description": "FONTIOSO"
+	},
+	{
+		"code": "17205",
+		"description": "LERMA"
+	},
+	{
+		"code": "17206",
+		"description": "VILLAMAYOR DE LOS MONTES"
+	},
+	{
+		"code": "17207",
+		"description": "COGOLLOS (APD)"
+	},
+	{
+		"code": "17208",
+		"description": "SARRACIN  (BURGOS)"
+	},
+	{
+		"code": "17209",
+		"description": "VILLAGONZALO-PEDERNALES (APD)"
+	},
+	{
+		"code": "18000",
+		"description": "MADRID - ATOCHA CERCANÍAS"
+	},
+	{
+		"code": "18001",
+		"description": "MADRID-RECOLETOS"
+	},
+	{
+		"code": "18002",
+		"description": "MADRID-NUEVOS MINISTERIOS"
+	},
+	{
+		"code": "18003",
+		"description": "M.ALVARO-P"
+	},
+	{
+		"code": "18004",
+		"description": "DELICIAS"
+	},
+	{
+		"code": "18005",
+		"description": "PIRÁMIDES"
+	},
+	{
+		"code": "18101",
+		"description": "MADRID-SOL"
+	},
+	{
+		"code": "19001",
+		"description": "U.P.COMILL"
+	},
+	{
+		"code": "19002",
+		"description": "VALDELASFU"
+	},
+	{
+		"code": "19003",
+		"description": "ALCOB.SSEB"
+	},
+	{
+		"code": "20002",
+		"description": "QUINTANA-RANEROS"
+	},
+	{
+		"code": "20003",
+		"description": "VILLADANGOS"
+	},
+	{
+		"code": "20004",
+		"description": "SAN MARTIN DEL CAMINO (APT)"
+	},
+	{
+		"code": "20005",
+		"description": "VEGUELLINA"
+	},
+	{
+		"code": "20006",
+		"description": "BARRIENTOS"
+	},
+	{
+		"code": "20007",
+		"description": "NISTAL"
+	},
+	{
+		"code": "20008",
+		"description": "VILLAVANTE"
+	},
+	{
+		"code": "20046",
+		"description": "CORUNA-SAN DIEGO"
+	},
+	{
+		"code": "20100",
+		"description": "ASTORGA"
+	},
+	{
+		"code": "20101",
+		"description": "OTERO DE ESCARPIZO"
+	},
+	{
+		"code": "20102",
+		"description": "VEGA-MAGAZ"
+	},
+	{
+		"code": "20103",
+		"description": "PORQUEROS"
+	},
+	{
+		"code": "20104",
+		"description": "BRAÑUELAS"
+	},
+	{
+		"code": "20105",
+		"description": "FOLGOSO (APT)"
+	},
+	{
+		"code": "20106",
+		"description": "LA GRANJA DE SAN VICENTE"
+	},
+	{
+		"code": "20108",
+		"description": "ALBARES (APT)"
+	},
+	{
+		"code": "20109",
+		"description": "TORRE DEL BIERZO"
+	},
+	{
+		"code": "20111",
+		"description": "BEMBIBRE"
+	},
+	{
+		"code": "20112",
+		"description": "VILLAVERDE DE LOS CESTOS"
+	},
+	{
+		"code": "20113",
+		"description": "SAN MIGUEL DE LAS DUEÑAS"
+	},
+	{
+		"code": "20200",
+		"description": "PONFERRADA"
+	},
+	{
+		"code": "20201",
+		"description": "DEHESAS (APT)"
+	},
+	{
+		"code": "20202",
+		"description": "POSADA DEL BIERZO"
+	},
+	{
+		"code": "20203",
+		"description": "VILLADEPALOS"
+	},
+	{
+		"code": "20204",
+		"description": "TORAL DE LOS VADOS"
+	},
+	{
+		"code": "20206",
+		"description": "LA BAROSA"
+	},
+	{
+		"code": "20207",
+		"description": "COVAS"
+	},
+	{
+		"code": "20208",
+		"description": "QUEREÑO"
+	},
+	{
+		"code": "20209",
+		"description": "PUMARES"
+	},
+	{
+		"code": "20210",
+		"description": "SOBRADELO"
+	},
+	{
+		"code": "20211",
+		"description": "O BARCO DE VALDEORRAS"
+	},
+	{
+		"code": "20212",
+		"description": "VILAMARTÍN DE VALDEORRAS"
+	},
+	{
+		"code": "20213",
+		"description": "A RÚA-PETÍN"
+	},
+	{
+		"code": "20214",
+		"description": "MONTEFURADO"
+	},
+	{
+		"code": "20215",
+		"description": "SOLDON-SEQUEIROS (APT)"
+	},
+	{
+		"code": "20216",
+		"description": "SAN CLODIO-QUIROGA"
+	},
+	{
+		"code": "20217",
+		"description": "FREIJEIRO (APT)"
+	},
+	{
+		"code": "20218",
+		"description": "A POBRA DO BROLLON"
+	},
+	{
+		"code": "20300",
+		"description": "MONFORTE DE LEMOS"
+	},
+	{
+		"code": "20302",
+		"description": "BOVEDA (APD)"
+	},
+	{
+		"code": "20303",
+		"description": "RUBIAN (APT-CGD)"
+	},
+	{
+		"code": "20304",
+		"description": "OURAL"
+	},
+	{
+		"code": "20305",
+		"description": "SARRIA"
+	},
+	{
+		"code": "20306",
+		"description": "PEDRELO-CÉLTIGOS"
+	},
+	{
+		"code": "20307",
+		"description": "POBRA DE SAN XIAN (SAN JULIAN)"
+	},
+	{
+		"code": "20308",
+		"description": "LAJOSA (APT-CGD)"
+	},
+	{
+		"code": "20309",
+		"description": "LUGO"
+	},
+	{
+		"code": "20310",
+		"description": "RÁBADE"
+	},
+	{
+		"code": "20311",
+		"description": "BEGONTE"
+	},
+	{
+		"code": "20312",
+		"description": "BAAMONDE"
+	},
+	{
+		"code": "20313",
+		"description": "PARGA"
+	},
+	{
+		"code": "20314",
+		"description": "GUITIRIZ"
+	},
+	{
+		"code": "20315",
+		"description": "ARANGA (APD)"
+	},
+	{
+		"code": "20316",
+		"description": "TEIXEIRO"
+	},
+	{
+		"code": "20317",
+		"description": "CURTIS"
+	},
+	{
+		"code": "20318",
+		"description": "PIÑOI"
+	},
+	{
+		"code": "20319",
+		"description": "CESURAS"
+	},
+	{
+		"code": "20320",
+		"description": "OZA DOS RÍOS"
+	},
+	{
+		"code": "20400",
+		"description": "BETANZOS-INFESTA"
+	},
+	{
+		"code": "20401",
+		"description": "GUISAMO (APD)"
+	},
+	{
+		"code": "20402",
+		"description": "CECEBRE"
+	},
+	{
+		"code": "20403",
+		"description": "CAMBRE"
+	},
+	{
+		"code": "20404",
+		"description": "O BURGO SANTIAGO"
+	},
+	{
+		"code": "20405",
+		"description": "PUENTE DEL PASAJE (APD)"
+	},
+	{
+		"code": "20410",
+		"description": "ELVIÑA-UNIVERSIDADE"
+	},
+	{
+		"code": "21001",
+		"description": "BETANZOS-CIDADE"
+	},
+	{
+		"code": "21002",
+		"description": "MIÑO"
+	},
+	{
+		"code": "21003",
+		"description": "PERBES"
+	},
+	{
+		"code": "21004",
+		"description": "PONTEDEUME"
+	},
+	{
+		"code": "21005",
+		"description": "CABANAS-AREAL"
+	},
+	{
+		"code": "21006",
+		"description": "FRANZA"
+	},
+	{
+		"code": "21007",
+		"description": "BARALLOBRE"
+	},
+	{
+		"code": "21008",
+		"description": "PERLIO"
+	},
+	{
+		"code": "21009",
+		"description": "NEDA"
+	},
+	{
+		"code": "21010",
+		"description": "FERROL"
+	},
+	{
+		"code": "21913",
+		"description": "POLIGON INDUSTRIAL DEL SEGRE"
+	},
+	{
+		"code": "22001",
+		"description": "CANABAL"
+	},
+	{
+		"code": "22002",
+		"description": "AREAS"
+	},
+	{
+		"code": "22003",
+		"description": "SAN ESTEVO DO SIL"
+	},
+	{
+		"code": "22004",
+		"description": "SAN PEDRO DO SIL"
+	},
+	{
+		"code": "22005",
+		"description": "OS PEARES"
+	},
+	{
+		"code": "22006",
+		"description": "BARRA DE MIÑO"
+	},
+	{
+		"code": "22100",
+		"description": "OURENSE"
+	},
+	{
+		"code": "22101",
+		"description": "BARBANTES"
+	},
+	{
+		"code": "22102",
+		"description": "RIBADAVIA"
+	},
+	{
+		"code": "22103",
+		"description": "FILGUEIRA"
+	},
+	{
+		"code": "22104",
+		"description": "FRIEIRA"
+	},
+	{
+		"code": "22105",
+		"description": "POUSA-CRECENTE"
+	},
+	{
+		"code": "22106",
+		"description": "ARBO"
+	},
+	{
+		"code": "22107",
+		"description": "SELA"
+	},
+	{
+		"code": "22108",
+		"description": "AS NEVES"
+	},
+	{
+		"code": "22109",
+		"description": "SALVATERRA DE MIÑO"
+	},
+	{
+		"code": "22110",
+		"description": "CALDELAS"
+	},
+	{
+		"code": "22200",
+		"description": "GUILLAREI"
+	},
+	{
+		"code": "22201",
+		"description": "O PORRIÑO"
+	},
+	{
+		"code": "22202",
+		"description": "LOUREDO-VALOS"
+	},
+	{
+		"code": "22300",
+		"description": "REDONDELA"
+	},
+	{
+		"code": "22302",
+		"description": "CHAPELA"
+	},
+	{
+		"code": "22303",
+		"description": "VIGO"
+	},
+	{
+		"code": "22308",
+		"description": "VIGO GUIXAR"
+	},
+	{
+		"code": "22401",
+		"description": "TUI /TUY"
+	},
+	{
+		"code": "22402",
+		"description": "VALENÇA DO MINHO"
+	},
+	{
+		"code": "22403",
+		"description": "TUI-FRONTERA (APD)"
+	},
+	{
+		"code": "23000",
+		"description": "REDONDELA-PICOTA"
+	},
+	{
+		"code": "23001",
+		"description": "CESANTES"
+	},
+	{
+		"code": "23002",
+		"description": "ARCADE"
+	},
+	{
+		"code": "23003",
+		"description": "FIGUEIRIDO (APD)"
+	},
+	{
+		"code": "23004",
+		"description": "PONTEVEDRA"
+	},
+	{
+		"code": "23005",
+		"description": "PORTELA"
+	},
+	{
+		"code": "23006",
+		"description": "PORTAS (APT-CGD)"
+	},
+	{
+		"code": "23007",
+		"description": "RUBIANES (APD)"
+	},
+	{
+		"code": "23008",
+		"description": "VILAGARCIA DE AROUSA"
+	},
+	{
+		"code": "23009",
+		"description": "CATOIRA"
+	},
+	{
+		"code": "23010",
+		"description": "PONTECESURES"
+	},
+	{
+		"code": "23011",
+		"description": "PADRÓN"
+	},
+	{
+		"code": "23012",
+		"description": "A ESCRAVITUDE/LA ESCLAVITUD"
+	},
+	{
+		"code": "23013",
+		"description": "OSEBE"
+	},
+	{
+		"code": "23014",
+		"description": "CASAL (APD)"
+	},
+	{
+		"code": "23017",
+		"description": "VILLAGARCIA DE AROUSA-PLAYA"
+	},
+	{
+		"code": "23018",
+		"description": "PONTEVEDRA-UNIVERSIDAD"
+	},
+	{
+		"code": "23021",
+		"description": "PADRÓN-BARBANZA"
+	},
+	{
+		"code": "2400B",
+		"description": "POYO"
+	},
+	{
+		"code": "24001",
+		"description": "POYO"
+	},
+	{
+		"code": "2402B",
+		"description": "SANGENJO"
+	},
+	{
+		"code": "24021",
+		"description": "SANGENJO"
+	},
+	{
+		"code": "2404B",
+		"description": "PORTONOVO"
+	},
+	{
+		"code": "24041",
+		"description": "PORTONOVO"
+	},
+	{
+		"code": "2406B",
+		"description": "EL GROVE"
+	},
+	{
+		"code": "24061",
+		"description": "EL GROVE"
+	},
+	{
+		"code": "2408B",
+		"description": "LA TOJA"
+	},
+	{
+		"code": "24081",
+		"description": "LA TOJA"
+	},
+	{
+		"code": "30000",
+		"description": "MONFRAGÜE-PLASENCIA"
+	},
+	{
+		"code": "30002",
+		"description": "PLASENCIA"
+	},
+	{
+		"code": "30003",
+		"description": "OLIVA-ALMENDRAL (APD)"
+	},
+	{
+		"code": "30004",
+		"description": "VILLAR DE PLASENCIA"
+	},
+	{
+		"code": "30005",
+		"description": "CASAS DEL MONTE (APD-CGD)"
+	},
+	{
+		"code": "30006",
+		"description": "ALDEANUEVA"
+	},
+	{
+		"code": "30007",
+		"description": "HERVAS"
+	},
+	{
+		"code": "30008",
+		"description": "BANOS DE MONTEMAYOR (APD)"
+	},
+	{
+		"code": "30009",
+		"description": "PUERTO DE BEJAR"
+	},
+	{
+		"code": "30010",
+		"description": "CANTAGALLO (APD)"
+	},
+	{
+		"code": "30011",
+		"description": "BEJAR"
+	},
+	{
+		"code": "30012",
+		"description": "NAVALMORAL DE BEJAR (APD)"
+	},
+	{
+		"code": "30013",
+		"description": "SANCHOTELLO (APD)"
+	},
+	{
+		"code": "30014",
+		"description": "LEDRADA"
+	},
+	{
+		"code": "30015",
+		"description": "FUENTES DE BEJAR (APD)"
+	},
+	{
+		"code": "30016",
+		"description": "GUIJUELO Y CAMPILLO"
+	},
+	{
+		"code": "30017",
+		"description": "PIZARRAL (APD)"
+	},
+	{
+		"code": "30018",
+		"description": "LA MAYA Y FRESNO"
+	},
+	{
+		"code": "30019",
+		"description": "SIETEIGLESIAS DE TORMES (APD)"
+	},
+	{
+		"code": "30020",
+		"description": "ALBA DE TORMES"
+	},
+	{
+		"code": "30022",
+		"description": "LOS ARAPILES (APD)"
+	},
+	{
+		"code": "30100",
+		"description": "SALAMANCA"
+	},
+	{
+		"code": "30101",
+		"description": "VALDUNCIEL   (APT-CGD)"
+	},
+	{
+		"code": "30102",
+		"description": "HUELMOS-CARDENOSA (APD)"
+	},
+	{
+		"code": "30104",
+		"description": "CUBO DEL VINO (APT-CGD)"
+	},
+	{
+		"code": "30105",
+		"description": "CORRALES DEL VINO   (APT-CGD)"
+	},
+	{
+		"code": "30106",
+		"description": "CASASECA DE CAMPEAN (APD)"
+	},
+	{
+		"code": "30107",
+		"description": "PERDIGON Y MORALES VINO (APD)"
+	},
+	{
+		"code": "30110",
+		"description": "SALAMANCA-LA ALAMEDILLA"
+	},
+	{
+		"code": "30200",
+		"description": "ZAMORA"
+	},
+	{
+		"code": "30201",
+		"description": "CUBILLOS (APD)"
+	},
+	{
+		"code": "30202",
+		"description": "MORERUELA DE LOS INFANZ. (APD)"
+	},
+	{
+		"code": "30203",
+		"description": "PIEDRAHITA   (APT-CGD)"
+	},
+	{
+		"code": "30204",
+		"description": "MANGANESES   (APT-CGD)"
+	},
+	{
+		"code": "30205",
+		"description": "GRANJA DE MORERUELA-VILLAFAFILA"
+	},
+	{
+		"code": "30206",
+		"description": "SANTOVENIA DEL ESLA (APD)"
+	},
+	{
+		"code": "30207",
+		"description": "BARCIAL DEL BARCO (APD)"
+	},
+	{
+		"code": "30209",
+		"description": "BENAVENTE"
+	},
+	{
+		"code": "30211",
+		"description": "VILLABRAZARO (APD)"
+	},
+	{
+		"code": "30212",
+		"description": "POBLADURA (APD-CGD)"
+	},
+	{
+		"code": "30213",
+		"description": "SALUDES (APD)"
+	},
+	{
+		"code": "30214",
+		"description": "VALCABADO   (APT-CGD)"
+	},
+	{
+		"code": "30215",
+		"description": "CEBRONES DEL RIO (APD)"
+	},
+	{
+		"code": "30216",
+		"description": "LA BANEZA"
+	},
+	{
+		"code": "30217",
+		"description": "SANTA MARIA DE LA ISLA (APD)"
+	},
+	{
+		"code": "30218",
+		"description": "RIEGO DE LA VEGA (APD)"
+	},
+	{
+		"code": "30219",
+		"description": "VALDERREY    (APT-CGD)"
+	},
+	{
+		"code": "31001",
+		"description": "VILLAVERDE DE MEDINA (APD)"
+	},
+	{
+		"code": "31002",
+		"description": "NAVA DEL REY"
+	},
+	{
+		"code": "31003",
+		"description": "POLLOS"
+	},
+	{
+		"code": "31004",
+		"description": "CASTRONUNO"
+	},
+	{
+		"code": "31005",
+		"description": "SAN ROMAN"
+	},
+	{
+		"code": "31006",
+		"description": "TORO"
+	},
+	{
+		"code": "31007",
+		"description": "MONTE LA REINA"
+	},
+	{
+		"code": "31008",
+		"description": "FRESNO DE LA RIBERA (APD)"
+	},
+	{
+		"code": "31009",
+		"description": "CORESES  (APT)"
+	},
+	{
+		"code": "31101",
+		"description": "LA HINIESTA (APD)"
+	},
+	{
+		"code": "31102",
+		"description": "ANDAVIAS (APD)"
+	},
+	{
+		"code": "31103",
+		"description": "MANZANAL DEL BARCO-STA.EUFEM(APD)"
+	},
+	{
+		"code": "31104",
+		"description": "CARBAJALES DE ALBA"
+	},
+	{
+		"code": "31105",
+		"description": "LOSACIO-SAN MARTIN (APD)"
+	},
+	{
+		"code": "31106",
+		"description": "FERRERUELA DE TÁBARA"
+	},
+	{
+		"code": "31107",
+		"description": "ABEJERA"
+	},
+	{
+		"code": "31108",
+		"description": "SARRACÍN DE ALISTE"
+	},
+	{
+		"code": "31109",
+		"description": "CABAÑAS DE ALISTE"
+	},
+	{
+		"code": "31110",
+		"description": "LA TORRE DE ALISTE-POBLAD. (APD)"
+	},
+	{
+		"code": "31111",
+		"description": "SAN PEDRO DE LAS HERRERIAS"
+	},
+	{
+		"code": "31112",
+		"description": "LINAREJOS-PEDROSO"
+	},
+	{
+		"code": "31113",
+		"description": "ROBLEDO DE SANABRIA (APD)"
+	},
+	{
+		"code": "31200",
+		"description": "PUEBLA DE SANABRIA"
+	},
+	{
+		"code": "31201",
+		"description": "PEDRALBA"
+	},
+	{
+		"code": "31202",
+		"description": "REQUEJO (APT)"
+	},
+	{
+		"code": "31203",
+		"description": "LUBIÁN"
+	},
+	{
+		"code": "31204",
+		"description": "A MEZQUITA-VILAVELLA"
+	},
+	{
+		"code": "31205",
+		"description": "A GUDIÑA"
+	},
+	{
+		"code": "31206",
+		"description": "VILARIÑO DE CONSO.-A CAPELA"
+	},
+	{
+		"code": "31207",
+		"description": "CASTRELO DO VAL-VERÍN-CAMPOBECERROS"
+	},
+	{
+		"code": "31208",
+		"description": "LAZA-CERDEDELO"
+	},
+	{
+		"code": "31209",
+		"description": "A ALBERGUERÍA-PRADO"
+	},
+	{
+		"code": "31210",
+		"description": "VILAR DE BARRIO/VILLAR DE BARRIO"
+	},
+	{
+		"code": "31211",
+		"description": "BAÑOS DE MOLGAS"
+	},
+	{
+		"code": "31212",
+		"description": "PONTEAMBIA"
+	},
+	{
+		"code": "31213",
+		"description": "PADERNE-CANTOÑA"
+	},
+	{
+		"code": "31214",
+		"description": "TABOADELA"
+	},
+	{
+		"code": "31215",
+		"description": "OURENSE-SAN FRANCISCO"
+	},
+	{
+		"code": "31301",
+		"description": "SANTA CRUZ DE ARRABALDO (APD)"
+	},
+	{
+		"code": "31302",
+		"description": "MASIDE (APD)"
+	},
+	{
+		"code": "31303",
+		"description": "A FRIELA-MASIDE"
+	},
+	{
+		"code": "31304",
+		"description": "O CARBALLIÑO"
+	},
+	{
+		"code": "31305",
+		"description": "BOBORAS (APD)"
+	},
+	{
+		"code": "31306",
+		"description": "O IRIXO"
+	},
+	{
+		"code": "31307",
+		"description": "SAN JUAN DE VILLANUEVA (APD)"
+	},
+	{
+		"code": "31308",
+		"description": "LALÍN"
+	},
+	{
+		"code": "31309",
+		"description": "PONTE TABOADA"
+	},
+	{
+		"code": "31310",
+		"description": "SILLEDA (APD)"
+	},
+	{
+		"code": "31311",
+		"description": "A BANDEIRA"
+	},
+	{
+		"code": "31312",
+		"description": "VEDRA-RIBADULLA"
+	},
+	{
+		"code": "31313",
+		"description": "SUSANA (APD-CGD)"
+	},
+	{
+		"code": "31400",
+		"description": "SANTIAGO DE COMPOSTELA"
+	},
+	{
+		"code": "31401",
+		"description": "BERDIA (APT)"
+	},
+	{
+		"code": "31402",
+		"description": "OROSO-VILLACID (APD)"
+	},
+	{
+		"code": "31403",
+		"description": "GARGA-TRASMONTE (APD)"
+	},
+	{
+		"code": "31404",
+		"description": "ORDENES-PONTRAGA"
+	},
+	{
+		"code": "31405",
+		"description": "GORGULLOS-TORDOYA (APD)"
+	},
+	{
+		"code": "31406",
+		"description": "QUEIJAS-LONDONO (APT)"
+	},
+	{
+		"code": "31407",
+		"description": "CERCEDA (APD)"
+	},
+	{
+		"code": "31408",
+		"description": "VILA DE LA IGLESIA (APD)"
+	},
+	{
+		"code": "31409",
+		"description": "MEIRAMA PICARADEL"
+	},
+	{
+		"code": "31410",
+		"description": "BREGUA (APD)"
+	},
+	{
+		"code": "31411",
+		"description": "UXES"
+	},
+	{
+		"code": "31412",
+		"description": "A CORUÑA"
+	},
+	{
+		"code": "31415",
+		"description": "ORDES"
+	},
+	{
+		"code": "31416",
+		"description": "CERCEDA-MEIRAMA"
+	},
+	{
+		"code": "32001",
+		"description": "CAMPILLO"
+	},
+	{
+		"code": "32002",
+		"description": "EL CARPIO"
+	},
+	{
+		"code": "32003",
+		"description": "FRESNO EL VIEJO"
+	},
+	{
+		"code": "32004",
+		"description": "CANTALAPIEDRA"
+	},
+	{
+		"code": "32005",
+		"description": "CANTALPINO"
+	},
+	{
+		"code": "32006",
+		"description": "EL PEDROSO DE LA ARMUÑA"
+	},
+	{
+		"code": "32007",
+		"description": "PITIEGUA"
+	},
+	{
+		"code": "32008",
+		"description": "GOMECELLO"
+	},
+	{
+		"code": "32009",
+		"description": "MORISCOS"
+	},
+	{
+		"code": "33001",
+		"description": "TEJARES-CHAMBERI"
+	},
+	{
+		"code": "33003",
+		"description": "BARBADILLO Y CALZADA"
+	},
+	{
+		"code": "33004",
+		"description": "ROBLIZA"
+	},
+	{
+		"code": "33005",
+		"description": "VILLAR DE LOS ALAMOS (APD)"
+	},
+	{
+		"code": "33006",
+		"description": "ALDEHUELA DE LA BOVEDA"
+	},
+	{
+		"code": "33007",
+		"description": "MUNOZ (APD)"
+	},
+	{
+		"code": "33008",
+		"description": "FUENTE DE SAN ESTEBAN-BOADILLA"
+	},
+	{
+		"code": "33009",
+		"description": "MARTIN DE YELTES (APD)"
+	},
+	{
+		"code": "33010",
+		"description": "EL COLLADO (APD)"
+	},
+	{
+		"code": "33011",
+		"description": "SANCTI-SPIRITUS"
+	},
+	{
+		"code": "33012",
+		"description": "EL SALTO (APD)"
+	},
+	{
+		"code": "33013",
+		"description": "CIUDAD RODRIGO"
+	},
+	{
+		"code": "33014",
+		"description": "CARPIO DE AZABA (APD)"
+	},
+	{
+		"code": "33015",
+		"description": "ESPEJA"
+	},
+	{
+		"code": "33016",
+		"description": "FUENTES DE OÑORO"
+	},
+	{
+		"code": "33018",
+		"description": "BOADA (APD)"
+	},
+	{
+		"code": "33019",
+		"description": "VILLARES DE YELTES (APD)"
+	},
+	{
+		"code": "33020",
+		"description": "VILLAVIEJA DE YELTES  (APT)"
+	},
+	{
+		"code": "33021",
+		"description": "BOGAJO (APD)"
+	},
+	{
+		"code": "33022",
+		"description": "OLMEDO Y CERRALBO (APD)"
+	},
+	{
+		"code": "33023",
+		"description": "LUMBRALES  (APT-CGD)"
+	},
+	{
+		"code": "33024",
+		"description": "HINOJOSA DE DUERO (APD)"
+	},
+	{
+		"code": "33025",
+		"description": "FREGENEDA"
+	},
+	{
+		"code": "33026",
+		"description": "FREGENEDA-FRONTERA"
+	},
+	{
+		"code": "33027",
+		"description": "BARCA DE ALBA"
+	},
+	{
+		"code": "34002",
+		"description": "CARDEÑOSA DE AVILA"
+	},
+	{
+		"code": "34003",
+		"description": "MONSALUPE (APD)"
+	},
+	{
+		"code": "34004",
+		"description": "AVEINTE (APD)"
+	},
+	{
+		"code": "34005",
+		"description": "SAN PEDRO DEL ARROYO"
+	},
+	{
+		"code": "34007",
+		"description": "CRESPOS"
+	},
+	{
+		"code": "34008",
+		"description": "NARROS DEL CASTILLO"
+	},
+	{
+		"code": "34010",
+		"description": "PEÑARANDA DE BRACAMONTE"
+	},
+	{
+		"code": "34011",
+		"description": "VILLAR DE GALLIMAZO"
+	},
+	{
+		"code": "34012",
+		"description": "BABILAFUENTE"
+	},
+	{
+		"code": "34013",
+		"description": "SAN MORALES"
+	},
+	{
+		"code": "34014",
+		"description": "ALDEALENGUA"
+	},
+	{
+		"code": "35001",
+		"description": "LEGANÉS"
+	},
+	{
+		"code": "35002",
+		"description": "FUENLABRADA"
+	},
+	{
+		"code": "35003",
+		"description": "HUMANES DE MADRID"
+	},
+	{
+		"code": "35004",
+		"description": "GRINON"
+	},
+	{
+		"code": "35005",
+		"description": "ILLESCAS"
+	},
+	{
+		"code": "35006",
+		"description": "NUMANCIA-YUNCOS (APD)"
+	},
+	{
+		"code": "35007",
+		"description": "LA SERNA-FUENLABRADA (APD)"
+	},
+	{
+		"code": "35009",
+		"description": "ZARZAQUEMADA"
+	},
+	{
+		"code": "35010",
+		"description": "LA SERNA"
+	},
+	{
+		"code": "35011",
+		"description": "P.POLVORAN"
+	},
+	{
+		"code": "35012",
+		"description": "HUMANES"
+	},
+	{
+		"code": "35100",
+		"description": "VILLALUENGA-YUNCLER"
+	},
+	{
+		"code": "35101",
+		"description": "CABANAS DE LA SAGRA (APD)"
+	},
+	{
+		"code": "35102",
+		"description": "BARGAS"
+	},
+	{
+		"code": "35103",
+		"description": "VILLAMIEL DE TOLEDO"
+	},
+	{
+		"code": "35104",
+		"description": "RIELVES (APD)"
+	},
+	{
+		"code": "35105",
+		"description": "TORRIJOS"
+	},
+	{
+		"code": "35106",
+		"description": "SANTA OLALLA-CARMENA  (APD)"
+	},
+	{
+		"code": "35107",
+		"description": "ERUSTES"
+	},
+	{
+		"code": "35108",
+		"description": "ILLAN DE VACAS-CEBOLLA (APD)"
+	},
+	{
+		"code": "35109",
+		"description": "MONTEARAGÓN"
+	},
+	{
+		"code": "35200",
+		"description": "TALAVERA DE LA REINA"
+	},
+	{
+		"code": "35201",
+		"description": "CALERA Y CHOZAS"
+	},
+	{
+		"code": "35202",
+		"description": "ALCANIZO (APD)"
+	},
+	{
+		"code": "35203",
+		"description": "OROPESA DE TOLEDO"
+	},
+	{
+		"code": "35204",
+		"description": "LA CALZADA DE OROPESA  (APD)"
+	},
+	{
+		"code": "35206",
+		"description": "NAVALMORAL DE LA MATA"
+	},
+	{
+		"code": "35207",
+		"description": "CASATEJADA"
+	},
+	{
+		"code": "35208",
+		"description": "TORIL (APD)"
+	},
+	{
+		"code": "35209",
+		"description": "LA BAZAGONA"
+	},
+	{
+		"code": "35301",
+		"description": "MIRABEL"
+	},
+	{
+		"code": "35302",
+		"description": "CASAS DE MILLÁN"
+	},
+	{
+		"code": "35303",
+		"description": "CAÑAVERAL"
+	},
+	{
+		"code": "35304",
+		"description": "RIO TAJO"
+	},
+	{
+		"code": "35305",
+		"description": "CASAR DE CACERES"
+	},
+	{
+		"code": "35306",
+		"description": "CASAR DE CACERES (APD)"
+	},
+	{
+		"code": "35400",
+		"description": "CÁCERES"
+	},
+	{
+		"code": "35401",
+		"description": "ALDEA MORET (APD-CGD)"
+	},
+	{
+		"code": "35402",
+		"description": "ARROYO-MALPARTIDA"
+	},
+	{
+		"code": "35403",
+		"description": "ALISEDA (APD)"
+	},
+	{
+		"code": "35404",
+		"description": "HERRERUELA   (APD-CGD)"
+	},
+	{
+		"code": "35405",
+		"description": "SAN VICENTE DE ALCÁNTARA"
+	},
+	{
+		"code": "35406",
+		"description": "VALENCIA DE ALCÁNTARA"
+	},
+	{
+		"code": "35407",
+		"description": "VALENCIA ALCANTARA-FRONTERA"
+	},
+	{
+		"code": "35600",
+		"description": "MADRID-ALUCHE"
+	},
+	{
+		"code": "35601",
+		"description": "MAESTRA JUSTA FREIRE POLIDEPORTIVO ALUCH"
+	},
+	{
+		"code": "35602",
+		"description": "LAS AGUILAS"
+	},
+	{
+		"code": "35603",
+		"description": "CUATRO VIENTOS"
+	},
+	{
+		"code": "35604",
+		"description": "SAN JOSE DE VALDERAS"
+	},
+	{
+		"code": "35605",
+		"description": "ALCORCON"
+	},
+	{
+		"code": "35606",
+		"description": "MOSTOLES"
+	},
+	{
+		"code": "35607",
+		"description": "MOSTOLES EL SOTO"
+	},
+	{
+		"code": "35608",
+		"description": "LAGUNA"
+	},
+	{
+		"code": "35609",
+		"description": "EMBAJADOR."
+	},
+	{
+		"code": "35610",
+		"description": "L. RETAMAS"
+	},
+	{
+		"code": "3567F",
+		"description": "EMBAJADORES"
+	},
+	{
+		"code": "35701",
+		"description": "MENDEZ ALVARO"
+	},
+	{
+		"code": "35702",
+		"description": "DOCE OCTUB"
+	},
+	{
+		"code": "35703",
+		"description": "ORCASITAS"
+	},
+	{
+		"code": "35704",
+		"description": "PUENTE ALCOCER"
+	},
+	{
+		"code": "3586F",
+		"description": "MENDEZ ALVARO"
+	},
+	{
+		"code": "3587F",
+		"description": "CIUDAD LOS ANGELES"
+	},
+	{
+		"code": "3588F",
+		"description": "ORCASITAS"
+	},
+	{
+		"code": "36002",
+		"description": "ALDEA DEL CANO"
+	},
+	{
+		"code": "36003",
+		"description": "CARMONITA"
+	},
+	{
+		"code": "36004",
+		"description": "EL CARRASCALEJO (APD)"
+	},
+	{
+		"code": "37001",
+		"description": "MADRID-VILLAVERDE ALTO"
+	},
+	{
+		"code": "37002",
+		"description": "GETAFE CENTRO"
+	},
+	{
+		"code": "37004",
+		"description": "PARLA INDUSTRIAL"
+	},
+	{
+		"code": "37005",
+		"description": "TORREJON DE VELASCO (APD)"
+	},
+	{
+		"code": "37006",
+		"description": "YELES Y ESQUIVIAS"
+	},
+	{
+		"code": "37007",
+		"description": "PANTOJA Y ALAMEDA"
+	},
+	{
+		"code": "37008",
+		"description": "VILLASECA Y MOCEJON"
+	},
+	{
+		"code": "37009",
+		"description": "LOS CISNEROS (APD)"
+	},
+	{
+		"code": "37010",
+		"description": "MARGARITAS"
+	},
+	{
+		"code": "37011",
+		"description": "GETAFE S-3"
+	},
+	{
+		"code": "37012",
+		"description": "PARLA"
+	},
+	{
+		"code": "37100",
+		"description": "ALGODOR"
+	},
+	{
+		"code": "37101",
+		"description": "ABLATES (APT)"
+	},
+	{
+		"code": "37102",
+		"description": "ALMONACID (APD)"
+	},
+	{
+		"code": "37103",
+		"description": "MASCARAQUE (APD)"
+	},
+	{
+		"code": "37104",
+		"description": "MORA-ORGAZ"
+	},
+	{
+		"code": "37105",
+		"description": "MANZANEQUE (APD)"
+	},
+	{
+		"code": "37106",
+		"description": "YEBENES (APT)"
+	},
+	{
+		"code": "37107",
+		"description": "URDA"
+	},
+	{
+		"code": "37108",
+		"description": "EL EMPERADOR"
+	},
+	{
+		"code": "37109",
+		"description": "FUENTE EL FRESNO (APD)"
+	},
+	{
+		"code": "37110",
+		"description": "MALAGON"
+	},
+	{
+		"code": "37111",
+		"description": "FERNAN CABALLERO (APD)"
+	},
+	{
+		"code": "37200",
+		"description": "CIUDAD REAL"
+	},
+	{
+		"code": "37201",
+		"description": "POBLETE (APD)"
+	},
+	{
+		"code": "37202",
+		"description": "CANADA DE CALATRAVA"
+	},
+	{
+		"code": "37203",
+		"description": "CARACUEL (APD)"
+	},
+	{
+		"code": "37204",
+		"description": "ARGAMASILLA DE CALATRAVA"
+	},
+	{
+		"code": "37300",
+		"description": "PUERTOLLANO"
+	},
+	{
+		"code": "37301",
+		"description": "LA NAVA DE PUERTOLLANO"
+	},
+	{
+		"code": "37302",
+		"description": "BRAZATORTAS-VEREDAS"
+	},
+	{
+		"code": "37303",
+		"description": "CARACOLLERA"
+	},
+	{
+		"code": "37304",
+		"description": "EL MADRONAL-FONTANOSA (APD)"
+	},
+	{
+		"code": "37305",
+		"description": "ALMADENEJOS-ALMADÉN"
+	},
+	{
+		"code": "37306",
+		"description": "ALAMILLO (APD)"
+	},
+	{
+		"code": "37307",
+		"description": "CHILLON  (APD)"
+	},
+	{
+		"code": "37308",
+		"description": "GUADALMEZ-LOS PEDROCHES"
+	},
+	{
+		"code": "37309",
+		"description": "BELALCAZAR"
+	},
+	{
+		"code": "37311",
+		"description": "CABEZA DEL BUEY"
+	},
+	{
+		"code": "37400",
+		"description": "ALMORCHÓN"
+	},
+	{
+		"code": "37402",
+		"description": "CASTUERA"
+	},
+	{
+		"code": "37403",
+		"description": "QUINTANA DE LA SERENA"
+	},
+	{
+		"code": "37404",
+		"description": "CAMPANARIO"
+	},
+	{
+		"code": "37405",
+		"description": "MAGACELA"
+	},
+	{
+		"code": "37406",
+		"description": "VILLANUEVA DE LA SERENA"
+	},
+	{
+		"code": "37407",
+		"description": "DON BENITO"
+	},
+	{
+		"code": "37408",
+		"description": "MEDELLIN"
+	},
+	{
+		"code": "37409",
+		"description": "VALDETORRES"
+	},
+	{
+		"code": "37410",
+		"description": "GUAREÑA"
+	},
+	{
+		"code": "37411",
+		"description": "VILLAGONZALO"
+	},
+	{
+		"code": "37412",
+		"description": "ZARZA DE ALANGE (APD)"
+	},
+	{
+		"code": "37413",
+		"description": "DON ALVARO (APD)"
+	},
+	{
+		"code": "37500",
+		"description": "MÉRIDA"
+	},
+	{
+		"code": "37600",
+		"description": "ALJUCÉN"
+	},
+	{
+		"code": "37601",
+		"description": "LA GARROVILLA"
+	},
+	{
+		"code": "37602",
+		"description": "TORREMAYOR (APD)"
+	},
+	{
+		"code": "37603",
+		"description": "MONTIJO"
+	},
+	{
+		"code": "37604",
+		"description": "GUADIANA"
+	},
+	{
+		"code": "37605",
+		"description": "TALAVERA LA REAL (APD-CGD)"
+	},
+	{
+		"code": "37606",
+		"description": "BADAJOZ"
+	},
+	{
+		"code": "37607",
+		"description": "MONTIJO APEADERO"
+	},
+	{
+		"code": "37608",
+		"description": "MONTIJO-EL MOLINO"
+	},
+	{
+		"code": "37611",
+		"description": "GARROVILLA-LAS VEGAS"
+	},
+	{
+		"code": "37704",
+		"description": "VILLANUEVA DE CÓRDOBA-LOS PEDROCHES"
+	},
+	{
+		"code": "40002",
+		"description": "CALAMONTE"
+	},
+	{
+		"code": "40003",
+		"description": "TORREMEJIA (APD)"
+	},
+	{
+		"code": "40004",
+		"description": "ALMENDRALEJO"
+	},
+	{
+		"code": "40005",
+		"description": "VILLAFRANCA DE LOS BARROS"
+	},
+	{
+		"code": "40006",
+		"description": "LOS SANTOS DE MAIMONA"
+	},
+	{
+		"code": "40008",
+		"description": "ZAFRA FERIA"
+	},
+	{
+		"code": "40100",
+		"description": "ZAFRA"
+	},
+	{
+		"code": "40101",
+		"description": "BALNEARIO DE EL RAPOSO (APD)"
+	},
+	{
+		"code": "40103",
+		"description": "USAGRE-BIENVENIDA"
+	},
+	{
+		"code": "40104",
+		"description": "VILLAGARCIA DE LA TORRE (APD)"
+	},
+	{
+		"code": "40105",
+		"description": "LLERENA"
+	},
+	{
+		"code": "40106",
+		"description": "CASAS Y REINA (APD)"
+	},
+	{
+		"code": "40107",
+		"description": "FUENTE DEL ARCO"
+	},
+	{
+		"code": "40108",
+		"description": "GUADALCANAL"
+	},
+	{
+		"code": "40110",
+		"description": "HAMAPEGA (APD)"
+	},
+	{
+		"code": "40111",
+		"description": "ALANIS"
+	},
+	{
+		"code": "40113",
+		"description": "CAZALLA-CONSTANTINA"
+	},
+	{
+		"code": "40114",
+		"description": "FABRICA DEL PEDROSO"
+	},
+	{
+		"code": "40115",
+		"description": "PEDROSO"
+	},
+	{
+		"code": "40118",
+		"description": "ARENILLAS (APT-CGD)"
+	},
+	{
+		"code": "40119",
+		"description": "VILLANUEVA DEL RÍO-MINAS"
+	},
+	{
+		"code": "40121",
+		"description": "ALCOLEA DEL RÍO"
+	},
+	{
+		"code": "40122",
+		"description": "TOCINA"
+	},
+	{
+		"code": "42001",
+		"description": "PUEBLA DE SANCHO PEREZ (APD-CGD)"
+	},
+	{
+		"code": "42002",
+		"description": "MEDINA DE LAS TORRES"
+	},
+	{
+		"code": "42003",
+		"description": "VALENCIA DEL VENTOSO"
+	},
+	{
+		"code": "42004",
+		"description": "LOS JARALES-BODONAL (APD)"
+	},
+	{
+		"code": "42005",
+		"description": "FREGENAL DE LA SIERRA"
+	},
+	{
+		"code": "42006",
+		"description": "CUMBRES MAYORES"
+	},
+	{
+		"code": "42007",
+		"description": "LA NAVA DE HUELVA (APD)"
+	},
+	{
+		"code": "42008",
+		"description": "JABUGO-GALAROZA"
+	},
+	{
+		"code": "42009",
+		"description": "ALMONASTER-CORTEGANA"
+	},
+	{
+		"code": "42010",
+		"description": "GIL MÁRQUEZ"
+	},
+	{
+		"code": "42012",
+		"description": "VALDELAMUSA"
+	},
+	{
+		"code": "42013",
+		"description": "EL TAMUJOSO"
+	},
+	{
+		"code": "42014",
+		"description": "EL CERRO DE ANDEVALO (APT-CGD)"
+	},
+	{
+		"code": "42015",
+		"description": "CALAÑAS"
+	},
+	{
+		"code": "42016",
+		"description": "LOS MILANOS"
+	},
+	{
+		"code": "42018",
+		"description": "EL COBUJÓN"
+	},
+	{
+		"code": "42019",
+		"description": "BELMONTE"
+	},
+	{
+		"code": "42020",
+		"description": "GIBRALEÓN"
+	},
+	{
+		"code": "42021",
+		"description": "PEGUERILLAS (APD)"
+	},
+	{
+		"code": "42101",
+		"description": "LA MEZQUITA (APT)"
+	},
+	{
+		"code": "42102",
+		"description": "ALJARAQUE (APD-CGD)"
+	},
+	{
+		"code": "42103",
+		"description": "CARTAYA (APD)"
+	},
+	{
+		"code": "42104",
+		"description": "LEPE (APD)"
+	},
+	{
+		"code": "42105",
+		"description": "REDONDELA DE ISLA CRISTINA (APD)"
+	},
+	{
+		"code": "42106",
+		"description": "ISLA CRISTINA (APD)"
+	},
+	{
+		"code": "42107",
+		"description": "AYAMONTE (APD)"
+	},
+	{
+		"code": "42108",
+		"description": "GIBRALEON (APD)"
+	},
+	{
+		"code": "43000",
+		"description": "SAN JERONIMO"
+	},
+	{
+		"code": "43001",
+		"description": "CAMAS"
+	},
+	{
+		"code": "43002",
+		"description": "CAMAS"
+	},
+	{
+		"code": "43003",
+		"description": "VILLANUEVA ARISCAL Y OLIV. (APT)"
+	},
+	{
+		"code": "43004",
+		"description": "SANLUCAR LA MAYOR (APD-CGD)"
+	},
+	{
+		"code": "43005",
+		"description": "BENACAZÓN"
+	},
+	{
+		"code": "43006",
+		"description": "AZNALCAZAR-PILAS   (APT-CGD)"
+	},
+	{
+		"code": "43007",
+		"description": "HUEVAR"
+	},
+	{
+		"code": "43008",
+		"description": "CARRIÓN DE LOS CÉSPEDES"
+	},
+	{
+		"code": "43009",
+		"description": "ESCACENA"
+	},
+	{
+		"code": "43011",
+		"description": "LA PALMA DEL CONDADO"
+	},
+	{
+		"code": "43012",
+		"description": "VILLARRASA"
+	},
+	{
+		"code": "43013",
+		"description": "NIEBLA (APT-CGD)"
+	},
+	{
+		"code": "43015",
+		"description": "NIEBLA"
+	},
+	{
+		"code": "43016",
+		"description": "LAS MALLAS"
+	},
+	{
+		"code": "43018",
+		"description": "SAN JUAN DEL PUERTO-MOGUER"
+	},
+	{
+		"code": "43019",
+		"description": "HUELVA"
+	},
+	{
+		"code": "43021",
+		"description": "SAN JUAN DEL PUERTO"
+	},
+	{
+		"code": "43023",
+		"description": "HUELVA-MERCANCIAS (APD)"
+	},
+	{
+		"code": "43024",
+		"description": "HUELVA-MERCANCIAS (APD)"
+	},
+	{
+		"code": "43026",
+		"description": "VALENCINA-SANTIPONCE"
+	},
+	{
+		"code": "43027",
+		"description": "SALTERAS"
+	},
+	{
+		"code": "43899",
+		"description": "ALACANT LA MARINA"
+	},
+	{
+		"code": "43900",
+		"description": "FINCA ADOC"
+	},
+	{
+		"code": "43901",
+		"description": "ALBUFERETA"
+	},
+	{
+		"code": "43902",
+		"description": "CONDOMINA"
+	},
+	{
+		"code": "43903",
+		"description": "DISCOTECAS"
+	},
+	{
+		"code": "43904",
+		"description": "PALMERAL"
+	},
+	{
+		"code": "43905",
+		"description": "CARRABINERS"
+	},
+	{
+		"code": "43906",
+		"description": "SAN JUAN"
+	},
+	{
+		"code": "43907",
+		"description": "LES LLANCES"
+	},
+	{
+		"code": "43908",
+		"description": "SALESIANS"
+	},
+	{
+		"code": "43909",
+		"description": "EL CAMPELLO"
+	},
+	{
+		"code": "43910",
+		"description": "POBLE ESPANYOL"
+	},
+	{
+		"code": "43911",
+		"description": "AMERADOR"
+	},
+	{
+		"code": "43912",
+		"description": "COVETE FUMA"
+	},
+	{
+		"code": "43913",
+		"description": "CALAPITERES"
+	},
+	{
+		"code": "43914",
+		"description": "CALA DÛOR"
+	},
+	{
+		"code": "43915",
+		"description": "LA MERCE"
+	},
+	{
+		"code": "43916",
+		"description": "VENTA LANUZA"
+	},
+	{
+		"code": "43917",
+		"description": "MONTIBOLI"
+	},
+	{
+		"code": "43918",
+		"description": "PARADIS"
+	},
+	{
+		"code": "43919",
+		"description": "VILA JOIOSA"
+	},
+	{
+		"code": "43920",
+		"description": "CREUETA"
+	},
+	{
+		"code": "43921",
+		"description": "COSTERA PASTOR"
+	},
+	{
+		"code": "43922",
+		"description": "HOSPITAL VILA"
+	},
+	{
+		"code": "43923",
+		"description": "HIPER FINISTR."
+	},
+	{
+		"code": "43924",
+		"description": "BENIDORM"
+	},
+	{
+		"code": "43925",
+		"description": "DISCO BENIDORM"
+	},
+	{
+		"code": "43926",
+		"description": "CAMI COVES"
+	},
+	{
+		"code": "43927",
+		"description": "LÛALFAS DEL PI"
+	},
+	{
+		"code": "43928",
+		"description": "VENTORRILLO"
+	},
+	{
+		"code": "43929",
+		"description": "ALTEA"
+	},
+	{
+		"code": "43930",
+		"description": "GARGANES"
+	},
+	{
+		"code": "43931",
+		"description": "CAP NEGRET"
+	},
+	{
+		"code": "43932",
+		"description": "OLLA ALTEA"
+	},
+	{
+		"code": "43933",
+		"description": "CALPE"
+	},
+	{
+		"code": "43934",
+		"description": "FERRANDET"
+	},
+	{
+		"code": "43935",
+		"description": "BENISSA"
+	},
+	{
+		"code": "43936",
+		"description": "TEULADA"
+	},
+	{
+		"code": "43937",
+		"description": "GATA"
+	},
+	{
+		"code": "43938",
+		"description": "LA JARA"
+	},
+	{
+		"code": "43939",
+		"description": "HOSPITAL DENIA"
+	},
+	{
+		"code": "43940",
+		"description": "ALQUERIES"
+	},
+	{
+		"code": "43941",
+		"description": "DENIA"
+	},
+	{
+		"code": "43942",
+		"description": "SAN JAVIER"
+	},
+	{
+		"code": "43943",
+		"description": "SANTIAGO DE LA RIBERA (BUS)"
+	},
+	{
+		"code": "43944",
+		"description": "CUARTEL DEL AIRE"
+	},
+	{
+		"code": "43945",
+		"description": "LOPAGAN"
+	},
+	{
+		"code": "43946",
+		"description": "SAN PEDRO DEL PINATAR (BUS)"
+	},
+	{
+		"code": "43947",
+		"description": "EL MOJON"
+	},
+	{
+		"code": "43948",
+		"description": "LA TORRE DE LA HORADADA (BUS)"
+	},
+	{
+		"code": "43949",
+		"description": "PUERTO LATINO"
+	},
+	{
+		"code": "43950",
+		"description": "MIL PALMERAS"
+	},
+	{
+		"code": "43951",
+		"description": "ALGAR"
+	},
+	{
+		"code": "43952",
+		"description": "EL LLANO"
+	},
+	{
+		"code": "43953",
+		"description": "LOS BELONES"
+	},
+	{
+		"code": "43954",
+		"description": "PLAYA HONDA"
+	},
+	{
+		"code": "43955",
+		"description": "CABO DE PALOS"
+	},
+	{
+		"code": "43956",
+		"description": "LA MANGA"
+	},
+	{
+		"code": "43957",
+		"description": "PEÑISCOLA PLAYA"
+	},
+	{
+		"code": "43958",
+		"description": "GRAO (BUS)"
+	},
+	{
+		"code": "43959",
+		"description": "PLAYA CLUB NAUTICO (BUS)"
+	},
+	{
+		"code": "43960",
+		"description": "FINAL PLAYA GANDIA (BUS)"
+	},
+	{
+		"code": "43961",
+		"description": "CULLERA PLAYA (BUS)"
+	},
+	{
+		"code": "43962",
+		"description": "FARO CULLERA (BUS)"
+	},
+	{
+		"code": "43963",
+		"description": "BALNEARIO DE ARCHENA (BUS)"
+	},
+	{
+		"code": "43964",
+		"description": "BENICASSIM PLAYA (BUS)"
+	},
+	{
+		"code": "50001",
+		"description": "MARANON"
+	},
+	{
+		"code": "50002",
+		"description": "CINCO CASAS"
+	},
+	{
+		"code": "50003",
+		"description": "HERRERA DE LA MANCHA"
+	},
+	{
+		"code": "50100",
+		"description": "MANZANARES"
+	},
+	{
+		"code": "50101",
+		"description": "CONSOLACION-VILLANUEVA DE FCO."
+	},
+	{
+		"code": "50102",
+		"description": "VALDEPEÑAS"
+	},
+	{
+		"code": "50200",
+		"description": "SANTA CRUZ DE MUDELA"
+	},
+	{
+		"code": "50201",
+		"description": "PENALAJO (APT)"
+	},
+	{
+		"code": "50202",
+		"description": "ALMURADIEL-VISO DEL MARQUÉS"
+	},
+	{
+		"code": "50203",
+		"description": "VENTA DE CARDENAS"
+	},
+	{
+		"code": "50204",
+		"description": "LAS CORREDERAS (APT)"
+	},
+	{
+		"code": "50205",
+		"description": "SANTA ELENA"
+	},
+	{
+		"code": "50206",
+		"description": "CALANCHA (APT)"
+	},
+	{
+		"code": "50207",
+		"description": "VILCHES"
+	},
+	{
+		"code": "50208",
+		"description": "CABRERIZAS (APD)"
+	},
+	{
+		"code": "50209",
+		"description": "VADOLLANO"
+	},
+	{
+		"code": "50300",
+		"description": "LINARES-BAEZA"
+	},
+	{
+		"code": "50301",
+		"description": "LAS MADRIGUERAS (APT)"
+	},
+	{
+		"code": "50302",
+		"description": "JABALQUINTO (APT-CGD)"
+	},
+	{
+		"code": "50303",
+		"description": "MENGIBAR-LAS PALOMERAS (APT-CGD)"
+	},
+	{
+		"code": "50400",
+		"description": "ESPELUY"
+	},
+	{
+		"code": "50402",
+		"description": "VILLANUEVA DE LA REINA (APT-CGD)"
+	},
+	{
+		"code": "50403",
+		"description": "ANDÚJAR"
+	},
+	{
+		"code": "50404",
+		"description": "ARJONILLA (APT)"
+	},
+	{
+		"code": "50405",
+		"description": "MARMOLEJO (APT-CGD)"
+	},
+	{
+		"code": "50406",
+		"description": "LOS SILES (APT)"
+	},
+	{
+		"code": "50407",
+		"description": "VILLA DEL RÍO"
+	},
+	{
+		"code": "50408",
+		"description": "MONTORO"
+	},
+	{
+		"code": "50409",
+		"description": "PEDRO ABAD (APT)"
+	},
+	{
+		"code": "50410",
+		"description": "EL CARPIO DE CORDOBA"
+	},
+	{
+		"code": "50411",
+		"description": "VILLAFRANCA DE CORDOBA (APT-CGD)"
+	},
+	{
+		"code": "50412",
+		"description": "LOS CASINOS (APT)"
+	},
+	{
+		"code": "50413",
+		"description": "ALCOLEA DE CÓRDOBA (APT)"
+	},
+	{
+		"code": "50416",
+		"description": "CORDOBA-EL BRILLANTE"
+	},
+	{
+		"code": "50417",
+		"description": "CAMPUS UNIVERSITARIO RABANALES / CÓRDOBA"
+	},
+	{
+		"code": "50500",
+		"description": "CÓRDOBA"
+	},
+	{
+		"code": "50501",
+		"description": "EL HIGUERÓN (APT)"
+	},
+	{
+		"code": "50502",
+		"description": "VILLARRUBIA DE CÓRDOBA"
+	},
+	{
+		"code": "50503",
+		"description": "ALMODOVAR DEL RIO (APT-CGD)"
+	},
+	{
+		"code": "50504",
+		"description": "POSADAS"
+	},
+	{
+		"code": "50505",
+		"description": "HORNACHUELOS (APT-CGD)"
+	},
+	{
+		"code": "50506",
+		"description": "PALMA DEL RÍO"
+	},
+	{
+		"code": "50507",
+		"description": "PEÑAFLOR"
+	},
+	{
+		"code": "50508",
+		"description": "EL PRIORATO (APT)"
+	},
+	{
+		"code": "50600",
+		"description": "LORA DEL RÍO"
+	},
+	{
+		"code": "50601",
+		"description": "AZANAQUE (APD)"
+	},
+	{
+		"code": "50602",
+		"description": "GUADAJOZ"
+	},
+	{
+		"code": "50700",
+		"description": "LOS ROSALES"
+	},
+	{
+		"code": "50701",
+		"description": "CANTILLANA"
+	},
+	{
+		"code": "50702",
+		"description": "BRENES"
+	},
+	{
+		"code": "50703",
+		"description": "LA RINCONADA"
+	},
+	{
+		"code": "50704",
+		"description": "EL CAÑAMO"
+	},
+	{
+		"code": "50800",
+		"description": "SAN JERONIMO"
+	},
+	{
+		"code": "50801",
+		"description": "SEVILLA-PLAZA DE ARMAS"
+	},
+	{
+		"code": "51003",
+		"description": "SEVILLA-SANTA JUSTA"
+	},
+	{
+		"code": "51009",
+		"description": "P.CONGRESO"
+	},
+	{
+		"code": "51010",
+		"description": "P.PIO PALM"
+	},
+	{
+		"code": "51050",
+		"description": "CARTUJA"
+	},
+	{
+		"code": "51051",
+		"description": "EST.OLIMP"
+	},
+	{
+		"code": "51100",
+		"description": "SEVILLA-SAN BERNARDO"
+	},
+	{
+		"code": "51101",
+		"description": "LA SALUD"
+	},
+	{
+		"code": "51102",
+		"description": "LOS MERINALES (APD-CGD)"
+	},
+	{
+		"code": "51103",
+		"description": "DOS HERMANAS"
+	},
+	{
+		"code": "51104",
+		"description": "DON RODRIGO (APT)"
+	},
+	{
+		"code": "51109",
+		"description": "SEVILLA SAN BERNARDO APEADERO"
+	},
+	{
+		"code": "51110",
+		"description": "SEVILLA-VIRGEN DEL ROCÍO"
+	},
+	{
+		"code": "51111",
+		"description": "BELLAVISTA"
+	},
+	{
+		"code": "51112",
+		"description": "CANTAELGALLO"
+	},
+	{
+		"code": "51113",
+		"description": "JARDINES DE HÉRCULES"
+	},
+	{
+		"code": "51200",
+		"description": "UTRERA"
+	},
+	{
+		"code": "51201",
+		"description": "LAS ALCANTARILLAS (APT)"
+	},
+	{
+		"code": "51202",
+		"description": "LAS CABEZAS DE SAN JUAN"
+	},
+	{
+		"code": "51203",
+		"description": "LEBRIJA"
+	},
+	{
+		"code": "51204",
+		"description": "EL CUERVO (APT)"
+	},
+	{
+		"code": "51205",
+		"description": "JEREZ AEROPUERTO"
+	},
+	{
+		"code": "51300",
+		"description": "JEREZ DE LA FRONTERA"
+	},
+	{
+		"code": "51301",
+		"description": "EL PORTAL (APT)"
+	},
+	{
+		"code": "51400",
+		"description": "PUERTO DE SANTA MARÍA"
+	},
+	{
+		"code": "51401",
+		"description": "PUERTO REAL"
+	},
+	{
+		"code": "51402",
+		"description": "SAN FERNANDO CENTRO"
+	},
+	{
+		"code": "51404",
+		"description": "SEGUNDA AGUADA"
+	},
+	{
+		"code": "51405",
+		"description": "CÁDIZ"
+	},
+	{
+		"code": "51406",
+		"description": "SAN FERNANDO-BAHÍA SUR"
+	},
+	{
+		"code": "51407",
+		"description": "CADIZ-CORTADURA"
+	},
+	{
+		"code": "51409",
+		"description": "CÁDIZ-ESTADIO"
+	},
+	{
+		"code": "51414",
+		"description": "SAN SEVERIANO"
+	},
+	{
+		"code": "51415",
+		"description": "LAS ALETAS"
+	},
+	{
+		"code": "51416",
+		"description": "UNIVERSIDAD"
+	},
+	{
+		"code": "51417",
+		"description": "VALDELAGRANA"
+	},
+	{
+		"code": "51419",
+		"description": "RÍO ARILLO"
+	},
+	{
+		"code": "51450",
+		"description": "PELAGATOS"
+	},
+	{
+		"code": "51451",
+		"description": "LA HOYA"
+	},
+	{
+		"code": "51452",
+		"description": "REYES CATÓLICOS"
+	},
+	{
+		"code": "51453",
+		"description": "NUESTRA SEÑORA DE LOS REMEDIOS"
+	},
+	{
+		"code": "51454",
+		"description": "ALAMEDA SOLANO"
+	},
+	{
+		"code": "51455",
+		"description": "MARQUESADO"
+	},
+	{
+		"code": "51456",
+		"description": "PINAR DE LOS FRANCESES"
+	},
+	{
+		"code": "51457",
+		"description": "TRES CAMINOS"
+	},
+	{
+		"code": "51458",
+		"description": "VENTA DE VARGAS"
+	},
+	{
+		"code": "51459",
+		"description": "PLAZA DE LA IGLESIA"
+	},
+	{
+		"code": "51460",
+		"description": "PLAZA DEL REY"
+	},
+	{
+		"code": "51461",
+		"description": "COMPAÑÍA DE MARÍA"
+	},
+	{
+		"code": "51462",
+		"description": "PLAZA DEL CARMEN"
+	},
+	{
+		"code": "51463",
+		"description": "SANTO ENTIERRO"
+	},
+	{
+		"code": "51464",
+		"description": "LA ARDILA"
+	},
+	{
+		"code": "53004",
+		"description": "ROTA (APT)"
+	},
+	{
+		"code": "53005",
+		"description": "PENA DEL AGUILA (APD-CGD)"
+	},
+	{
+		"code": "53006",
+		"description": "LA BALLENA (APD)"
+	},
+	{
+		"code": "53007",
+		"description": "CHIPIONA   (APD)"
+	},
+	{
+		"code": "53008",
+		"description": "LA JARA (APT)"
+	},
+	{
+		"code": "53009",
+		"description": "SANLUCAR DE BARRAMEDA (PLAYA)"
+	},
+	{
+		"code": "5301B",
+		"description": "VISTA HERMOSA"
+	},
+	{
+		"code": "53011",
+		"description": "VISTA HERMOSA"
+	},
+	{
+		"code": "5302B",
+		"description": "FUENTE BRAVIA"
+	},
+	{
+		"code": "53021",
+		"description": "FUENTE BRAVIA"
+	},
+	{
+		"code": "54100",
+		"description": "VALCHILLON"
+	},
+	{
+		"code": "54101",
+		"description": "EL CHAPARRAL"
+	},
+	{
+		"code": "54102",
+		"description": "TORRES CABRERA (APT)"
+	},
+	{
+		"code": "54103",
+		"description": "FERNAN NUNEZ"
+	},
+	{
+		"code": "54104",
+		"description": "MONTEMAYOR"
+	},
+	{
+		"code": "54105",
+		"description": "MONTILLA"
+	},
+	{
+		"code": "54106",
+		"description": "AGUILAR DE LA FRONTERA"
+	},
+	{
+		"code": "54200",
+		"description": "CAMPO REAL"
+	},
+	{
+		"code": "54201",
+		"description": "PUENTE GENIL"
+	},
+	{
+		"code": "54202",
+		"description": "CASARICHE"
+	},
+	{
+		"code": "54300",
+		"description": "LA RODA DE ANDALUCÍA"
+	},
+	{
+		"code": "54301",
+		"description": "FUENTE DE PIEDRA"
+	},
+	{
+		"code": "54302",
+		"description": "LA RODA DE ANDALUCIA-LA NAVA"
+	},
+	{
+		"code": "54400",
+		"description": "BOBADILLA"
+	},
+	{
+		"code": "54402",
+		"description": "GOBANTES"
+	},
+	{
+		"code": "54403",
+		"description": "EL CHORRO"
+	},
+	{
+		"code": "54404",
+		"description": "LAS MELLIZAS"
+	},
+	{
+		"code": "54405",
+		"description": "ÁLORA"
+	},
+	{
+		"code": "54406",
+		"description": "PIZARRA"
+	},
+	{
+		"code": "54407",
+		"description": "ALJAIMA"
+	},
+	{
+		"code": "54408",
+		"description": "CÁRTAMA"
+	},
+	{
+		"code": "54409",
+		"description": "LOS REMEDIOS (APD-CGD)"
+	},
+	{
+		"code": "54410",
+		"description": "CAMPANILLAS"
+	},
+	{
+		"code": "54412",
+		"description": "LOS PRADOS"
+	},
+	{
+		"code": "54413",
+		"description": "MÁLAGA MARÍA ZAMBRANO"
+	},
+	{
+		"code": "54500",
+		"description": "MALAGA M.Z. CERCANIAS"
+	},
+	{
+		"code": "54501",
+		"description": "VICTORIA KENT"
+	},
+	{
+		"code": "54503",
+		"description": "GUADALHORCE (APD)"
+	},
+	{
+		"code": "54504",
+		"description": "AEROPUERTO (ADPD)"
+	},
+	{
+		"code": "54505",
+		"description": "MÁLAGA AEROPUERTO"
+	},
+	{
+		"code": "54506",
+		"description": "SAN JULIAN (APD)"
+	},
+	{
+		"code": "54507",
+		"description": "CAMPO D GOLF-CAMPAMENTO (APT)"
+	},
+	{
+		"code": "54508",
+		"description": "LA COLINA (APD)"
+	},
+	{
+		"code": "54509",
+		"description": "TORREMOLINOS"
+	},
+	{
+		"code": "54510",
+		"description": "EL PINILLO (APD)"
+	},
+	{
+		"code": "54511",
+		"description": "BENALMÁDENA/ARROYO DE LA MIEL"
+	},
+	{
+		"code": "54512",
+		"description": "TORREMUELLE-BENALMADENA (APT)"
+	},
+	{
+		"code": "54513",
+		"description": "CARVAJAL (APT)"
+	},
+	{
+		"code": "54514",
+		"description": "TORREBLANCA (APD)"
+	},
+	{
+		"code": "54515",
+		"description": "LOS BOLICHES (APD)"
+	},
+	{
+		"code": "54516",
+		"description": "FUENGIROLA"
+	},
+	{
+		"code": "54517",
+		"description": "MALAGA CENTRO ALAMEDA"
+	},
+	{
+		"code": "54518",
+		"description": "LOS ALAMOS (APD)"
+	},
+	{
+		"code": "54519",
+		"description": "MONTEMAR A"
+	},
+	{
+		"code": "54520",
+		"description": "PLZA.MAYOR"
+	},
+	{
+		"code": "55001",
+		"description": "CAMPILLOS"
+	},
+	{
+		"code": "55002",
+		"description": "TEBA"
+	},
+	{
+		"code": "55003",
+		"description": "ALMARGEN-CAÑETE LA REAL"
+	},
+	{
+		"code": "55004",
+		"description": "ATALAYA"
+	},
+	{
+		"code": "55005",
+		"description": "SETENIL"
+	},
+	{
+		"code": "55006",
+		"description": "PARCHITE (APD)"
+	},
+	{
+		"code": "55007",
+		"description": "RONDA"
+	},
+	{
+		"code": "55008",
+		"description": "ARRIATE"
+	},
+	{
+		"code": "55009",
+		"description": "LA INDIANA (APT)"
+	},
+	{
+		"code": "55010",
+		"description": "BENAOJÁN-MONTEJAQUE"
+	},
+	{
+		"code": "55011",
+		"description": "JIMERA DE LÍBAR"
+	},
+	{
+		"code": "55012",
+		"description": "CORTES DE LA FRONTERA"
+	},
+	{
+		"code": "55013",
+		"description": "GAUCÍN"
+	},
+	{
+		"code": "55014",
+		"description": "SAN PABLO"
+	},
+	{
+		"code": "55015",
+		"description": "JIMENA DE LA FRONTERA"
+	},
+	{
+		"code": "55016",
+		"description": "CASTELLAR DE LA FRONTERA (APD)"
+	},
+	{
+		"code": "55017",
+		"description": "ALMORAIMA"
+	},
+	{
+		"code": "55018",
+		"description": "SAN ROQUE-LA LÍNEA"
+	},
+	{
+		"code": "55019",
+		"description": "LOS BARRIOS"
+	},
+	{
+		"code": "55020",
+		"description": "ALGECIRAS"
+	},
+	{
+		"code": "55555",
+		"description": "CAUDETE"
+	},
+	{
+		"code": "56001",
+		"description": "TORREBLASCOPEDRO (APD)"
+	},
+	{
+		"code": "56002",
+		"description": "BEGIJAR"
+	},
+	{
+		"code": "56003",
+		"description": "GARCIEZ-JIMENA (APD-CGD)"
+	},
+	{
+		"code": "56004",
+		"description": "JÓDAR-ÚBEDA"
+	},
+	{
+		"code": "56005",
+		"description": "LOS PROPIOS-CAZORLA"
+	},
+	{
+		"code": "56006",
+		"description": "QUESADA (APD)"
+	},
+	{
+		"code": "56007",
+		"description": "LARVA"
+	},
+	{
+		"code": "56008",
+		"description": "HUESA"
+	},
+	{
+		"code": "56009",
+		"description": "CABRA DEL SANTO CRISTO Y ALICÚN"
+	},
+	{
+		"code": "56010",
+		"description": "HUELMA (APD-CGD)"
+	},
+	{
+		"code": "56011",
+		"description": "ALAMEDILLA-GUADAHORTUNA"
+	},
+	{
+		"code": "56012",
+		"description": "PEDRO MARTINEZ"
+	},
+	{
+		"code": "56100",
+		"description": "MOREDA"
+	},
+	{
+		"code": "56101",
+		"description": "HUELAGO, DARRO Y DIEZMA"
+	},
+	{
+		"code": "56102",
+		"description": "FONELAS (APT)"
+	},
+	{
+		"code": "56103",
+		"description": "BENALÚA DE GUADIX"
+	},
+	{
+		"code": "56200",
+		"description": "GUADIX"
+	},
+	{
+		"code": "56201",
+		"description": "LACALAHORRA-FERREIRA"
+	},
+	{
+		"code": "56300",
+		"description": "HUENEJA-DOLAR"
+	},
+	{
+		"code": "56301",
+		"description": "FIÑANA"
+	},
+	{
+		"code": "56302",
+		"description": "ABLA Y ABRUCENA"
+	},
+	{
+		"code": "56303",
+		"description": "DONA MARIA-OCANA"
+	},
+	{
+		"code": "56304",
+		"description": "NACIMIENTO"
+	},
+	{
+		"code": "56305",
+		"description": "GÉRGAL"
+	},
+	{
+		"code": "56306",
+		"description": "FUENTE SANTA"
+	},
+	{
+		"code": "56307",
+		"description": "SANTA FE-ALHAMA"
+	},
+	{
+		"code": "56308",
+		"description": "GÁDOR"
+	},
+	{
+		"code": "56309",
+		"description": "BENAHADUX-PECHINA (APT-CGD)"
+	},
+	{
+		"code": "56310",
+		"description": "HUÉRCAL-VIATOR"
+	},
+	{
+		"code": "56312",
+		"description": "ALMERÍA"
+	},
+	{
+		"code": "57002",
+		"description": "PINAR (APT-CGD)"
+	},
+	{
+		"code": "57003",
+		"description": "IZNALLOZ"
+	},
+	{
+		"code": "57004",
+		"description": "DEIFONTES (APT)"
+	},
+	{
+		"code": "57005",
+		"description": "CALICASAS (APD)"
+	},
+	{
+		"code": "57006",
+		"description": "ALBOLOTE"
+	},
+	{
+		"code": "5820B",
+		"description": "FUENGIROLA"
+	},
+	{
+		"code": "58201",
+		"description": "FUENGIROLA"
+	},
+	{
+		"code": "5822B",
+		"description": "MARBELLA"
+	},
+	{
+		"code": "58221",
+		"description": "MARBELLA"
+	},
+	{
+		"code": "5824B",
+		"description": "SAN PEDRO DE ALCANTARA"
+	},
+	{
+		"code": "58241",
+		"description": "SAN PEDRO DE ALCANTARA"
+	},
+	{
+		"code": "5826B",
+		"description": "ESTEPONA"
+	},
+	{
+		"code": "58261",
+		"description": "ESTEPONA"
+	},
+	{
+		"code": "5901B",
+		"description": "SANTA POLA"
+	},
+	{
+		"code": "59011",
+		"description": "SANTA POLA"
+	},
+	{
+		"code": "5902B",
+		"description": "LA MARINA"
+	},
+	{
+		"code": "59021",
+		"description": "LA MARINA"
+	},
+	{
+		"code": "5903B",
+		"description": "GUARDAMAR DEL SEGURA"
+	},
+	{
+		"code": "59031",
+		"description": "GUARDAMAR DEL SEGURA"
+	},
+	{
+		"code": "5904B",
+		"description": "LA MATA"
+	},
+	{
+		"code": "59041",
+		"description": "LA MATA"
+	},
+	{
+		"code": "5905B",
+		"description": "TORREVIEJA"
+	},
+	{
+		"code": "59051",
+		"description": "TORREVIEJA"
+	},
+	{
+		"code": "5906B",
+		"description": "CAMPOAMOR"
+	},
+	{
+		"code": "59061",
+		"description": "CAMPOAMOR (BUS)"
+	},
+	{
+		"code": "60000",
+		"description": "MADRID PTA. ATOCHA - ALMUDENA GRANDES"
+	},
+	{
+		"code": "60001",
+		"description": "MADRID-SANTA CATALINA"
+	},
+	{
+		"code": "60002",
+		"description": "MADRID-CERRO PL"
+	},
+	{
+		"code": "60005",
+		"description": "MADRID-ATOCHA"
+	},
+	{
+		"code": "60100",
+		"description": "MADRID-VILLAVERDE BAJO"
+	},
+	{
+		"code": "60101",
+		"description": "SAN CRISTÓBAL INDUSTRIAL"
+	},
+	{
+		"code": "60102",
+		"description": "GETAFE INDUSTRIAL (ALICANTE)"
+	},
+	{
+		"code": "60103",
+		"description": "PINTO"
+	},
+	{
+		"code": "60104",
+		"description": "VALDEMORO"
+	},
+	{
+		"code": "60105",
+		"description": "CIEMPOZUELOS"
+	},
+	{
+		"code": "60106",
+		"description": "SESEÑA"
+	},
+	{
+		"code": "60107",
+		"description": "SAN CRISTOBAL DE LOS ANGELES"
+	},
+	{
+		"code": "60109",
+		"description": "EL CASAR"
+	},
+	{
+		"code": "60115",
+		"description": "PARQ. OCIO"
+	},
+	{
+		"code": "60116",
+		"description": "S.MAR.VEGA"
+	},
+	{
+		"code": "60200",
+		"description": "ARANJUEZ"
+	},
+	{
+		"code": "60201",
+		"description": "LAS INFANTAS (APD-CGD)"
+	},
+	{
+		"code": "60202",
+		"description": "CASTILLEJO-AÑOVER"
+	},
+	{
+		"code": "60203",
+		"description": "VILLASEQUILLA"
+	},
+	{
+		"code": "60204",
+		"description": "HUERTA DE VALDECARABANOS"
+	},
+	{
+		"code": "60205",
+		"description": "EL CASAR DE LA GUARDIA (APD)"
+	},
+	{
+		"code": "60206",
+		"description": "TEMBLEQUE"
+	},
+	{
+		"code": "60207",
+		"description": "EL ROMERAL"
+	},
+	{
+		"code": "60300",
+		"description": "VILLACAÑAS"
+	},
+	{
+		"code": "60301",
+		"description": "QUERO"
+	},
+	{
+		"code": "60400",
+		"description": "ALCÁZAR DE SAN JUAN"
+	},
+	{
+		"code": "60402",
+		"description": "CAMPO DE CRIPTANA"
+	},
+	{
+		"code": "60403",
+		"description": "ARENALES (APD)"
+	},
+	{
+		"code": "60404",
+		"description": "RIO ZANCARA"
+	},
+	{
+		"code": "60405",
+		"description": "CORCOLES (APD)"
+	},
+	{
+		"code": "60406",
+		"description": "SOCUÉLLAMOS"
+	},
+	{
+		"code": "60407",
+		"description": "GANGUERAS (APD)"
+	},
+	{
+		"code": "60500",
+		"description": "VILLARROBLEDO"
+	},
+	{
+		"code": "60503",
+		"description": "MINAYA"
+	},
+	{
+		"code": "60505",
+		"description": "LA RODA DE ALBACETE"
+	},
+	{
+		"code": "60507",
+		"description": "LA GINETA"
+	},
+	{
+		"code": "60600",
+		"description": "ALBACETE-LOS LLANOS"
+	},
+	{
+		"code": "60601",
+		"description": "LA LOSILLA (APT)"
+	},
+	{
+		"code": "60700",
+		"description": "CHINCHILLA"
+	},
+	{
+		"code": "60702",
+		"description": "VILLAR DE CHINCHILLA"
+	},
+	{
+		"code": "60704",
+		"description": "BONETE (APD)"
+	},
+	{
+		"code": "60705",
+		"description": "ALPERA (APT-CGD)"
+	},
+	{
+		"code": "60800",
+		"description": "ALMANSA"
+	},
+	{
+		"code": "60900",
+		"description": "LA ENCINA"
+	},
+	{
+		"code": "60901",
+		"description": "CAUDETE"
+	},
+	{
+		"code": "60902",
+		"description": "VILLENA"
+	},
+	{
+		"code": "60903",
+		"description": "COLONIA DE STA. EULALIA (APD)"
+	},
+	{
+		"code": "60904",
+		"description": "SAX"
+	},
+	{
+		"code": "60905",
+		"description": "ELDA-PETRER"
+	},
+	{
+		"code": "60906",
+		"description": "MONOVAR-PINOSO"
+	},
+	{
+		"code": "60907",
+		"description": "NOVELDA-ASPE"
+	},
+	{
+		"code": "60908",
+		"description": "MONFORTE DEL CID (APT)"
+	},
+	{
+		"code": "60909",
+		"description": "AGOST (APT)"
+	},
+	{
+		"code": "60910",
+		"description": "SAN VICENTE DEL RASPEIG"
+	},
+	{
+		"code": "60911",
+		"description": "ALICANTE/ALACANT"
+	},
+	{
+		"code": "60913",
+		"description": "SANT VICENT CENTRE"
+	},
+	{
+		"code": "60914",
+		"description": "UNIVERSIDAD DE ALICANTE"
+	},
+	{
+		"code": "61001",
+		"description": "POZO-CANADA (APT)"
+	},
+	{
+		"code": "61002",
+		"description": "LOS HITOS (APT)"
+	},
+	{
+		"code": "61003",
+		"description": "NAVAJUELOS (APT)"
+	},
+	{
+		"code": "61004",
+		"description": "TOBARRA (APT-CGD)"
+	},
+	{
+		"code": "61005",
+		"description": "HELLÍN"
+	},
+	{
+		"code": "61006",
+		"description": "MINATEDA (APT)"
+	},
+	{
+		"code": "61007",
+		"description": "AGRAMON (APT)"
+	},
+	{
+		"code": "61008",
+		"description": "MINAS  (APT)"
+	},
+	{
+		"code": "61009",
+		"description": "CALASPARRA"
+	},
+	{
+		"code": "61011",
+		"description": "LA MACETUA (APD)"
+	},
+	{
+		"code": "61012",
+		"description": "CIEZA"
+	},
+	{
+		"code": "61013",
+		"description": "BLANCA-ABARAN"
+	},
+	{
+		"code": "61015",
+		"description": "ARCHENA-FORTUNA"
+	},
+	{
+		"code": "61016",
+		"description": "LORQUI-CEUTI (APD)"
+	},
+	{
+		"code": "61017",
+		"description": "ALGUAZAS-MOLINA"
+	},
+	{
+		"code": "61018",
+		"description": "LAS TORRES DE COTILLAS (APD)"
+	},
+	{
+		"code": "61019",
+		"description": "SANTA BARBARA DEL SEGURA (CGD)"
+	},
+	{
+		"code": "61100",
+		"description": "ALCANTARILLA"
+	},
+	{
+		"code": "61200",
+		"description": "MURCIA"
+	},
+	{
+		"code": "61202",
+		"description": "BENIAJAN"
+	},
+	{
+		"code": "61203",
+		"description": "TORREAGUERA (APD)"
+	},
+	{
+		"code": "61300",
+		"description": "ALQUERIAS-SANTOMERA"
+	},
+	{
+		"code": "61301",
+		"description": "CANTERAS (APT)"
+	},
+	{
+		"code": "61302",
+		"description": "RIQUELME-SUCINA"
+	},
+	{
+		"code": "61303",
+		"description": "BALSICAS-MAR MENOR"
+	},
+	{
+		"code": "61304",
+		"description": "TORRE-PACHECO"
+	},
+	{
+		"code": "61305",
+		"description": "LA PALMA-POZO ESTRECHO (APT)"
+	},
+	{
+		"code": "61306",
+		"description": "BARRIO DEL PERAL (APD)"
+	},
+	{
+		"code": "61307",
+		"description": "CARTAGENA"
+	},
+	{
+		"code": "62001",
+		"description": "BENIEL"
+	},
+	{
+		"code": "62002",
+		"description": "ORIHUELA-MIGUEL HERNÁNDEZ"
+	},
+	{
+		"code": "62003",
+		"description": "CALLOSA DE SEGURA"
+	},
+	{
+		"code": "62100",
+		"description": "ALBATERA-CATRAL"
+	},
+	{
+		"code": "62101",
+		"description": "CREVILLENT"
+	},
+	{
+		"code": "62102",
+		"description": "ELCHE/ELX CARRÚS"
+	},
+	{
+		"code": "62103",
+		"description": "ELCHE PARQUE/ELX PARC"
+	},
+	{
+		"code": "62104",
+		"description": "TORRELLANO"
+	},
+	{
+		"code": "62108",
+		"description": "ELX-MERCANCIAS"
+	},
+	{
+		"code": "62109",
+		"description": "SANT GABRIEL"
+	},
+	{
+		"code": "64001",
+		"description": "LA FONT DE LA FIGUERA (APT)"
+	},
+	{
+		"code": "64002",
+		"description": "LA PARRILLA (APT)"
+	},
+	{
+		"code": "64003",
+		"description": "MOIXENT/MOGENTE"
+	},
+	{
+		"code": "64004",
+		"description": "VALLADA (APT-CGD)"
+	},
+	{
+		"code": "64005",
+		"description": "MONTESA (APT)"
+	},
+	{
+		"code": "64006",
+		"description": "ALCUDIA"
+	},
+	{
+		"code": "64007",
+		"description": "L'ÈNOVA MANUEL"
+	},
+	{
+		"code": "64100",
+		"description": "XÀTIVA"
+	},
+	{
+		"code": "64101",
+		"description": "MANUEL-L'ENOVA"
+	},
+	{
+		"code": "64102",
+		"description": "LA POBLA LLARGA"
+	},
+	{
+		"code": "64103",
+		"description": "CARCAIXENT"
+	},
+	{
+		"code": "64104",
+		"description": "ALZIRA"
+	},
+	{
+		"code": "64105",
+		"description": "ALGEMESÍ"
+	},
+	{
+		"code": "64107",
+		"description": "BENIFAIÓ-ALMUSSAFES"
+	},
+	{
+		"code": "64200",
+		"description": "SILLA"
+	},
+	{
+		"code": "64201",
+		"description": "CATARROJA"
+	},
+	{
+		"code": "64202",
+		"description": "MASSANASSA"
+	},
+	{
+		"code": "64203",
+		"description": "ALFAFAR-BENETÚSSER"
+	},
+	{
+		"code": "65000",
+		"description": "VALENCIA-ESTACIÒ DEL NORD"
+	},
+	{
+		"code": "65001",
+		"description": "ROCA-CÚPER"
+	},
+	{
+		"code": "65002",
+		"description": "VALENCIA F.S.L-HOSPITAL LA FE"
+	},
+	{
+		"code": "65003",
+		"description": "VALENCIA-CABANYAL"
+	},
+	{
+		"code": "65004",
+		"description": "EL MAGISTRE (APT)"
+	},
+	{
+		"code": "65005",
+		"description": "ALBUIXECH"
+	},
+	{
+		"code": "65006",
+		"description": "MASSALFASSAR-ALBUIXECH"
+	},
+	{
+		"code": "65007",
+		"description": "EL PUIG"
+	},
+	{
+		"code": "65008",
+		"description": "PUÇOL"
+	},
+	{
+		"code": "65009",
+		"description": "GRAO DE VALENCI"
+	},
+	{
+		"code": "65010",
+		"description": "VALENCIA-PUERTO"
+	},
+	{
+		"code": "65011",
+		"description": "GRAO-VALENCIA"
+	},
+	{
+		"code": "65100",
+		"description": "EL COSCOLLAR (APT)"
+	},
+	{
+		"code": "65200",
+		"description": "SAGUNT/SAGUNTO"
+	},
+	{
+		"code": "65201",
+		"description": "LES VALLS"
+	},
+	{
+		"code": "65202",
+		"description": "ALMENARA"
+	},
+	{
+		"code": "65203",
+		"description": "LA LLOSA"
+	},
+	{
+		"code": "65204",
+		"description": "CHILCHES"
+	},
+	{
+		"code": "65205",
+		"description": "MONCOFA"
+	},
+	{
+		"code": "65206",
+		"description": "NULES-LA VILAVELLA"
+	},
+	{
+		"code": "65207",
+		"description": "BURRIANA-ALQUERÍAS NIÑO PERDIDO"
+	},
+	{
+		"code": "65208",
+		"description": "VILA-REAL"
+	},
+	{
+		"code": "65209",
+		"description": "ALMASSORA/ALMAZORA"
+	},
+	{
+		"code": "65222",
+		"description": "DESCONOCIDO"
+	},
+	{
+		"code": "65300",
+		"description": "CASTELLÓ"
+	},
+	{
+		"code": "65301",
+		"description": "LES PALMES"
+	},
+	{
+		"code": "65302",
+		"description": "BENICASSIM"
+	},
+	{
+		"code": "65303",
+		"description": "LAS VILLAS DE BENICASIM (APD)"
+	},
+	{
+		"code": "65304",
+		"description": "ORPESA/OROPESA DEL MAR"
+	},
+	{
+		"code": "65305",
+		"description": "CABANES"
+	},
+	{
+		"code": "65306",
+		"description": "TORREBLANCA"
+	},
+	{
+		"code": "65307",
+		"description": "ALCOSSEBRE (APT)"
+	},
+	{
+		"code": "65308",
+		"description": "ALCALÀ DE XIVERT"
+	},
+	{
+		"code": "65309",
+		"description": "SANTA MAGDALENA DE PULPIS"
+	},
+	{
+		"code": "65310",
+		"description": "PENISCOLA (APT)"
+	},
+	{
+		"code": "65311",
+		"description": "BENICARLÓ-PEÑÍSCOLA"
+	},
+	{
+		"code": "65312",
+		"description": "VINARÒS"
+	},
+	{
+		"code": "65314",
+		"description": "ULLDECONA-ALCANAR-LA SÉNIA"
+	},
+	{
+		"code": "65315",
+		"description": "FREGINALS (APT)"
+	},
+	{
+		"code": "65316",
+		"description": "SANTA BARBARA"
+	},
+	{
+		"code": "65317",
+		"description": "MIANES (APT)"
+	},
+	{
+		"code": "65318",
+		"description": "BENICÀSSIM"
+	},
+	{
+		"code": "65400",
+		"description": "TORTOSA"
+	},
+	{
+		"code": "65401",
+		"description": "CAMP-REDÓ"
+	},
+	{
+		"code": "65402",
+		"description": "L'ALDEA-AMPOSTA"
+	},
+	{
+		"code": "65403",
+		"description": "CAMARLES-DELTEBRE"
+	},
+	{
+		"code": "65404",
+		"description": "L'AMPOLLA-PERELLÓ-DELTEBRE"
+	},
+	{
+		"code": "65405",
+		"description": "L'AMETLLA DE MAR"
+	},
+	{
+		"code": "65406",
+		"description": "VANDELLOS (APT)"
+	},
+	{
+		"code": "65407",
+		"description": "L'HOSPITALET DE L'INFANT"
+	},
+	{
+		"code": "65408",
+		"description": "MONT-ROIG DEL CAMP"
+	},
+	{
+		"code": "65409",
+		"description": "CAMBRILS"
+	},
+	{
+		"code": "65410",
+		"description": "SALOU"
+	},
+	{
+		"code": "65411",
+		"description": "SALOU - PORT AVENTURA"
+	},
+	{
+		"code": "65412",
+		"description": "TRES CAMINS"
+	},
+	{
+		"code": "65413",
+		"description": "LA PINEDA"
+	},
+	{
+		"code": "65420",
+		"description": "L'HOSPITALET DE L'INFANT"
+	},
+	{
+		"code": "65422",
+		"description": "CAMBRILS"
+	},
+	{
+		"code": "65555",
+		"description": "VALENCIA ENLACE"
+	},
+	{
+		"code": "66001",
+		"description": "ONTÍGOLA"
+	},
+	{
+		"code": "66002",
+		"description": "OCAÑA"
+	},
+	{
+		"code": "66003",
+		"description": "NOBLEJAS"
+	},
+	{
+		"code": "66004",
+		"description": "VILLARRUBIA DE SANTIAGO"
+	},
+	{
+		"code": "66005",
+		"description": "SANTA CRUZ DE LA ZARZA"
+	},
+	{
+		"code": "66006",
+		"description": "TARANCÓN"
+	},
+	{
+		"code": "66008",
+		"description": "HUELVES"
+	},
+	{
+		"code": "66009",
+		"description": "PAREDES DE MELO"
+	},
+	{
+		"code": "66010",
+		"description": "VELLISCA"
+	},
+	{
+		"code": "66011",
+		"description": "HUETE"
+	},
+	{
+		"code": "66012",
+		"description": "CARACENILLA"
+	},
+	{
+		"code": "66013",
+		"description": "CASTILLEJO DEL ROMERAL"
+	},
+	{
+		"code": "66014",
+		"description": "CUEVAS DE VELASCO"
+	},
+	{
+		"code": "66015",
+		"description": "VILLAR DEL SAZ DE NAVALÓN"
+	},
+	{
+		"code": "66016",
+		"description": "CHILLARÓN"
+	},
+	{
+		"code": "66100",
+		"description": "CUENCA"
+	},
+	{
+		"code": "66101",
+		"description": "LA MELGOSA (APD)"
+	},
+	{
+		"code": "66102",
+		"description": "LOS PALANCARES"
+	},
+	{
+		"code": "66103",
+		"description": "CAÑADA DEL HOYO"
+	},
+	{
+		"code": "66104",
+		"description": "CARBONERAS DE GUADAZAÓN"
+	},
+	{
+		"code": "66105",
+		"description": "ARGUISUELAS"
+	},
+	{
+		"code": "66108",
+		"description": "YÉMEDA-CARDENETE"
+	},
+	{
+		"code": "66109",
+		"description": "VILLORA"
+	},
+	{
+		"code": "66110",
+		"description": "ENGUIDANOS (APD)"
+	},
+	{
+		"code": "66112",
+		"description": "CAMPORROBLES"
+	},
+	{
+		"code": "66113",
+		"description": "LAS CUEVAS"
+	},
+	{
+		"code": "66200",
+		"description": "UTIEL"
+	},
+	{
+		"code": "66201",
+		"description": "SAN ANTONIO DE REQUENA"
+	},
+	{
+		"code": "66202",
+		"description": "REQUENA"
+	},
+	{
+		"code": "66203",
+		"description": "EL REBOLLAR"
+	},
+	{
+		"code": "66204",
+		"description": "SIETE AGUAS"
+	},
+	{
+		"code": "66205",
+		"description": "VENTA MINA-SIETE AGUAS"
+	},
+	{
+		"code": "66206",
+		"description": "BUÑOL"
+	},
+	{
+		"code": "66207",
+		"description": "CHIVA"
+	},
+	{
+		"code": "66208",
+		"description": "CHESTE"
+	},
+	{
+		"code": "66209",
+		"description": "LORIGUILLA-REVA"
+	},
+	{
+		"code": "66210",
+		"description": "CIRCUIT RICARDO TORMO"
+	},
+	{
+		"code": "66211",
+		"description": "ALDAIA"
+	},
+	{
+		"code": "66212",
+		"description": "VALENCIA SANT ISIDRE"
+	},
+	{
+		"code": "66214",
+		"description": "XIRIVELLA-ALQUERIES"
+	},
+	{
+		"code": "67003",
+		"description": "CADRETE (APT-CGD)"
+	},
+	{
+		"code": "67004",
+		"description": "MARÍA DE HUERVA"
+	},
+	{
+		"code": "67005",
+		"description": "BOTORRITA (APD-CGD)"
+	},
+	{
+		"code": "67006",
+		"description": "MUEL-MOZOTA"
+	},
+	{
+		"code": "67007",
+		"description": "ARAÑALES DE MUEL"
+	},
+	{
+		"code": "67009",
+		"description": "LONGARES"
+	},
+	{
+		"code": "67010",
+		"description": "CARIÑENA"
+	},
+	{
+		"code": "67011",
+		"description": "ENCINACORBA"
+	},
+	{
+		"code": "67013",
+		"description": "VILLARREAL DE HUERVA"
+	},
+	{
+		"code": "67014",
+		"description": "VILLADOZ"
+	},
+	{
+		"code": "67015",
+		"description": "BADULES"
+	},
+	{
+		"code": "67016",
+		"description": "VILLAHERMOSA"
+	},
+	{
+		"code": "67017",
+		"description": "FERRERUELA"
+	},
+	{
+		"code": "67018",
+		"description": "CUENCABUENA"
+	},
+	{
+		"code": "67019",
+		"description": "LECHAGO"
+	},
+	{
+		"code": "67020",
+		"description": "NAVARRETE"
+	},
+	{
+		"code": "67021",
+		"description": "CALAMOCHA NUEVA"
+	},
+	{
+		"code": "67100",
+		"description": "CAMINREAL-FUENTES CLARAS"
+	},
+	{
+		"code": "67101",
+		"description": "TORRIJO DEL CAMPO"
+	},
+	{
+		"code": "67102",
+		"description": "MONREAL DEL CAMPO"
+	},
+	{
+		"code": "67103",
+		"description": "VILLAFRANCA DEL CAMPO"
+	},
+	{
+		"code": "67104",
+		"description": "ALBA DEL CAMPO (APD)"
+	},
+	{
+		"code": "67105",
+		"description": "SANTA EULALIA DEL CAMPO"
+	},
+	{
+		"code": "67107",
+		"description": "CELLA"
+	},
+	{
+		"code": "67108",
+		"description": "CAUDE-TABLARES (APD)"
+	},
+	{
+		"code": "67109",
+		"description": "CAUDE (APT)"
+	},
+	{
+		"code": "67110",
+		"description": "CONCUD (APD)"
+	},
+	{
+		"code": "67113",
+		"description": "MONREAL DEL CAMPO"
+	},
+	{
+		"code": "67200",
+		"description": "TERUEL"
+	},
+	{
+		"code": "67201",
+		"description": "CAPARRATES (APT)"
+	},
+	{
+		"code": "67202",
+		"description": "PUERTO ESCANDÓN"
+	},
+	{
+		"code": "67203",
+		"description": "PUEBLA DE VALVERDE"
+	},
+	{
+		"code": "67205",
+		"description": "SARRIÓN"
+	},
+	{
+		"code": "67206",
+		"description": "MORA DE RUBIELOS"
+	},
+	{
+		"code": "67207",
+		"description": "RUBIELOS DE MORA"
+	},
+	{
+		"code": "67208",
+		"description": "BARRACAS"
+	},
+	{
+		"code": "67209",
+		"description": "TORAS-BEJIS"
+	},
+	{
+		"code": "67210",
+		"description": "MASADAS BLANCAS (APT)"
+	},
+	{
+		"code": "67211",
+		"description": "CAUDIEL (APT)"
+	},
+	{
+		"code": "67212",
+		"description": "JÉRICA-VIVER (APT)"
+	},
+	{
+		"code": "67213",
+		"description": "NAVAJAS (APT)"
+	},
+	{
+		"code": "67214",
+		"description": "SEGORBE-ARRABAL"
+	},
+	{
+		"code": "67215",
+		"description": "SEGORBE"
+	},
+	{
+		"code": "67216",
+		"description": "ALGIMIA-C"
+	},
+	{
+		"code": "67217",
+		"description": "SONEJA"
+	},
+	{
+		"code": "67220",
+		"description": "ALGIMIA DE ALFARA-TORRES-TORRES"
+	},
+	{
+		"code": "67221",
+		"description": "ESTIVELLA-ALBALAT DELS TARONGERS"
+	},
+	{
+		"code": "67223",
+		"description": "GILET (APD)"
+	},
+	{
+		"code": "67401",
+		"description": "MASAMAGRELL (APT)"
+	},
+	{
+		"code": "67402",
+		"description": "ALBORAYA (APD)"
+	},
+	{
+		"code": "69001",
+		"description": "GENOVÉS"
+	},
+	{
+		"code": "69002",
+		"description": "BENIGÁNIM"
+	},
+	{
+		"code": "69003",
+		"description": "LA POBLA DEL DUC"
+	},
+	{
+		"code": "69004",
+		"description": "MONTAVERNER"
+	},
+	{
+		"code": "69005",
+		"description": "BUFALI"
+	},
+	{
+		"code": "69006",
+		"description": "ALBAIDA"
+	},
+	{
+		"code": "69007",
+		"description": "AGULLENT"
+	},
+	{
+		"code": "69008",
+		"description": "ONTINYENT"
+	},
+	{
+		"code": "69009",
+		"description": "AGRES"
+	},
+	{
+		"code": "69010",
+		"description": "COCENTAINA"
+	},
+	{
+		"code": "69011",
+		"description": "ALCOY/ALCOI"
+	},
+	{
+		"code": "69101",
+		"description": "EL ROMANI"
+	},
+	{
+		"code": "69102",
+		"description": "SOLLANA (APT)"
+	},
+	{
+		"code": "69103",
+		"description": "SUECA"
+	},
+	{
+		"code": "69104",
+		"description": "CULLERA"
+	},
+	{
+		"code": "69105",
+		"description": "TAVERNES DE LA VALLDIGNA"
+	},
+	{
+		"code": "69106",
+		"description": "CULLERA"
+	},
+	{
+		"code": "69107",
+		"description": "XERACO"
+	},
+	{
+		"code": "69108",
+		"description": "GANDIA*"
+	},
+	{
+		"code": "69109",
+		"description": "GANDIA"
+	},
+	{
+		"code": "69110",
+		"description": "GANDÍA"
+	},
+	{
+		"code": "69111",
+		"description": "PLATJA-GAN"
+	},
+	{
+		"code": "69200",
+		"description": "XIRIV_L´AL"
+	},
+	{
+		"code": "69201",
+		"description": "QUART DE POBLET"
+	},
+	{
+		"code": "69202",
+		"description": "MANISES (APT-CGD)"
+	},
+	{
+		"code": "69203",
+		"description": "MANISES AEROPUERTO (APD)"
+	},
+	{
+		"code": "69204",
+		"description": "LA COVA (APD)"
+	},
+	{
+		"code": "69205",
+		"description": "LA PRESA (APD)"
+	},
+	{
+		"code": "69206",
+		"description": "RIBARROJA DEL TURIA (APD-CGD)"
+	},
+	{
+		"code": "69207",
+		"description": "MASIA TRAV"
+	},
+	{
+		"code": "69208",
+		"description": "BENAGUACIL (APD)"
+	},
+	{
+		"code": "70001",
+		"description": "VALLECAS"
+	},
+	{
+		"code": "70002",
+		"description": "ASAMBLEA DE MAD. ENTREVÍAS"
+	},
+	{
+		"code": "70003",
+		"description": "EL POZO"
+	},
+	{
+		"code": "70005",
+		"description": "VALLECAS"
+	},
+	{
+		"code": "7006F",
+		"description": "STA.EUGENIA"
+	},
+	{
+		"code": "7007",
+		"description": "AGUILAS-LB"
+	},
+	{
+		"code": "70100",
+		"description": "VICÁLVARO"
+	},
+	{
+		"code": "70101",
+		"description": "SAN FERNANDO HENARES"
+	},
+	{
+		"code": "70102",
+		"description": "TORREJÓN DE ARDOZ"
+	},
+	{
+		"code": "70103",
+		"description": "ALCALA DE HENARES"
+	},
+	{
+		"code": "70104",
+		"description": "MECO (APD-CGD)"
+	},
+	{
+		"code": "70105",
+		"description": "AZUQUECA"
+	},
+	{
+		"code": "70107",
+		"description": "ALCALÁ HENARES-UNIVERSIDAD (APD)"
+	},
+	{
+		"code": "70108",
+		"description": "COSLADA (APD)"
+	},
+	{
+		"code": "70109",
+		"description": "SANTA EUGENIA"
+	},
+	{
+		"code": "70111",
+		"description": "LA GARENA"
+	},
+	{
+		"code": "70112",
+		"description": "SOTO DEL HENARES"
+	},
+	{
+		"code": "70200",
+		"description": "GUADALAJARA"
+	},
+	{
+		"code": "70201",
+		"description": "FONTANAR (APD)"
+	},
+	{
+		"code": "70202",
+		"description": "YUNQUERA DE HENARES"
+	},
+	{
+		"code": "70203",
+		"description": "MALUQUE (APD)"
+	},
+	{
+		"code": "70204",
+		"description": "HUMANES DE MOHERNANDO"
+	},
+	{
+		"code": "70205",
+		"description": "SAN ANTONIO DE CEREZO (APD)"
+	},
+	{
+		"code": "70206",
+		"description": "EL HENARES (APD)"
+	},
+	{
+		"code": "70207",
+		"description": "ESPINOSA DE HENARES"
+	},
+	{
+		"code": "70208",
+		"description": "CARRASCOSA DE HENARES"
+	},
+	{
+		"code": "70209",
+		"description": "JADRAQUE"
+	},
+	{
+		"code": "70210",
+		"description": "MATILLAS"
+	},
+	{
+		"code": "70300",
+		"description": "BAIDES"
+	},
+	{
+		"code": "70301",
+		"description": "CUTAMILLA (APT)"
+	},
+	{
+		"code": "70302",
+		"description": "SIGUENZA"
+	},
+	{
+		"code": "70303",
+		"description": "ALCUNEZA (APD)"
+	},
+	{
+		"code": "70304",
+		"description": "HORNA (APD)"
+	},
+	{
+		"code": "70400",
+		"description": "TORRALBA"
+	},
+	{
+		"code": "70401",
+		"description": "MEDINACELI"
+	},
+	{
+		"code": "70402",
+		"description": "JUBERA (APT)"
+	},
+	{
+		"code": "70403",
+		"description": "ARCOS DE JALÓN"
+	},
+	{
+		"code": "70404",
+		"description": "SANTA MARÍA DE HUERTA"
+	},
+	{
+		"code": "70405",
+		"description": "MONREAL DE ARIZA"
+	},
+	{
+		"code": "70500",
+		"description": "ARIZA"
+	},
+	{
+		"code": "70501",
+		"description": "CETINA"
+	},
+	{
+		"code": "70502",
+		"description": "ALHAMA DE ARAGÓN"
+	},
+	{
+		"code": "70503",
+		"description": "BUBIERCA"
+	},
+	{
+		"code": "70504",
+		"description": "ATECA"
+	},
+	{
+		"code": "70505",
+		"description": "TERRER"
+	},
+	{
+		"code": "70600",
+		"description": "CALATAYUD"
+	},
+	{
+		"code": "70601",
+		"description": "EMBID DE LA RIBERA (APD)"
+	},
+	{
+		"code": "70602",
+		"description": "EMBID DE JALÓN"
+	},
+	{
+		"code": "70603",
+		"description": "PARACUELLOS-SABIÑÁN"
+	},
+	{
+		"code": "70604",
+		"description": "SABIÑÁN"
+	},
+	{
+		"code": "70605",
+		"description": "MORÉS"
+	},
+	{
+		"code": "70606",
+		"description": "PURROY"
+	},
+	{
+		"code": "70607",
+		"description": "MORATA DE JALÓN"
+	},
+	{
+		"code": "70700",
+		"description": "RICLA-LA ALMUNIA"
+	},
+	{
+		"code": "70701",
+		"description": "CALATORAO"
+	},
+	{
+		"code": "70702",
+		"description": "SALILLAS DE JALÓN"
+	},
+	{
+		"code": "70703",
+		"description": "ÉPILA"
+	},
+	{
+		"code": "70704",
+		"description": "RUEDA DE JALÓN-LUMPIAQUE"
+	},
+	{
+		"code": "70705",
+		"description": "PLASENCIA DE JALÓN"
+	},
+	{
+		"code": "70706",
+		"description": "GRISÉN"
+	},
+	{
+		"code": "70707",
+		"description": "PINSEQUE (APD-CGD)"
+	},
+	{
+		"code": "70715",
+		"description": "Intercambiador de Plasencia de Jalón"
+	},
+	{
+		"code": "70800",
+		"description": "CASETAS"
+	},
+	{
+		"code": "70801",
+		"description": "UTEBO"
+	},
+	{
+		"code": "70802",
+		"description": "UTEBO-MONZALBARBA"
+	},
+	{
+		"code": "70806",
+		"description": "ZARAGOZA PORTILLO"
+	},
+	{
+		"code": "70807",
+		"description": "ZARAGOZA GOYA"
+	},
+	{
+		"code": "70900",
+		"description": "LA ALMOZARA"
+	},
+	{
+		"code": "71000",
+		"description": "ZARAGOZA DELICIAS"
+	},
+	{
+		"code": "71100",
+		"description": "ZARAGOZA MIRAFLORES"
+	},
+	{
+		"code": "71101",
+		"description": "LA CARTUJA"
+	},
+	{
+		"code": "71102",
+		"description": "EL BURGO DE EBRO"
+	},
+	{
+		"code": "71103",
+		"description": "FUENTES DE EBRO"
+	},
+	{
+		"code": "71104",
+		"description": "PINA DE EBRO"
+	},
+	{
+		"code": "71105",
+		"description": "QUINTO"
+	},
+	{
+		"code": "71106",
+		"description": "GELSA (APD)"
+	},
+	{
+		"code": "71108",
+		"description": "LA ZAIDA-SÁSTAGO"
+	},
+	{
+		"code": "71109",
+		"description": "AZAILA"
+	},
+	{
+		"code": "71200",
+		"description": "LA PUEBLA DE HÍJAR"
+	},
+	{
+		"code": "71201",
+		"description": "SAMPER"
+	},
+	{
+		"code": "71202",
+		"description": "ESCATRÓN"
+	},
+	{
+		"code": "71203",
+		"description": "CHIPRANA"
+	},
+	{
+		"code": "71204",
+		"description": "CASPE"
+	},
+	{
+		"code": "71205",
+		"description": "VAL DE PILAS"
+	},
+	{
+		"code": "71206",
+		"description": "FABARA"
+	},
+	{
+		"code": "71207",
+		"description": "NONASPE"
+	},
+	{
+		"code": "71208",
+		"description": "FAIÓ-LA POBLA DE MASSALUCA (FAYÓN)"
+	},
+	{
+		"code": "71209",
+		"description": "RIBA-ROJA D'EBRE"
+	},
+	{
+		"code": "71210",
+		"description": "FLIX"
+	},
+	{
+		"code": "71211",
+		"description": "ASCÓ"
+	},
+	{
+		"code": "71212",
+		"description": "GARCIA (APD)"
+	},
+	{
+		"code": "71300",
+		"description": "MÓRA LA NOVA"
+	},
+	{
+		"code": "71301",
+		"description": "ELS GUIAMETS"
+	},
+	{
+		"code": "71302",
+		"description": "CAPÇANES"
+	},
+	{
+		"code": "71303",
+		"description": "MARÇÀ-FALSET"
+	},
+	{
+		"code": "71304",
+		"description": "PRADELL"
+	},
+	{
+		"code": "71305",
+		"description": "DUESAIGÜES-L'ARGENTERA"
+	},
+	{
+		"code": "71306",
+		"description": "RIUDECANYES-BOTARELL"
+	},
+	{
+		"code": "71307",
+		"description": "LES BORGES DEL CAMP"
+	},
+	{
+		"code": "71400",
+		"description": "REUS"
+	},
+	{
+		"code": "71401",
+		"description": "VILA-SECA"
+	},
+	{
+		"code": "71402",
+		"description": "LA CANONJA (APD)"
+	},
+	{
+		"code": "71500",
+		"description": "TARRAGONA"
+	},
+	{
+		"code": "71502",
+		"description": "ALTAFULLA-TAMARIT"
+	},
+	{
+		"code": "71503",
+		"description": "TORREDEMBARRA"
+	},
+	{
+		"code": "71600",
+		"description": "SANT VICENÇ DE CALDERS"
+	},
+	{
+		"code": "71601",
+		"description": "CALAFELL"
+	},
+	{
+		"code": "71602",
+		"description": "SEGUR DE CALAFELL"
+	},
+	{
+		"code": "71603",
+		"description": "CUNIT"
+	},
+	{
+		"code": "71604",
+		"description": "CUBELLES"
+	},
+	{
+		"code": "71700",
+		"description": "VILANOVA I LA GELTRÚ"
+	},
+	{
+		"code": "71701",
+		"description": "SITGES"
+	},
+	{
+		"code": "71702",
+		"description": "VALLCARCA (APT)"
+	},
+	{
+		"code": "71703",
+		"description": "GARRAF (APT)"
+	},
+	{
+		"code": "71704",
+		"description": "PLATJA DE CASTELLDEFELS"
+	},
+	{
+		"code": "71705",
+		"description": "CASTELLDEFELS"
+	},
+	{
+		"code": "71706",
+		"description": "GAVÀ"
+	},
+	{
+		"code": "71707",
+		"description": "EL PRAT DE LLOBREGAT"
+	},
+	{
+		"code": "71708",
+		"description": "BELLVITGE I GORNAL"
+	},
+	{
+		"code": "71709",
+		"description": "VILADECANS"
+	},
+	{
+		"code": "71801",
+		"description": "BARCELONA-SANTS"
+	},
+	{
+		"code": "71802",
+		"description": "BARCELONA-PASSEIG DE GRACIA"
+	},
+	{
+		"code": "71901",
+		"description": "BARCELONA-CASA"
+	},
+	{
+		"code": "71902",
+		"description": "BARCELONA-MORRO"
+	},
+	{
+		"code": "71903",
+		"description": "BARCELONA-MORRO"
+	},
+	{
+		"code": "71905",
+		"description": "BARCELONA-MORRO"
+	},
+	{
+		"code": "71906",
+		"description": "BARCELONA-CA.A."
+	},
+	{
+		"code": "72001",
+		"description": "EL MORELL  (APD)"
+	},
+	{
+		"code": "72002",
+		"description": "LA SECUITA-PERAFORT"
+	},
+	{
+		"code": "72003",
+		"description": "EL CATLLAR (APD)"
+	},
+	{
+		"code": "72004",
+		"description": "LA RIERA DE GAIA(APD)"
+	},
+	{
+		"code": "72005",
+		"description": "LA POBLA DE MONTORNES (APD)"
+	},
+	{
+		"code": "72006",
+		"description": "CONSTANTI"
+	},
+	{
+		"code": "72100",
+		"description": "RODA DE BARÀ"
+	},
+	{
+		"code": "72101",
+		"description": "RODA DE MAR"
+	},
+	{
+		"code": "72201",
+		"description": "EL VENDRELL"
+	},
+	{
+		"code": "72202",
+		"description": "L'ARBOC"
+	},
+	{
+		"code": "72203",
+		"description": "ELS MONJOS"
+	},
+	{
+		"code": "72204",
+		"description": "VILAFRANCA DEL PENEDES"
+	},
+	{
+		"code": "72205",
+		"description": "LA GRANADA"
+	},
+	{
+		"code": "72206",
+		"description": "LAVERN-SUBIRATS (APD)"
+	},
+	{
+		"code": "72207",
+		"description": "SANT SADURNI D'ANOIA"
+	},
+	{
+		"code": "72208",
+		"description": "GELIDA (APD)"
+	},
+	{
+		"code": "72209",
+		"description": "MARTORELL CENTRAL"
+	},
+	{
+		"code": "72210",
+		"description": "CASTELLBISBAL"
+	},
+	{
+		"code": "72211",
+		"description": "EL PAPIOL (APD)"
+	},
+	{
+		"code": "72300",
+		"description": "MOLINS DE REI"
+	},
+	{
+		"code": "72301",
+		"description": "SANT FELIU DE LLOBREGAT"
+	},
+	{
+		"code": "72302",
+		"description": "SANT JOAN DESPI (APD)"
+	},
+	{
+		"code": "72303",
+		"description": "CORNELLA"
+	},
+	{
+		"code": "72304",
+		"description": "SANT ILDEFONS DE CORNELLA (APD)"
+	},
+	{
+		"code": "72305",
+		"description": "L'HOSPITALET DE LLOBREGAT"
+	},
+	{
+		"code": "72400",
+		"description": "EL PRAT AEROPORT"
+	},
+	{
+		"code": "72501",
+		"description": "RUBI CAN VALLHONRAT"
+	},
+	{
+		"code": "72502",
+		"description": "SANT CUGAT COLL FAVA"
+	},
+	{
+		"code": "72503",
+		"description": "CERDANYOLA UNIVERSITI"
+	},
+	{
+		"code": "72508",
+		"description": "STA PERPÈTUA DE MOGODA RIERA DE CALDES"
+	},
+	{
+		"code": "73001",
+		"description": "PUIGVERD DE LLEIDA-ARTESA DE LLEIDA"
+	},
+	{
+		"code": "73002",
+		"description": "JUNEDA"
+	},
+	{
+		"code": "73003",
+		"description": "LES BORGES BLANQUES"
+	},
+	{
+		"code": "73004",
+		"description": "LA FLORESTA"
+	},
+	{
+		"code": "73005",
+		"description": "VINAIXA"
+	},
+	{
+		"code": "73006",
+		"description": "VIMBODÍ"
+	},
+	{
+		"code": "73007",
+		"description": "L'ESPLUGA DE FRANCOLÍ"
+	},
+	{
+		"code": "73008",
+		"description": "MONTBLANC"
+	},
+	{
+		"code": "73009",
+		"description": "VILAVERD"
+	},
+	{
+		"code": "73010",
+		"description": "LA RIBA"
+	},
+	{
+		"code": "73100",
+		"description": "LA PLANA-PICAMOIXONS"
+	},
+	{
+		"code": "73101",
+		"description": "ALCOVER"
+	},
+	{
+		"code": "73102",
+		"description": "LA SELVA DEL CAMP"
+	},
+	{
+		"code": "74001",
+		"description": "GURREA DE GALLEGO (APD-CGD)"
+	},
+	{
+		"code": "74101",
+		"description": "VICIEN (APD)"
+	},
+	{
+		"code": "74200",
+		"description": "HUESCA"
+	},
+	{
+		"code": "74202",
+		"description": "PLASENCIA DEL MONTE"
+	},
+	{
+		"code": "74204",
+		"description": "AYERBE"
+	},
+	{
+		"code": "74205",
+		"description": "RIGLOS-CONCILIO"
+	},
+	{
+		"code": "74206",
+		"description": "RIGLOS"
+	},
+	{
+		"code": "74207",
+		"description": "SANTA MARÍA Y LA PEÑA"
+	},
+	{
+		"code": "74208",
+		"description": "ANZÁNIGO"
+	},
+	{
+		"code": "74209",
+		"description": "CALDEARENAS-AQUILUÉ"
+	},
+	{
+		"code": "74210",
+		"description": "ORNA DE GALLEGO (APD)"
+	},
+	{
+		"code": "74211",
+		"description": "SABIÑÁNIGO"
+	},
+	{
+		"code": "74212",
+		"description": "NAVASA (APD)"
+	},
+	{
+		"code": "74213",
+		"description": "JACA"
+	},
+	{
+		"code": "74214",
+		"description": "CASTIELLO-PUEBLO"
+	},
+	{
+		"code": "74215",
+		"description": "CASTIELLO"
+	},
+	{
+		"code": "74216",
+		"description": "VILLANÚA-LETRANZ"
+	},
+	{
+		"code": "74217",
+		"description": "CANFRANC"
+	},
+	{
+		"code": "75101",
+		"description": "ALCOLETGE"
+	},
+	{
+		"code": "75102",
+		"description": "VILANOVA DE LA BARCA"
+	},
+	{
+		"code": "75103",
+		"description": "TÉRMENS"
+	},
+	{
+		"code": "75104",
+		"description": "VALLFOGONA DE BALAGUER"
+	},
+	{
+		"code": "75105",
+		"description": "BALAGUER"
+	},
+	{
+		"code": "75106",
+		"description": "GERB"
+	},
+	{
+		"code": "75107",
+		"description": "SANT LLORENÇ DE MONTGAI"
+	},
+	{
+		"code": "75108",
+		"description": "VILANOVA DE LA SAL"
+	},
+	{
+		"code": "75109",
+		"description": "SANTA LIÑA"
+	},
+	{
+		"code": "75110",
+		"description": "AGER"
+	},
+	{
+		"code": "75111",
+		"description": "CELLERS-LLIMIANA"
+	},
+	{
+		"code": "75112",
+		"description": "GUARDIA DE TREMP"
+	},
+	{
+		"code": "75113",
+		"description": "PALAU-PUIGCERCOS"
+	},
+	{
+		"code": "75114",
+		"description": "TREMP"
+	},
+	{
+		"code": "75115",
+		"description": "SALAS DE PALLARS"
+	},
+	{
+		"code": "75116",
+		"description": "LA POBLA DE SEGUR"
+	},
+	{
+		"code": "76001",
+		"description": "SALOMÓ"
+	},
+	{
+		"code": "76002",
+		"description": "VILABELLA"
+	},
+	{
+		"code": "76003",
+		"description": "NULLES-BRÀFIM"
+	},
+	{
+		"code": "76004",
+		"description": "VALLS"
+	},
+	{
+		"code": "77001",
+		"description": "MONTCADA I REIXAC-SANT JOAN (APD)"
+	},
+	{
+		"code": "77002",
+		"description": "MONTCADA-RIPOLLET"
+	},
+	{
+		"code": "77003",
+		"description": "SANTA PERPETUA DE MOGODA LA FLORIDA"
+	},
+	{
+		"code": "77004",
+		"description": "MOLLET-SANTA ROSA"
+	},
+	{
+		"code": "77005",
+		"description": "PARETS DEL VALLÉS"
+	},
+	{
+		"code": "77006",
+		"description": "GRANOLLERS-CANOVELLES"
+	},
+	{
+		"code": "77100",
+		"description": "LES FRANQUESES DEL VALLÉS"
+	},
+	{
+		"code": "77101",
+		"description": "LLERONA (APD)"
+	},
+	{
+		"code": "77102",
+		"description": "LA GARRIGA"
+	},
+	{
+		"code": "77103",
+		"description": "FIGARÓ"
+	},
+	{
+		"code": "77104",
+		"description": "SANT MARTÍ DE CENTELLES"
+	},
+	{
+		"code": "77105",
+		"description": "CENTELLES"
+	},
+	{
+		"code": "77106",
+		"description": "ELS HOSTALETS DE BALENYÀ"
+	},
+	{
+		"code": "77107",
+		"description": "BALENYÀ"
+	},
+	{
+		"code": "77108",
+		"description": "TARADELL-MONT-RODON(APD)"
+	},
+	{
+		"code": "77109",
+		"description": "VIC"
+	},
+	{
+		"code": "77110",
+		"description": "MANLLEU"
+	},
+	{
+		"code": "77111",
+		"description": "TORELLÓ"
+	},
+	{
+		"code": "77112",
+		"description": "BORGONYÀ (APD)"
+	},
+	{
+		"code": "77113",
+		"description": "SANT QUIRZE DE BESORA-MONTESQUIU"
+	},
+	{
+		"code": "77114",
+		"description": "LA FARGA DE BEBIÉ"
+	},
+	{
+		"code": "77200",
+		"description": "RIPOLL"
+	},
+	{
+		"code": "77201",
+		"description": "SANT JOAN DE LES ABADESSES"
+	},
+	{
+		"code": "77301",
+		"description": "CAMPDEVÀNOL"
+	},
+	{
+		"code": "77302",
+		"description": "AIGUES DE RIBES(APD)"
+	},
+	{
+		"code": "77303",
+		"description": "RIBES DE FRESER"
+	},
+	{
+		"code": "77304",
+		"description": "PLANOLES (APT)"
+	},
+	{
+		"code": "77305",
+		"description": "TOSES (APT)"
+	},
+	{
+		"code": "77306",
+		"description": "LA MOLINA"
+	},
+	{
+		"code": "77307",
+		"description": "URTX-ALP (APT)"
+	},
+	{
+		"code": "77308",
+		"description": "QUEIXANS (APD)"
+	},
+	{
+		"code": "77309",
+		"description": "PUIGCERDÀ"
+	},
+	{
+		"code": "77310",
+		"description": "LA TOUR DE CAROL"
+	},
+	{
+		"code": "78004",
+		"description": "SAN JUAN DE MOZARRIFAR (APT)"
+	},
+	{
+		"code": "78005",
+		"description": "VILLANUEVA DE GÁLLEGO"
+	},
+	{
+		"code": "78006",
+		"description": ""
+	},
+	{
+		"code": "78100",
+		"description": "ZUERA"
+	},
+	{
+		"code": "78101",
+		"description": "ONTINAR DEL SAZ (APD)"
+	},
+	{
+		"code": "78102",
+		"description": "ALMUDÉVAR"
+	},
+	{
+		"code": "78200",
+		"description": "TARDIENTA"
+	},
+	{
+		"code": "78201",
+		"description": "GRAÑÉN"
+	},
+	{
+		"code": "78202",
+		"description": "MARCEN-POLEÑINO"
+	},
+	{
+		"code": "78203",
+		"description": "SARIÑENA"
+	},
+	{
+		"code": "78204",
+		"description": "TORMILLO-LASTANOSA (APT)"
+	},
+	{
+		"code": "78300",
+		"description": "SELGUA"
+	},
+	{
+		"code": "78301",
+		"description": "MONZÓN-RÍO CINCA"
+	},
+	{
+		"code": "78302",
+		"description": "BINÉFAR"
+	},
+	{
+		"code": "78303",
+		"description": "TAMARITE-ALTORRICON"
+	},
+	{
+		"code": "78304",
+		"description": "ALMACELLES"
+	},
+	{
+		"code": "78305",
+		"description": "RAIMAT"
+	},
+	{
+		"code": "78400",
+		"description": "LLEIDA-PIRINEUS"
+	},
+	{
+		"code": "78401",
+		"description": "PLA DE VILANOVETA"
+	},
+	{
+		"code": "78402",
+		"description": "BELL-LLOC D'URGELL"
+	},
+	{
+		"code": "78403",
+		"description": "MOLLERUSSA"
+	},
+	{
+		"code": "78404",
+		"description": "GOLMÉS"
+	},
+	{
+		"code": "78405",
+		"description": "CASTELLNOU DE SEANA"
+	},
+	{
+		"code": "78406",
+		"description": "BELLPUIG"
+	},
+	{
+		"code": "78407",
+		"description": "ANGLESOLA"
+	},
+	{
+		"code": "78408",
+		"description": "TÀRREGA"
+	},
+	{
+		"code": "78500",
+		"description": "CERVERA"
+	},
+	{
+		"code": "78501",
+		"description": "SANT GUIM DE FREIXENET"
+	},
+	{
+		"code": "78502",
+		"description": "SANT MARTÍ SESGUEIOLES"
+	},
+	{
+		"code": "78503",
+		"description": "CALAF"
+	},
+	{
+		"code": "78504",
+		"description": "SEGUERS-SANT PERE SALLAVINERA"
+	},
+	{
+		"code": "78505",
+		"description": "AGUILAR DE SEGARRA"
+	},
+	{
+		"code": "78506",
+		"description": "RAJADELL"
+	},
+	{
+		"code": "78600",
+		"description": "MANRESA"
+	},
+	{
+		"code": "78602",
+		"description": "ELS COMDALS (APD)"
+	},
+	{
+		"code": "78603",
+		"description": "CASTELLGALI  (APD)"
+	},
+	{
+		"code": "78604",
+		"description": "SANT VICENÇ DE CASTELLET"
+	},
+	{
+		"code": "78605",
+		"description": "CASTELLBELL I EL VILAR-MONISTROL MONTS"
+	},
+	{
+		"code": "78606",
+		"description": "VACARISSES"
+	},
+	{
+		"code": "78607",
+		"description": "VACARISSES-TORREBLANCA"
+	},
+	{
+		"code": "78608",
+		"description": "OLESA DE MONTSERRAT"
+	},
+	{
+		"code": "78609",
+		"description": "VILADECAVALLS"
+	},
+	{
+		"code": "78610",
+		"description": "SANT MIQUEL DE GONTERES"
+	},
+	{
+		"code": "78700",
+		"description": "TERRASSA ESTACIO NORD"
+	},
+	{
+		"code": "78701",
+		"description": "TORREBONICA (APD)"
+	},
+	{
+		"code": "78702",
+		"description": "CASTELLARNAU  (APD)"
+	},
+	{
+		"code": "78703",
+		"description": "SABADELL SUD"
+	},
+	{
+		"code": "78704",
+		"description": "SABADELL CENTRE"
+	},
+	{
+		"code": "78705",
+		"description": "BARBERÁ DEL VALLÉS"
+	},
+	{
+		"code": "78706",
+		"description": "CERDANYOLA DEL VALLÉS"
+	},
+	{
+		"code": "78707",
+		"description": "MONTCADA I REIXAC-SANTA MARÍA"
+	},
+	{
+		"code": "78708",
+		"description": "MONTCADA I REIXAC-MANRESA"
+	},
+	{
+		"code": "78709",
+		"description": "SABADELL NORD"
+	},
+	{
+		"code": "78710",
+		"description": "TERRASA EST"
+	},
+	{
+		"code": "78800",
+		"description": "MONTCADA BIFURCACIÓ"
+	},
+	{
+		"code": "78801",
+		"description": "TORRE  BARO Y VALLBONA"
+	},
+	{
+		"code": "78802",
+		"description": "BARCELONA-FABRA I PUIG"
+	},
+	{
+		"code": "78803",
+		"description": "APEADERO VILANOVA"
+	},
+	{
+		"code": "78804",
+		"description": "BARCELONA-ARC DE TRIOMF"
+	},
+	{
+		"code": "78805",
+		"description": "BARCELONA-PLAÇA DE CATALUNYA"
+	},
+	{
+		"code": "78806",
+		"description": "BARCELONA LA SAGRERA MERIDIANA"
+	},
+	{
+		"code": "79002",
+		"description": "BARCELONA-SAGRERA"
+	},
+	{
+		"code": "79003",
+		"description": "BARCELONA-SAGRE"
+	},
+	{
+		"code": "79004",
+		"description": "BARCELONA-SANT ANDREU"
+	},
+	{
+		"code": "79005",
+		"description": "MONTCADA I REIXAC"
+	},
+	{
+		"code": "79006",
+		"description": "MOLLET-SANT FOST"
+	},
+	{
+		"code": "79007",
+		"description": "MONTMELO"
+	},
+	{
+		"code": "79009",
+		"description": "BARCELONA-EL CLOT"
+	},
+	{
+		"code": "79011",
+		"description": "LLAGOSTA"
+	},
+	{
+		"code": "79100",
+		"description": "GRANOLLERS CENTRE"
+	},
+	{
+		"code": "79101",
+		"description": "CARDEDEU"
+	},
+	{
+		"code": "79102",
+		"description": "LLINARS DEL VALLES"
+	},
+	{
+		"code": "79103",
+		"description": "PALAUTORDERA (APD)"
+	},
+	{
+		"code": "79104",
+		"description": "SANT CELONI"
+	},
+	{
+		"code": "79105",
+		"description": "GUALBA"
+	},
+	{
+		"code": "79106",
+		"description": "RIELLS I VIABREA-BREDA"
+	},
+	{
+		"code": "79107",
+		"description": "HOSTALRIC"
+	},
+	{
+		"code": "79108",
+		"description": "GRANOLLERS"
+	},
+	{
+		"code": "79109",
+		"description": "LES FRANQUESES-GRANOLLERS NORD"
+	},
+	{
+		"code": "79200",
+		"description": "MAÇANET-MASSANES"
+	},
+	{
+		"code": "79202",
+		"description": "SILS"
+	},
+	{
+		"code": "79203",
+		"description": "CALDES DE MALAVELLA"
+	},
+	{
+		"code": "79204",
+		"description": "RIUDELLOTS"
+	},
+	{
+		"code": "79205",
+		"description": "FORNELLS DE LA SELVA"
+	},
+	{
+		"code": "79206",
+		"description": "GIRONA"
+	},
+	{
+		"code": "79300",
+		"description": "GIRONA"
+	},
+	{
+		"code": "79301",
+		"description": "CELRÀ"
+	},
+	{
+		"code": "79302",
+		"description": "BORDILS-JUIÀ"
+	},
+	{
+		"code": "79303",
+		"description": "FLAÇÀ"
+	},
+	{
+		"code": "79304",
+		"description": "SANT JORDI DESVALLS"
+	},
+	{
+		"code": "79305",
+		"description": "CAMALLERA"
+	},
+	{
+		"code": "79306",
+		"description": "SANT MIQUEL DE FLUVIÀ"
+	},
+	{
+		"code": "79307",
+		"description": "TONYA (APD)"
+	},
+	{
+		"code": "79308",
+		"description": "VILAMALLA"
+	},
+	{
+		"code": "79309",
+		"description": "FIGUERES"
+	},
+	{
+		"code": "79310",
+		"description": "PERALADA"
+	},
+	{
+		"code": "79311",
+		"description": "VILAJUÏGA"
+	},
+	{
+		"code": "79312",
+		"description": "LLANÇÀ"
+	},
+	{
+		"code": "79313",
+		"description": "PLATJA DE GARBET (APD)"
+	},
+	{
+		"code": "79314",
+		"description": "COLERA"
+	},
+	{
+		"code": "79315",
+		"description": "PORTBOU"
+	},
+	{
+		"code": "79316",
+		"description": "CERBÈRE"
+	},
+	{
+		"code": "79333",
+		"description": "FIGUERES.BUS"
+	},
+	{
+		"code": "79400",
+		"description": "BARCELONA-ESTACIÓ DE FRANÇA"
+	},
+	{
+		"code": "79401",
+		"description": "BARCELONA-BOGAT"
+	},
+	{
+		"code": "79402",
+		"description": "BARCELONA-POBLE NOU"
+	},
+	{
+		"code": "79403",
+		"description": "SANT ADRIÀ DE BESÒS (APD)"
+	},
+	{
+		"code": "79404",
+		"description": "BADALONA"
+	},
+	{
+		"code": "79405",
+		"description": "MONTGAT"
+	},
+	{
+		"code": "79406",
+		"description": "MONTGAT-NORD (P)"
+	},
+	{
+		"code": "79407",
+		"description": "EL MASNOU"
+	},
+	{
+		"code": "79408",
+		"description": "OCATA (APD)"
+	},
+	{
+		"code": "79409",
+		"description": "PREMIÁ DE MAR APEADERO"
+	},
+	{
+		"code": "79410",
+		"description": "VILASSAR DE MAR"
+	},
+	{
+		"code": "79412",
+		"description": "CABRERA DE MAR"
+	},
+	{
+		"code": "79500",
+		"description": "MATARÓ"
+	},
+	{
+		"code": "79501",
+		"description": "SANT ANDREU DE LLAVANERES (APT)"
+	},
+	{
+		"code": "79502",
+		"description": "CALDES D'ESTRAC"
+	},
+	{
+		"code": "79600",
+		"description": "ARENYS DE MAR"
+	},
+	{
+		"code": "79601",
+		"description": "CANET DE MAR"
+	},
+	{
+		"code": "79602",
+		"description": "SANT POL DE MAR"
+	},
+	{
+		"code": "79603",
+		"description": "CALELLA"
+	},
+	{
+		"code": "79604",
+		"description": "PINEDA DE MAR"
+	},
+	{
+		"code": "79605",
+		"description": "MALGRAT DEL MAR"
+	},
+	{
+		"code": "79606",
+		"description": "BLANES"
+	},
+	{
+		"code": "79607",
+		"description": "TORDERA"
+	},
+	{
+		"code": "79608",
+		"description": "STA.SUSANN"
+	},
+	{
+		"code": "80001",
+		"description": "ALTSASU/ALSASUA-PUEBLO"
+	},
+	{
+		"code": "80002",
+		"description": "BAKAIKU/BAICAICOA"
+	},
+	{
+		"code": "80003",
+		"description": "ETXARRI-ARANATZ"
+	},
+	{
+		"code": "80004",
+		"description": "LAKUNTZA"
+	},
+	{
+		"code": "80005",
+		"description": "UHARTE-ARAKIL"
+	},
+	{
+		"code": "80006",
+		"description": "HIRIBERRI-ARAKIL/VILLANUEVA DE AR"
+	},
+	{
+		"code": "80007",
+		"description": "IZURDIAGA-IRUTZUN"
+	},
+	{
+		"code": "80008",
+		"description": "ZUASTI"
+	},
+	{
+		"code": "80100",
+		"description": "PAMPLONA/IRUÑA"
+	},
+	{
+		"code": "80102",
+		"description": "CIZURMAYOR"
+	},
+	{
+		"code": "80103",
+		"description": "NOAIN"
+	},
+	{
+		"code": "80104",
+		"description": "BIURRUN-CAMPANAS"
+	},
+	{
+		"code": "80105",
+		"description": "CARRASCAL"
+	},
+	{
+		"code": "80106",
+		"description": "GARINOAIN"
+	},
+	{
+		"code": "80107",
+		"description": "PUEYO (APD-CGD)"
+	},
+	{
+		"code": "80108",
+		"description": "TAFALLA"
+	},
+	{
+		"code": "80109",
+		"description": "OLITE/ERRIBERRI"
+	},
+	{
+		"code": "80110",
+		"description": "BEIRE (APD)"
+	},
+	{
+		"code": "80111",
+		"description": "PITILLAS"
+	},
+	{
+		"code": "80112",
+		"description": "MURILLO EL CUENDE (APD)"
+	},
+	{
+		"code": "80113",
+		"description": "CAPARROSO"
+	},
+	{
+		"code": "80114",
+		"description": "MARCILLA DE NAVARRA"
+	},
+	{
+		"code": "80115",
+		"description": "VILLAFRANCA DE NAVARRA"
+	},
+	{
+		"code": "80116",
+		"description": "MILAGRO"
+	},
+	{
+		"code": "80117",
+		"description": "CADREITA (APD)"
+	},
+	{
+		"code": "81001",
+		"description": "SAN FELICES (APT-CGD)"
+	},
+	{
+		"code": "81002",
+		"description": "HARO"
+	},
+	{
+		"code": "81003",
+		"description": "BRIONES"
+	},
+	{
+		"code": "81004",
+		"description": "SAN ASENSIO (APT)"
+	},
+	{
+		"code": "81005",
+		"description": "CENICERO"
+	},
+	{
+		"code": "81006",
+		"description": "FUENMAYOR"
+	},
+	{
+		"code": "81007",
+		"description": "EL CORTIJO (APD)"
+	},
+	{
+		"code": "81010",
+		"description": "CENICERO SAN ISIDRO"
+	},
+	{
+		"code": "81011",
+		"description": "HARO EL PARDO"
+	},
+	{
+		"code": "81100",
+		"description": "LOGROÑO"
+	},
+	{
+		"code": "81101",
+		"description": "RECAJO"
+	},
+	{
+		"code": "81102",
+		"description": "AGONCILLO"
+	},
+	{
+		"code": "81103",
+		"description": "ARRÚBAL"
+	},
+	{
+		"code": "81105",
+		"description": "ALCANADRE"
+	},
+	{
+		"code": "81106",
+		"description": "FÉCULAS-NAVARRA"
+	},
+	{
+		"code": "81107",
+		"description": "LODOSA"
+	},
+	{
+		"code": "81108",
+		"description": "CALAHORRA"
+	},
+	{
+		"code": "81109",
+		"description": "RINCÓN DE SOTO"
+	},
+	{
+		"code": "81110",
+		"description": "ALFARO"
+	},
+	{
+		"code": "81200",
+		"description": "CASTEJÓN DE EBRO"
+	},
+	{
+		"code": "81201",
+		"description": "ARGUEDAS-MUSCARIA (APD)"
+	},
+	{
+		"code": "81202",
+		"description": "TUDELA DE NAVARRA"
+	},
+	{
+		"code": "81203",
+		"description": "RIBAFORADA"
+	},
+	{
+		"code": "81204",
+		"description": "BUNUEL"
+	},
+	{
+		"code": "81205",
+		"description": "CORTES DE NAVARRA"
+	},
+	{
+		"code": "81206",
+		"description": "GALLUR"
+	},
+	{
+		"code": "81207",
+		"description": "LUCENI"
+	},
+	{
+		"code": "81208",
+		"description": "PEDROLA"
+	},
+	{
+		"code": "81209",
+		"description": "CABAÑAS DE EBRO"
+	},
+	{
+		"code": "81210",
+		"description": "ALAGÓN"
+	},
+	{
+		"code": "81211",
+		"description": "LA JOYOSA - TORRES (APT)"
+	},
+	{
+		"code": "82001",
+		"description": "CERVERA DE LA CANADA (APD)"
+	},
+	{
+		"code": "82002",
+		"description": "VILLARROYA DE LA SIERRA (APD)"
+	},
+	{
+		"code": "82003",
+		"description": "CLARES (APD)"
+	},
+	{
+		"code": "82004",
+		"description": "MALANQUILLA (APD)"
+	},
+	{
+		"code": "82005",
+		"description": "TORRELAPAJA (APD)"
+	},
+	{
+		"code": "82006",
+		"description": "TORDESALAS  (APD)"
+	},
+	{
+		"code": "82007",
+		"description": "TORRUBIA (APD)"
+	},
+	{
+		"code": "82008",
+		"description": "PORTILLO (APD)"
+	},
+	{
+		"code": "82009",
+		"description": "ALBOCABE-GOMARA-ALMENAR (APT-CGD)"
+	},
+	{
+		"code": "82010",
+		"description": "CABREJAS DEL CAMPO (APD-CGD)"
+	},
+	{
+		"code": "82011",
+		"description": "CANDILICHERA (APD)"
+	},
+	{
+		"code": "82012",
+		"description": "MARTIALAY (APD)"
+	},
+	{
+		"code": "82100",
+		"description": "SORIA"
+	},
+	{
+		"code": "82101",
+		"description": "TOLEDILLO (APD)"
+	},
+	{
+		"code": "82102",
+		"description": "CIDONES (APD)"
+	},
+	{
+		"code": "82103",
+		"description": "HERREROS (APD)"
+	},
+	{
+		"code": "82104",
+		"description": "ABEJAR (APD)"
+	},
+	{
+		"code": "82105",
+		"description": "CABREJAS DEL PINAR (APD)"
+	},
+	{
+		"code": "82106",
+		"description": "PINAR GRANDE (APD)"
+	},
+	{
+		"code": "82107",
+		"description": "NAVALENO (APD)"
+	},
+	{
+		"code": "82108",
+		"description": "SAN LEONARDO (APT)"
+	},
+	{
+		"code": "82109",
+		"description": "HONTORIA DEL PINAR (APD)"
+	},
+	{
+		"code": "82110",
+		"description": "RABANERA DEL PINAR (APD)"
+	},
+	{
+		"code": "82111",
+		"description": "CABEZON DE LA SIERRA (APD)"
+	},
+	{
+		"code": "82112",
+		"description": "CASTRILLO DE LA REINA (APD)"
+	},
+	{
+		"code": "82113",
+		"description": "SALAS DE LOS INFANTES (APT)"
+	},
+	{
+		"code": "82114",
+		"description": "LA REVILLA (APD)"
+	},
+	{
+		"code": "82115",
+		"description": "BARBADILLO DEL MERCADO (APD)"
+	},
+	{
+		"code": "82116",
+		"description": "CASCAJARES-HORTIGUELA (APD)"
+	},
+	{
+		"code": "82117",
+		"description": "CAMPOLARA (APD)"
+	},
+	{
+		"code": "82118",
+		"description": "REVILLA DE CAMPO (APD)"
+	},
+	{
+		"code": "82119",
+		"description": "LOS AUSINES (APD)"
+	},
+	{
+		"code": "82120",
+		"description": "COJOBAR (APD)"
+	},
+	{
+		"code": "82121",
+		"description": "MODUBAR DE LA EMPAREDADA (APD)"
+	},
+	{
+		"code": "82122",
+		"description": "CARDENADIJO (APD)"
+	},
+	{
+		"code": "82201",
+		"description": "VILLARMERO (APD)"
+	},
+	{
+		"code": "82202",
+		"description": "SOTOPALACIOS (APD)"
+	},
+	{
+		"code": "82203",
+		"description": "VILLAVERDE-PENAHORADA (APD)"
+	},
+	{
+		"code": "82204",
+		"description": "PENAHORADA (APT-CGD)"
+	},
+	{
+		"code": "82205",
+		"description": "LERMILLA-QUINTANARRUZ (APD)"
+	},
+	{
+		"code": "82206",
+		"description": "ARCONADA (APD)"
+	},
+	{
+		"code": "82207",
+		"description": "LENCES (APD)"
+	},
+	{
+		"code": "82208",
+		"description": "POZA DE LA SAL (APD)"
+	},
+	{
+		"code": "82209",
+		"description": "TERMINON-CASTELLANOS (APD)"
+	},
+	{
+		"code": "82210",
+		"description": "ONA  (APT-CGD)"
+	},
+	{
+		"code": "82211",
+		"description": "TRESPADERNE (APD)"
+	},
+	{
+		"code": "82212",
+		"description": "NOFUENTES (APD)"
+	},
+	{
+		"code": "82213",
+		"description": "MONEO (APD)"
+	},
+	{
+		"code": "82214",
+		"description": "MEDINA DE POMAR (APT-CGD)"
+	},
+	{
+		"code": "82215",
+		"description": "VILLARCAYO-HORNA"
+	},
+	{
+		"code": "83001",
+		"description": "VELILLA DE LA SIERRA (APD)"
+	},
+	{
+		"code": "83002",
+		"description": "TURÍN P.S."
+	},
+	{
+		"code": "83003",
+		"description": "ALDEALPOZO (APD)"
+	},
+	{
+		"code": "83004",
+		"description": "VALDEGENA (APD)"
+	},
+	{
+		"code": "83005",
+		"description": "BARDONECCHIA"
+	},
+	{
+		"code": "83006",
+		"description": "OLVEGA APEADERO"
+	},
+	{
+		"code": "83007",
+		"description": "AGREDA"
+	},
+	{
+		"code": "83008",
+		"description": "NOVARA"
+	},
+	{
+		"code": "83009",
+		"description": "CERVERA DEL RIO ALHAMA (APT)"
+	},
+	{
+		"code": "83010",
+		"description": "FITERO (APD)"
+	},
+	{
+		"code": "83011",
+		"description": "CINTRUENIGO"
+	},
+	{
+		"code": "83012",
+		"description": "CORELLA APEADERO"
+	},
+	{
+		"code": "83111",
+		"description": "MILÁN C."
+	},
+	{
+		"code": "83441",
+		"description": "MODENA"
+	},
+	{
+		"code": "84001",
+		"description": "MINO DE MEDINACELI (APD)"
+	},
+	{
+		"code": "84002",
+		"description": "RADONA (APD)"
+	},
+	{
+		"code": "84003",
+		"description": "ADRADAS (APD)"
+	},
+	{
+		"code": "84004",
+		"description": "AMBRONA (APD)"
+	},
+	{
+		"code": "84100",
+		"description": "COSCURITA"
+	},
+	{
+		"code": "84101",
+		"description": "ALMAZÁN"
+	},
+	{
+		"code": "84102",
+		"description": "MATAMALA (APD)"
+	},
+	{
+		"code": "84103",
+		"description": "TARDELCUENDE"
+	},
+	{
+		"code": "84104",
+		"description": "QUINTANA REDONDA"
+	},
+	{
+		"code": "84105",
+		"description": "NAVALCABALLO (APD)"
+	},
+	{
+		"code": "85001",
+		"description": "MONTEAGUDO DE LAS VIC. Y POZUEL"
+	},
+	{
+		"code": "85002",
+		"description": "CHERCOLES (APD)"
+	},
+	{
+		"code": "85004",
+		"description": "MORON DE ALMAZAN"
+	},
+	{
+		"code": "85031",
+		"description": "BERN"
+	},
+	{
+		"code": "85101",
+		"description": "ALMAZAN-DEHESA"
+	},
+	{
+		"code": "85103",
+		"description": "REBOLLO DE DUERO"
+	},
+	{
+		"code": "85104",
+		"description": "BERLANGA DE DUERO"
+	},
+	{
+		"code": "85105",
+		"description": "QUINTANAS DE GORMAZ (APD-CGD)"
+	},
+	{
+		"code": "85106",
+		"description": "OSMA-LA RASA"
+	},
+	{
+		"code": "85107",
+		"description": "SAN ESTEBAN DE GORMAZ"
+	},
+	{
+		"code": "85108",
+		"description": "VELILLA DE DUERO (APD)"
+	},
+	{
+		"code": "85109",
+		"description": "LANGA DE DUERO"
+	},
+	{
+		"code": "85111",
+		"description": "VADOCONDES (APD)"
+	},
+	{
+		"code": "85200",
+		"description": "ZURICH HB"
+	},
+	{
+		"code": "85202",
+		"description": "BERLANGA DE ROA (APD)"
+	},
+	{
+		"code": "85203",
+		"description": "ROA DE DUERO"
+	},
+	{
+		"code": "85204",
+		"description": "SAN MARTIN DE RUBIALES"
+	},
+	{
+		"code": "85206",
+		"description": "PENAFIEL"
+	},
+	{
+		"code": "85207",
+		"description": "QUINTANILLA DE ARRIBA (APD)"
+	},
+	{
+		"code": "85209",
+		"description": "QUINTANILLA DE ONESIMO"
+	},
+	{
+		"code": "85210",
+		"description": "SARDON DE DUERO"
+	},
+	{
+		"code": "85211",
+		"description": "TRASPINEDO (APD)"
+	},
+	{
+		"code": "85212",
+		"description": "TUDELA DE DUERO"
+	},
+	{
+		"code": "85213",
+		"description": "LAGUNA (APD)"
+	},
+	{
+		"code": "85215",
+		"description": "VALLADOLID-LA ESPERANZA (APT)"
+	},
+	{
+		"code": "85410",
+		"description": "FRIBOURG"
+	},
+	{
+		"code": "85444",
+		"description": "GENEVE"
+	},
+	{
+		"code": "85550",
+		"description": "LAUSANNE"
+	},
+	{
+		"code": "86001",
+		"description": "PARACUELLOS DE JILOCA (APD)"
+	},
+	{
+		"code": "86002",
+		"description": "MALUENDA-VELILLA (APD)"
+	},
+	{
+		"code": "86003",
+		"description": "MORATA DE JILOCA (APD)"
+	},
+	{
+		"code": "86004",
+		"description": "FUENTES DE JILOCA (APD)"
+	},
+	{
+		"code": "86005",
+		"description": "VILLAFELICHE (APD)"
+	},
+	{
+		"code": "86006",
+		"description": "MURERO-MANCHONES (APD)"
+	},
+	{
+		"code": "86007",
+		"description": "MANCHONES (APD)"
+	},
+	{
+		"code": "86008",
+		"description": "DAROCA"
+	},
+	{
+		"code": "86009",
+		"description": "VILLANUEVA DE JILOCA (APD)"
+	},
+	{
+		"code": "86010",
+		"description": "SAN MARTIN DE JILOCA (APD)"
+	},
+	{
+		"code": "86011",
+		"description": "BAGUENA (APD-CGD)"
+	},
+	{
+		"code": "86012",
+		"description": "BURBAGUENA (APD)"
+	},
+	{
+		"code": "86013",
+		"description": "LUCO (APD)"
+	},
+	{
+		"code": "86014",
+		"description": "CALAMOCHA-VEGA (APD-CGD)"
+	},
+	{
+		"code": "86015",
+		"description": "EL POYO (APD)"
+	},
+	{
+		"code": "86016",
+		"description": "FUENTES CLARAS (APD)"
+	},
+	{
+		"code": "87004",
+		"description": "ORLEANS-LES.AUBRAIS"
+	},
+	{
+		"code": "87007",
+		"description": "ST. PIERRE DES CORPS"
+	},
+	{
+		"code": "87011",
+		"description": "PARIS-AUSTERLITZ"
+	},
+	{
+		"code": "87016",
+		"description": "PARIS-TOLBIAC"
+	},
+	{
+		"code": "87018",
+		"description": ""
+	},
+	{
+		"code": "87025",
+		"description": "DIJON-VILLE"
+	},
+	{
+		"code": "87034",
+		"description": "LIMOGES"
+	},
+	{
+		"code": "87041",
+		"description": "GRENOBLE"
+	},
+	{
+		"code": "87044",
+		"description": "BRIVE"
+	},
+	{
+		"code": "87048",
+		"description": "LYON - BROTT"
+	},
+	{
+		"code": "87049",
+		"description": "LYON PERRACHE"
+	},
+	{
+		"code": "87052",
+		"description": "DAX"
+	},
+	{
+		"code": "87058",
+		"description": "BORDEAUX"
+	},
+	{
+		"code": "87059",
+		"description": "AIX LES BAINS"
+	},
+	{
+		"code": "87066",
+		"description": "CHAMBERY"
+	},
+	{
+		"code": "87067",
+		"description": "VALENCE VILLE"
+	},
+	{
+		"code": "87076",
+		"description": "ANGOULEME"
+	},
+	{
+		"code": "87078",
+		"description": "BEZIERS"
+	},
+	{
+		"code": "87079",
+		"description": "TOULOUSE"
+	},
+	{
+		"code": "87081",
+		"description": "POITIERS"
+	},
+	{
+		"code": "87083",
+		"description": "BELLEGARDE"
+	},
+	{
+		"code": "87088",
+		"description": "NARBONNE"
+	},
+	{
+		"code": "87089",
+		"description": "MARSEILLE ST CHARLES"
+	},
+	{
+		"code": "87100",
+		"description": "MONTPELLIER SUD DE FRANCE"
+	},
+	{
+		"code": "87101",
+		"description": "NIMES PONT DU GARD"
+	},
+	{
+		"code": "87150",
+		"description": "AIME-LA-PLAGNE"
+	},
+	{
+		"code": "87173",
+		"description": "MONTPELLIER SAINT-ROCH"
+	},
+	{
+		"code": "87175",
+		"description": "SETE"
+	},
+	{
+		"code": "87176",
+		"description": "CARCASONNE"
+	},
+	{
+		"code": "87187",
+		"description": "GUETHARY"
+	},
+	{
+		"code": "87192",
+		"description": "SAINT JEAN DE LUZ"
+	},
+	{
+		"code": "87206",
+		"description": "BIARRITZ-LA NEGRESSE"
+	},
+	{
+		"code": "87242",
+		"description": "MODANE"
+	},
+	{
+		"code": "87246",
+		"description": "MOUTIERS"
+	},
+	{
+		"code": "87249",
+		"description": "BOURG ST.MAURICE"
+	},
+	{
+		"code": "87287",
+		"description": "AGDE"
+	},
+	{
+		"code": "87302",
+		"description": "NIMES"
+	},
+	{
+		"code": "87303",
+		"description": "LYON PART DIEU"
+	},
+	{
+		"code": "87374",
+		"description": "PERPIGNAN"
+	},
+	{
+		"code": "87402",
+		"description": "AVIGNON"
+	},
+	{
+		"code": "87546",
+		"description": "BLOIS(FR)"
+	},
+	{
+		"code": "87554",
+		"description": "CHATELLERAULT"
+	},
+	{
+		"code": "87635",
+		"description": "MARNEE CHESSY"
+	},
+	{
+		"code": "87720",
+		"description": "LYON SAINT-EXUPERY TGV"
+	},
+	{
+		"code": "87810",
+		"description": "VALENCE TGV"
+	},
+	{
+		"code": "87814",
+		"description": "AVIGNON TGV"
+	},
+	{
+		"code": "87900",
+		"description": "BAYONNE"
+	},
+	{
+		"code": "87912",
+		"description": "AIX EN PROVENCE TGV"
+	},
+	{
+		"code": "90101",
+		"description": "NURIA"
+	},
+	{
+		"code": "91696",
+		"description": "GANDÍA-BUS"
+	},
+	{
+		"code": "92001",
+		"description": "VILLAMEJOR (APD)"
+	},
+	{
+		"code": "92101",
+		"description": "TOLEDO INDUSTRIAL (APD)"
+	},
+	{
+		"code": "92102",
+		"description": "TOLEDO"
+	},
+	{
+		"code": "92124",
+		"description": "MARBELLA-BUS"
+	},
+	{
+		"code": "92157",
+		"description": "ESTEPONA-BUS"
+	},
+	{
+		"code": "92201",
+		"description": "DENIA-BUS"
+	},
+	{
+		"code": "94002",
+		"description": "DAIMIEL"
+	},
+	{
+		"code": "94004",
+		"description": "ALMAGRO"
+	},
+	{
+		"code": "94005",
+		"description": "MIGUELTURRA (APD)"
+	},
+	{
+		"code": "94007",
+		"description": "ERMENSINDE"
+	},
+	{
+		"code": "94014",
+		"description": "TROFA"
+	},
+	{
+		"code": "94018",
+		"description": "FARMALICAO"
+	},
+	{
+		"code": "94021",
+		"description": "NINE"
+	},
+	{
+		"code": "94024",
+		"description": "BARCELOS"
+	},
+	{
+		"code": "94029",
+		"description": "BARROSELAS"
+	},
+	{
+		"code": "94033",
+		"description": "VIANA DA CASTELO"
+	},
+	{
+		"code": "94038",
+		"description": "ANCORA PRAIA"
+	},
+	{
+		"code": "94042",
+		"description": "CAMINHA"
+	},
+	{
+		"code": "94048",
+		"description": "VILA NOVA DE CERVEIRA"
+	},
+	{
+		"code": "94333",
+		"description": "CASTELO DE VIDE"
+	},
+	{
+		"code": "94334",
+		"description": "VALE DO PESO"
+	},
+	{
+		"code": "94335",
+		"description": "PONTE DO SOR"
+	},
+	{
+		"code": "94336",
+		"description": "ABRANTES"
+	},
+	{
+		"code": "94337",
+		"description": "TORRE DAS VARGEN"
+	},
+	{
+		"code": "94339",
+		"description": "MARVAO"
+	},
+	{
+		"code": "94341",
+		"description": "ESTARREJA"
+	},
+	{
+		"code": "94342",
+		"description": "OVAR"
+	},
+	{
+		"code": "94343",
+		"description": "AVEIRO"
+	},
+	{
+		"code": "94344",
+		"description": "ESPINHO"
+	},
+	{
+		"code": "94345",
+		"description": "VILA NOVA DE GAIA"
+	},
+	{
+		"code": "94346",
+		"description": "PORTO CAMPANHA - O PORTO CAMPAÑA"
+	},
+	{
+		"code": "94347",
+		"description": "CURIA (APD)"
+	},
+	{
+		"code": "94362",
+		"description": "ENTRONCAMENTO"
+	},
+	{
+		"code": "94363",
+		"description": "FATIMA"
+	},
+	{
+		"code": "94364",
+		"description": "POMBAL"
+	},
+	{
+		"code": "94365",
+		"description": "COIMBRA"
+	},
+	{
+		"code": "94366",
+		"description": "PAMPILHOSA"
+	},
+	{
+		"code": "94367",
+		"description": "MANGUALDE"
+	},
+	{
+		"code": "94368",
+		"description": "GUARDA"
+	},
+	{
+		"code": "94369",
+		"description": "VILLAR-FORMOSO"
+	},
+	{
+		"code": "94371",
+		"description": "SANTAREN"
+	},
+	{
+		"code": "94373",
+		"description": "ALBEGARIA"
+	},
+	{
+		"code": "94374",
+		"description": "VERMOIL"
+	},
+	{
+		"code": "94375",
+		"description": "SOURE"
+	},
+	{
+		"code": "94376",
+		"description": "ALFARELOS"
+	},
+	{
+		"code": "94377",
+		"description": "MORTAGUA"
+	},
+	{
+		"code": "94378",
+		"description": "SANTA COMBA-DAO"
+	},
+	{
+		"code": "94379",
+		"description": "NELAS"
+	},
+	{
+		"code": "94381",
+		"description": "GOUVEIA"
+	},
+	{
+		"code": "94382",
+		"description": "CELORICO DA BEIRA"
+	},
+	{
+		"code": "94383",
+		"description": "VILA FRANCA DES NAVES"
+	},
+	{
+		"code": "94384",
+		"description": "CERDEIRA"
+	},
+	{
+		"code": "94401",
+		"description": "LISBOA-SANTA APOLONIA"
+	},
+	{
+		"code": "94404",
+		"description": "LISBOA-ESTACIÓN ORIENTE"
+	},
+	{
+		"code": "94424",
+		"description": "SANTAREM"
+	},
+	{
+		"code": "94428",
+		"description": "ENTRONCAMT"
+	},
+	{
+		"code": "94432",
+		"description": "FÁTIMA"
+	},
+	{
+		"code": "94434",
+		"description": "CAXARIAS"
+	},
+	{
+		"code": "94438",
+		"description": "POMBAL"
+	},
+	{
+		"code": "94452",
+		"description": "COÍMBRA-B"
+	},
+	{
+		"code": "94456",
+		"description": "PAMPILHOSA"
+	},
+	{
+		"code": "94524",
+		"description": "STA.COMBA"
+	},
+	{
+		"code": "94534",
+		"description": "NELAS"
+	},
+	{
+		"code": "94536",
+		"description": "MANGUALDE"
+	},
+	{
+		"code": "94543",
+		"description": "CELORICO-BEIRA"
+	},
+	{
+		"code": "94546",
+		"description": "VILA FRANCA DAS NAVES"
+	},
+	{
+		"code": "94551",
+		"description": "GUARDA"
+	},
+	{
+		"code": "94563",
+		"description": "VILAR FORMOSO"
+	},
+	{
+		"code": "94707",
+		"description": "ABRANTES"
+	},
+	{
+		"code": "94757",
+		"description": "MARVAO"
+	},
+	{
+		"code": "95002",
+		"description": "MADRID-PASEO IM"
+	},
+	{
+		"code": "95003",
+		"description": "MADRID-PEÑUELAS"
+	},
+	{
+		"code": "95005",
+		"description": "MADRID-PEÑUELAS"
+	},
+	{
+		"code": "95100",
+		"description": "MUSEO-FERROCAR."
+	},
+	{
+		"code": "95104",
+		"description": "MADRID-ABROÑIGA"
+	},
+	{
+		"code": "95105",
+		"description": "MADRID-ABROÑIGA"
+	},
+	{
+		"code": "95106",
+		"description": "MADRID-ABROÑIGA"
+	},
+	{
+		"code": "97000",
+		"description": "RODALIES"
+	},
+	{
+		"code": "97001",
+		"description": "LA MOLINA - SKITREN"
+	},
+	{
+		"code": "97002",
+		"description": "SARA BARAS"
+	},
+	{
+		"code": "97003",
+		"description": "TERRACOTA"
+	},
+	{
+		"code": "97004",
+		"description": "PORTAVE.FERRARI"
+	},
+	{
+		"code": "97005",
+		"description": "VILAFRANCA DEL PENEDÉS"
+	},
+	{
+		"code": "97006",
+		"description": "RIBES DE FRESER"
+	},
+	{
+		"code": "97007",
+		"description": "BARCELONA"
+	},
+	{
+		"code": "97008",
+		"description": "BARCELONA"
+	},
+	{
+		"code": "97009",
+		"description": "PLAÇA CATALUNYA"
+	},
+	{
+		"code": "97010",
+		"description": "RODALIES"
+	},
+	{
+		"code": "97011",
+		"description": "PLAÇA CATALUNYA / BCN. SANTS"
+	},
+	{
+		"code": "97012",
+		"description": "RIBES DE FRESER-SKITREN NURIA"
+	},
+	{
+		"code": "97013",
+		"description": "CALDES DE MALAVELLA-VICHY CATALÁN"
+	},
+	{
+		"code": "97014",
+		"description": "BARCELONA"
+	},
+	{
+		"code": "97015",
+		"description": "PORTAVENTURA"
+	},
+	{
+		"code": "97016",
+		"description": "FERRARYLAND"
+	},
+	{
+		"code": "97017",
+		"description": "SANT SADURNÍ D'ANOIA"
+	},
+	{
+		"code": "97018",
+		"description": "CARIBE PARK"
+	},
+	{
+		"code": "97100",
+		"description": "PITIS"
+	},
+	{
+		"code": "97103",
+		"description": "EL TEJAR"
+	},
+	{
+		"code": "97200",
+		"description": "MIRASIERRA-PACO DE LUCÍA"
+	},
+	{
+		"code": "97201",
+		"description": "MADRID-RAMÓN Y CAJAL"
+	},
+	{
+		"code": "97639",
+		"description": "JÁVEA-BUS"
+	},
+	{
+		"code": "98000",
+		"description": "MADRID - ATOCHA CERCANÍAS"
+	},
+	{
+		"code": "98001",
+		"description": "HORTALEZA"
+	},
+	{
+		"code": "98003",
+		"description": "FTE DE LA MORA"
+	},
+	{
+		"code": "98100",
+		"description": "O'DONNELL"
+	},
+	{
+		"code": "98103",
+		"description": "ALCALÁ DE HENARES"
+	},
+	{
+		"code": "98147",
+		"description": "MONZÓN-BUS"
+	},
+	{
+		"code": "98148",
+		"description": "BINÉFAR-BUS"
+	},
+	{
+		"code": "98304",
+		"description": "VALDEBEBAS"
+	},
+	{
+		"code": "98305",
+		"description": "MADRID-AEROPUERTO T4"
+	},
+	{
+		"code": "99000",
+		"description": "MADRID CERCANÍAS"
+	},
+	{
+		"code": "99001",
+		"description": "SANTA POLA-BUS"
+	},
+	{
+		"code": "99002",
+		"description": "LOS ARENALES-BUS"
+	},
+	{
+		"code": "99003",
+		"description": "ALTET-BUS"
+	},
+	{
+		"code": "99004",
+		"description": "GRAN ALACANT-BUS"
+	},
+	{
+		"code": "99100",
+		"description": "BARBASTRO-BUS"
+	},
+	{
+		"code": "99101",
+		"description": "GRAUS-BUS"
+	},
+	{
+		"code": "99102",
+		"description": "BENASQUE-BUS"
+	},
+	{
+		"code": "99103",
+		"description": "JACA-BUS"
+	},
+	{
+		"code": "99104",
+		"description": "CANDANCHÚ-BUS"
+	},
+	{
+		"code": "99105",
+		"description": "ASTÚN-BUS"
+	},
+	{
+		"code": "99106",
+		"description": "BIESCAS-BUS"
+	},
+	{
+		"code": "99107",
+		"description": "PANTICOSA-BUS"
+	},
+	{
+		"code": "99108",
+		"description": "FORMIGAL-BUS"
+	},
+	{
+		"code": "99109",
+		"description": "SANXENXO-BUS"
+	},
+	{
+		"code": "99110",
+		"description": "OGROVE-BUS"
+	},
+	{
+		"code": "99111",
+		"description": "CANGAS-BUS"
+	},
+	{
+		"code": "99112",
+		"description": "BUEU-BUS"
+	},
+	{
+		"code": "99113",
+		"description": "SABIÑÁNIGO-BUS"
+	},
+	{
+		"code": "99114",
+		"description": "ANDORRA-BUS"
+	},
+	{
+		"code": "99115",
+		"description": "AGUADULCE-BUS"
+	},
+	{
+		"code": "99116",
+		"description": "ROQUETAS-BUS"
+	},
+	{
+		"code": "99117",
+		"description": "OURENSE TURÍSTICO"
+	},
+	{
+		"code": "99118",
+		"description": "MUROS-BUS"
+	},
+	{
+		"code": "99119",
+		"description": "FISTERRA-BUS"
+	},
+	{
+		"code": "99120",
+		"description": "TORREVIEJA-BUS"
+	},
+	{
+		"code": "99121",
+		"description": "BENIDORM-BUS"
+	},
+	{
+		"code": "99122",
+		"description": "TORREVIEJA-PLAYA-BUS"
+	},
+	{
+		"code": "99123",
+		"description": "BENIDORM- PLAYA-BUS"
+	},
+	{
+		"code": "99124",
+		"description": "TÁNGER MED-BARCO"
+	},
+	{
+		"code": "99125",
+		"description": "TÁNGER VILLE-BARCO"
+	},
+	{
+		"code": "99126",
+		"description": "CEUTA-BARCO"
+	},
+	{
+		"code": "99127",
+		"description": "CÁCERES."
+	},
+	{
+		"code": "99128",
+		"description": "MÉRIDA."
+	},
+	{
+		"code": "99129",
+		"description": "MUSEO FERROCARRIL"
+	},
+	{
+		"code": "99130",
+		"description": "ANTEQUERA SANTA ANA"
+	},
+	{
+		"code": "99131",
+		"description": "PONFERRADA-BUS"
+	},
+	{
+		"code": "99132",
+		"description": "MADRID-PRÍNCIPE PÍO TURÍSTICO"
+	},
+	{
+		"code": "99133",
+		"description": "MORALES DEL VINO-BUS"
+	},
+	{
+		"code": "99134",
+		"description": "CORRALES DEL VINO-BUS"
+	},
+	{
+		"code": "99135",
+		"description": "PELEAS DE ARRIBA-BUS"
+	},
+	{
+		"code": "99136",
+		"description": "CUBO DE LA TIERRA DEL VINO-BUS"
+	},
+	{
+		"code": "99137",
+		"description": "C.P.TOPAS-BUS"
+	},
+	{
+		"code": "99138",
+		"description": "CALZADA DE VALDUNCIEL-BUS"
+	},
+	{
+		"code": "99139",
+		"description": "ALDEASECA DE LA ARMUÑA-BUS"
+	},
+	{
+		"code": "99140",
+		"description": "MADRID-CHAMARTÍN-CLARA CAMPOAMOR"
+	},
+	{
+		"code": "99141",
+		"description": "TORO-BUS"
+	},
+	{
+		"code": "99142",
+		"description": "GUARDAMAR-BUS"
+	},
+	{
+		"code": "99143",
+		"description": "A CORUÑA-TURÍSTICO"
+	},
+	{
+		"code": "99144",
+		"description": "PUERTOLLANO-TURÍSTICO"
+	},
+	{
+		"code": "99145",
+		"description": "PLASENCIA-TURÍSTICO"
+	},
+	{
+		"code": "99146",
+		"description": "BADAJOZ-TURÍSTICO"
+	},
+	{
+		"code": "99149",
+		"description": "SEVILLA-TURISTICO"
+	},
+	{
+		"code": "99150",
+		"description": "FARO-BUS"
+	},
+	{
+		"code": "99151",
+		"description": "FARO AEROPUERTO-BUS"
+	},
+	{
+		"code": "99152",
+		"description": "ALBUFEIRA-BUS"
+	},
+	{
+		"code": "99153",
+		"description": "PORTIMAO-BUS"
+	},
+	{
+		"code": "99154",
+		"description": "LAGOS-BUS"
+	},
+	{
+		"code": "99155",
+		"description": "TAVIRA-BUS"
+	},
+	{
+		"code": "99156",
+		"description": "VILA REAL DE SAN ANTONIO-BUS"
+	},
+	{
+		"code": "99157",
+		"description": "VILLAJOYOSA-BUS"
+	},
+	{
+		"code": "99158",
+		"description": "CUÉLLAR-BUS"
+	},
+	{
+		"code": "99159",
+		"description": "SANTIAGO-TURÍSTICO"
+	},
+	{
+		"code": "99160",
+		"description": "VALLE DEL RUPESTRE VALDERREDIBLE"
+	},
+	{
+		"code": "99161",
+		"description": "PONTEVEDRA-TURÍSTICO"
+	},
+	{
+		"code": "99162",
+		"description": "HUESCA-BUS"
+	},
+	{
+		"code": "99163",
+		"description": "TARRAGONA-BUS"
+	},
+	{
+		"code": "99164",
+		"description": "SALOU-BUS"
+	},
+	{
+		"code": "99165",
+		"description": "REUS-BUS"
+	},
+	{
+		"code": "99166",
+		"description": "PINTO-TUR"
+	},
+	{
+		"code": "99170",
+		"description": "MÁLAGA MARÍA ZAMBRANO"
+	},
+	{
+		"code": "99171",
+		"description": "SALAMANCA-BUS"
+	},
+	{
+		"code": "99172",
+		"description": "GIJÓN-TURÍSTICO"
+	},
+	{
+		"code": "99173",
+		"description": "OVIEDO-TUR"
+	},
+	{
+		"code": "99174",
+		"description": "FERROL-TUR"
+	},
+	{
+		"code": "99176",
+		"description": "MIRA"
+	},
+	{
+		"code": "99177",
+		"description": "LEON TURISTICO"
+	},
+	{
+		"code": "99178",
+		"description": "VIGO GUIXAR TURÍSTICO"
+	},
+	{
+		"code": "99179",
+		"description": "BARCELONA FRANÇA TURÍSTICO"
+	},
+	{
+		"code": "99180",
+		"description": "SORIA ENLACE AVE"
+	},
+	{
+		"code": "99181",
+		"description": "CALPE-BUS"
+	},
+	{
+		"code": "99182",
+		"description": "ALTEA-BUS"
+	},
+	{
+		"code": "99183",
+		"description": "MADRID EMBAJADORES MuF"
+	},
+	{
+		"code": "99203",
+		"description": "PINTO"
+	},
+	{
+		"code": "99204",
+		"description": "VICÁLVARO"
+	},
+	{
+		"code": "99205",
+		"description": "P.ATRACCIONES"
+	},
+	{
+		"code": "99206",
+		"description": "VAN GOGH"
+	},
+	{
+		"code": "99207",
+		"description": "EL ESCORIAL"
+	},
+	{
+		"code": "99208",
+		"description": "CERCED.TUR"
+	},
+	{
+		"code": "99209",
+		"description": "ARANJUEZ-MOTÍN"
+	},
+	{
+		"code": "99210",
+		"description": "ARANJUEZ-FRESA"
+	},
+	{
+		"code": "99211",
+		"description": "ALCALÁ DE HENARES MONUMENTAL"
+	},
+	{
+		"code": "99212",
+		"description": "SOL-THE HOLE"
+	},
+	{
+		"code": "99213",
+		"description": "WILDLIFE"
+	},
+	{
+		"code": "99214",
+		"description": "SOL-FAMILIA ADDAMS"
+	},
+	{
+		"code": "99215",
+		"description": "EMBAJADORES-FESTIVAL MAGIA"
+	},
+	{
+		"code": "99216",
+		"description": "SOL - KING OF POP"
+	},
+	{
+		"code": "99501",
+		"description": "ANDORRA"
+	},
+	{
+		"code": "99800",
+		"description": "CERCEDILLA TURÍSTICO"
+	},
+	{
+		"code": "99801",
+		"description": "PUERTO NAVACERRADA"
+	},
+	{
+		"code": "99802",
+		"description": "COTOS"
+	},
+	{
+		"code": "99853",
+		"description": "VIELHA-BUS"
+	}
+]
