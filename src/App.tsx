@@ -98,7 +98,9 @@ function App() {
 						<StationsCombobox onChange={setStationCode} value={stationCode} />
 					</Field>
 					<Field>
-						<Label className="text-sm font-medium">Idiomas</Label>
+						<Label className="text-sm font-medium">
+							Idiomas <span className="text-xs text-foreground/60">(querida)</span>
+						</Label>
 						<MultiSelect
 							options={[
 								{ label: 'Español', value: 'ESP' },
