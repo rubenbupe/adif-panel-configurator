@@ -27,7 +27,11 @@ function App() {
 		showProduct: true,
 		showNumber: true,
 		showPlatformPreview: true,
-		showHeader: true
+		showHeader: true,
+		productFilter: new Set(),
+		companyFilter: new Set(),
+		subtitle: null,
+		subtitleParam: ''
 	});
 
 	const [platformOptions, setPlatformOptions] = useState<PlatformOptionsState>({
@@ -53,10 +57,10 @@ function App() {
 	}, [headerOptions, listOptions, platformOptions, numberOptions, fontSize]);
 
 	return (
-		<div className="w-screen min-h-screen flex flex-col">
+		<div className="w-screen min-h-screen max-w-screen flex flex-col">
 			<Navbar />
-			<div className="w-full flex-1 flex flex-col items-center justify-center bg-background gap-4">
-				<div className="grid md:grid-cols-2 gap-4 w-full p-4 max-w-7xl">
+			<div className="w-full max-w-full flex-1 flex flex-col items-center justify-center bg-background gap-4">
+				<div className="grid lg:grid-cols-2 items-center gap-4 w-full p-4 max-w-7xl">
 					<Panel
 						headerOptions={headerOptions}
 						setHeaderOptions={setHeaderOptions}

@@ -19,7 +19,7 @@ const SelectTrigger = React.forwardRef<
 		ref={ref}
 		className={cn(
 			buttonVariants({ variant: 'outline', size: 'sm' }),
-			'flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input px-3 py-2 text-sm shadow-sm ring-offset-background data-[placeholder]:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 hover:bg-accent hover:text-accent-foreground has-placeholder-hover:text-accent-foreground',
+			'flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border border-input px-3 py-2 text-sm shadow-sm ring-offset-background data-[placeholder]:text-foreground disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 hover:bg-accent hover:text-accent-foreground has-placeholder-hover:text-accent-foreground',
 			props.value && 'text-muted-foreground',
 			className
 		)}

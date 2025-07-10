@@ -22,7 +22,7 @@ export function StationsCombobox({ onChange, value }: { onChange: (value: string
 			<PopoverTrigger asChild>
 				<Button variant="outline" role="combobox" aria-expanded={open} className="justify-between w-full">
 					{value ? (
-						<span>
+						<span className="truncate">
 							{selectedStation?.description} <strong>[Cód. {selectedStation?.code}]</strong>
 						</span>
 					) : (

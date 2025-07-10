@@ -71,13 +71,16 @@ export function buildUrl({
 			})
 			.join(',');
 
-		// TODO: traffic puede ser una lista.
-		if (params['traffic'] === 'C') {
-			params['subtitle'] = 'CERC';
-		} else if (params['traffic'] === 'L') {
-			params['subtitle'] = 'LD';
-		} else if (params['traffic'] === 'R') {
-			params['subtitle'] = 'MD';
+		if (listOptions.subtitle) {
+			const subtitle = listOptions.subtitle.replace(/\$$/, listOptions.subtitleParam);
+			params['subtitle'] = subtitle;
+		}
+
+		if (listOptions.productFilter.size > 0) {
+			params['product-filter'] = Array.from(listOptions.productFilter).join(',');
+		}
+		if (listOptions.companyFilter.size > 0) {
+			params['company-filter'] = Array.from(listOptions.companyFilter).join(',');
 		}
 
 		params['countdown'] = listOptions.countdown ? 'true' : 'false';

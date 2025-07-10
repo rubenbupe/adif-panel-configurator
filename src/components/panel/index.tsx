@@ -7,6 +7,7 @@ import { PanelHeader, PanelMode, type HeaderOptionsState } from '../panel/PanelH
 import { ListOptions, type ListOptionsState } from '../panel/ListOptions';
 import { PlatformOptions, type PlatformOptionsState } from '../panel/PlatformOptions';
 import { NumberOptions, type NumberOptionsState } from '../panel/NumberOptions';
+import { ScrollArea } from '../ui/scroll-area';
 
 export default function Panel({
 	headerOptions,
@@ -32,7 +33,7 @@ export default function Panel({
 	setFontSize: (next: number) => void;
 }) {
 	return (
-		<Card className="w-full h-fit">
+		<Card className="w-full max-w-full overflow-hidden h-fit">
 			<CardContent className="space-y-4">
 				<PanelHeader value={headerOptions} onChange={setHeaderOptions} />
 				<Label className="text-sm font-medium">Tipo de panel</Label>
@@ -40,14 +41,18 @@ export default function Panel({
 					value={headerOptions.mode}
 					onValueChange={mode => setHeaderOptions({ ...headerOptions, mode: mode as PanelMode })}
 				>
-					<TabsList>
-						<TabsTrigger value={PanelMode.List}>Listado de trenes</TabsTrigger>
-						<TabsTrigger value={PanelMode.Platform}>Plataforma</TabsTrigger>
-						<TabsTrigger value={PanelMode.Clock}>Reloj</TabsTrigger>
-						{/* <TabsTrigger value={PanelMode.BlackClock}>Reloj oscuro</TabsTrigger> */}
-						<TabsTrigger value={PanelMode.Number}>Número</TabsTrigger>
-						{/* <TabsTrigger value={PanelMode.BlackNumber}>Número oscuro</TabsTrigger> */}
-					</TabsList>
+					<ScrollArea className="w-full">
+						<div className="w-full overflow-x-auto pb-2">
+							<TabsList>
+								<TabsTrigger value={PanelMode.List}>Listado de trenes</TabsTrigger>
+								<TabsTrigger value={PanelMode.Platform}>Vía</TabsTrigger>
+								<TabsTrigger value={PanelMode.Clock}>Reloj</TabsTrigger>
+								{/* <TabsTrigger value={PanelMode.BlackClock}>Reloj oscuro</TabsTrigger> */}
+								<TabsTrigger value={PanelMode.Number}>Número</TabsTrigger>
+								{/* <TabsTrigger value={PanelMode.BlackNumber}>Número oscuro</TabsTrigger> */}
+							</TabsList>
+						</div>
+					</ScrollArea>
 					<TabsContent value="list">
 						<Card>
 							<CardContent className="grid md:grid-cols-2 gap-4 py-0">

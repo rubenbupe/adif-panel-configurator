@@ -158,7 +158,7 @@ export const MultiSelect = React.forwardRef<HTMLButtonElement, MultiSelectProps>
 								</div>
 							</div>
 						) : (
-							<div className="flex items-center justify-between w-full mx-auto text-muted-foreground">
+							<div className="flex items-center justify-between w-full mx-auto text-foreground/60">
 								<span className="text-sm font-normal mx-3">{placeholder}</span>
 								<ChevronsUpDownIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
 							</div>

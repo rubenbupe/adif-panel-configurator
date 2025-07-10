@@ -3,6 +3,10 @@ import { Label } from '../ui/label';
 import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
 import { Checkbox } from '../ui/checkbox';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
+import { MultiSelect } from '../ui/multi-select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
+import { cn } from '@/lib/utils';
+import { Input } from '../ui/input';
 
 export enum Direction {
 	Departures = 'departures',
@@ -15,6 +19,41 @@ export enum ServiceType {
 	LargaDistancia = 'larga-distancia'
 }
 
+export enum Product {
+	IRYO = 'IRYO',
+	AVLO = 'AVLO',
+	MD = 'MD',
+	AVANT = 'AVANT',
+	REX = 'REX',
+	ICITY = 'ICITY',
+	AVE = 'AVE',
+	SSERV = 'SSERV',
+	CERCAN = 'CERCAN',
+	OUIGO = 'OUIGO',
+	ALVIA = 'ALVIA'
+}
+
+export enum Company {
+	Renfe = 'RENFE',
+	Iryo = 'IRYO',
+	Ouigo = 'OUIGO'
+}
+
+export enum Subtitle {
+	AV = 'AV',
+	CERC = 'CERC',
+	CERCMD = 'CERCMD',
+	MD = 'MD',
+	LD = 'LD',
+	LDAV = 'LDAV',
+	MDLD = 'MDLD',
+	MDLDCONV = 'MDLDCONV',
+	CERCMDLDCONV = 'CERCMDLDCONV',
+	AEROPUERTO = 'AEROPUERTO',
+	OPERADOR = 'OPERADOR:$',
+	VIA = 'VIA:$'
+}
+
 export interface ListOptionsState {
 	direction: Direction;
 	services: Set<ServiceType>;
@@ -25,6 +64,10 @@ export interface ListOptionsState {
 	showNumber: boolean;
 	showPlatformPreview: boolean;
 	showHeader: boolean;
+	productFilter: Set<Product>;
+	companyFilter: Set<Company>;
+	subtitle: Subtitle | null;
+	subtitleParam: string;
 }
 
 export function ListOptions({
@@ -90,9 +133,75 @@ export function ListOptions({
 					))}
 				</div>
 			</Field>
+			<Field className="md:col-span-2">
+				<Label className="text-xs font-medium">Productos</Label>
+				<MultiSelect
+					options={[
+						{ label: 'Iryo', value: Product.IRYO },
+						{ label: 'AVE', value: Product.AVE },
+						{ label: 'Ouigo', value: Product.OUIGO },
+						{ label: 'Avlo', value: Product.AVLO },
+						{ label: 'Alvia', value: Product.ALVIA },
+						{ label: 'Avant', value: Product.AVANT },
+						{ label: 'Media Distancia', value: Product.MD },
+						{ label: 'Reg. Express', value: Product.REX },
+						{ label: 'Intercity', value: Product.ICITY },
+						{ label: 'Servicions Especiales', value: Product.SSERV },
+						{ label: 'Cercanías', value: Product.CERCAN }
+					]}
+					onValueChange={products => onValueChange({ productFilter: new Set(products as Product[]) })}
+					value={Array.from(value.productFilter)}
+				/>
+			</Field>
+			<Field className="md:col-span-2">
+				<Label className="text-xs font-medium">Compañías</Label>
+				<MultiSelect
+					options={[
+						{ label: 'Renfe', value: Company.Renfe },
+						{ label: 'Iryo', value: Company.Iryo },
+						{ label: 'Ouigo', value: Company.Ouigo }
+					]}
+					onValueChange={companies => onValueChange({ companyFilter: new Set(companies as Company[]) })}
+					value={Array.from(value.companyFilter)}
+				/>
+			</Field>
+			<Field className={cn(value.subtitle?.endsWith(':$') ? '' : 'md:col-span-2')}>
+				<Label className="text-xs font-medium">Subtítulo</Label>
+				<Select
+					value={value.subtitle as string}
+					onValueChange={subtitle => onValueChange({ subtitle: subtitle as Subtitle })}
+				>
+					<SelectTrigger>
+						<SelectValue />
+					</SelectTrigger>
+					<SelectContent>
+						<SelectItem value={Subtitle.AV}>Alta Velocidad</SelectItem>
+						<SelectItem value={Subtitle.LDAV}>Larga Distancia · Alta Velocidad</SelectItem>
+						<SelectItem value={Subtitle.LD}>Larga Distancia</SelectItem>
+						<SelectItem value={Subtitle.CERC}>Cercanías</SelectItem>
+						<SelectItem value={Subtitle.CERCMD}>Cercanías · Regional</SelectItem>
+						<SelectItem value={Subtitle.MD}>Regional</SelectItem>
+						<SelectItem value={Subtitle.MDLD}>Regional · Larga Distancia</SelectItem>
+						<SelectItem value={Subtitle.MDLDCONV}>Regional · Larga Distancia Convencional</SelectItem>
+						<SelectItem value={Subtitle.CERCMDLDCONV}>Cercanías · Regional · Larga Distancia Convencional</SelectItem>
+						<SelectItem value={Subtitle.AEROPUERTO}>Conexiones al aeropuerto</SelectItem>
+						<SelectItem value={Subtitle.OPERADOR}>Servicios operados por ...</SelectItem>
+						<SelectItem value={Subtitle.VIA}>Vía ...</SelectItem>
+					</SelectContent>
+				</Select>
+			</Field>
+			<Field className={cn(!value.subtitle?.endsWith(':$') && 'hidden')}>
+				<Label className="text-xs font-medium">Subtítulo</Label>
+				<Input
+					value={value.subtitleParam}
+					onChange={e => onValueChange({ subtitleParam: e.target.value })}
+					placeholder="Parámetro del subtítulo"
+					className="w-full"
+				/>
+			</Field>
 			<Accordion type="single" collapsible className="md:col-span-2 -mb-4">
-				<AccordionItem value="advanced-options">
-					<AccordionTrigger>Opciones avanzadas</AccordionTrigger>
+				<AccordionItem value="column-options">
+					<AccordionTrigger>Configuración de columnas</AccordionTrigger>
 					<AccordionContent>
 						<div className="grid md:grid-cols-2 gap-4">
 							<div className="flex items-center gap-3" title="La cuenta atrás solo está disponible para salidas.">
