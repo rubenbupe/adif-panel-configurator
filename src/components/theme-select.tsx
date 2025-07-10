@@ -15,8 +15,8 @@ export default function ThemeSelect() {
 	return (
 		<DropdownMenu>
 			<DropdownMenuTrigger className="w-full rounded-full">
-				<div className="p-3 rounded-full">
-					{calculatedTheme === 'light' ? <SunIcon size={14} /> : <MoonIcon size={14} />}
+				<div className="p-1 rounded-full text-sidebar-foreground cursor-pointer">
+					{calculatedTheme === 'light' ? <SunIcon size={24} /> : <MoonIcon size={24} />}
 				</div>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="end" className="w-[200px]" defaultValue={theme}>

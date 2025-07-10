@@ -14,10 +14,10 @@ export const useThemeStore = create<ThemeStore>()(
 	persist(
 		set => ({
 			collapsedSidebar: false,
-			theme: 'system',
+			theme: 'dark',
 			clearData: () => {
 				set(() => ({
-					theme: 'system'
+					theme: 'dark'
 				}));
 			},
 			setTheme: (theme: 'light' | 'dark' | 'system') => {
