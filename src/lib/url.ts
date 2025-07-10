@@ -1,90 +1,69 @@
+import type { NumberOptionsState } from '@/components/panel/NumberOptions';
+import { Direction, ServiceType, type ListOptionsState } from '../components/panel/ListOptions';
+import type { PlatformOptionsState } from '../components/panel/PlatformOptions';
+import { PanelMode, type HeaderOptionsState } from '@/components/panel/PanelHeader';
+
 export function buildUrl({
-	stationCode,
-	languages,
-	mode,
-
-	direction,
-	services,
-	countdown,
-	showAccess,
-	showPlatform,
-	showProduct,
-	showNumber,
-	showPlatformPreview,
-	showHeader,
-
-	platformLocation,
-	numberIfNoTrains,
-	platformMode,
-
+	headerOptions,
+	listOptions,
+	platformOptions,
+	numberOptions,
 	fontSize
 }: {
-	stationCode: string;
-	languages: string[];
-	mode: 'list' | 'platform' | 'clock' | 'black-clock' | 'number' | 'black-number';
-
-	direction: 'salidas' | 'llegadas';
-	services: Set<'cercanias' | 'media-distancia' | 'larga-distancia'>;
-	countdown: boolean;
-	showAccess: boolean;
-	showPlatform: boolean;
-	showProduct: boolean;
-	showNumber: boolean;
-	showPlatformPreview: boolean;
-	showHeader: boolean;
-
-	platformLocation: string;
-	numberIfNoTrains: string;
-	platformMode: 'access' | 'check-in' | 'platform';
-
+	headerOptions: HeaderOptionsState;
+	listOptions: ListOptionsState;
+	platformOptions: PlatformOptionsState;
+	numberOptions: NumberOptionsState;
 	fontSize: number;
 }): string {
 	const params: Record<string, string> = {
 		rutaRecursos: '../../../recursos'
 	};
 
-	params['IdEstacion'] = stationCode;
-	if (languages.length > 0) {
-		params['languages'] = languages.join(',');
+	// HEADER CONFIGURATION
+	params['IdEstacion'] = headerOptions.stationCode;
+	if (headerOptions.languages.length > 0) {
+		params['languages'] = headerOptions.languages.join(',');
 	}
 
-	switch (mode) {
-		case 'list':
-			switch (direction) {
-				case 'salidas':
+	switch (headerOptions.mode) {
+		case PanelMode.List:
+			switch (listOptions.direction) {
+				case Direction.Departures:
 					params['interfaz'] = 'adif-gravita-departures';
 					break;
-				case 'llegadas':
+				case Direction.Arrivals:
 					params['interfaz'] = 'adif-gravita-arrivals';
 					break;
 			}
 			break;
-		case 'platform':
+		case PanelMode.Platform:
 			params['interfaz'] = 'adif-gravita-platform';
 			break;
-		case 'clock':
+		case PanelMode.Clock:
 			params['interfaz'] = 'adif-gravita-clock';
 			break;
-		case 'black-clock':
+		case PanelMode.BlackClock:
 			params['interfaz'] = 'adif-gravita-black-clock';
 			break;
-		case 'number':
+		case PanelMode.Number:
 			params['interfaz'] = 'adif-gravita-number';
 			break;
-		case 'black-number':
+		case PanelMode.BlackNumber:
 			params['interfaz'] = 'adif-gravita-black-number';
 			break;
 	}
 
-	if (mode === 'list') {
-		params['traffic'] = Array.from(services)
+	// MODE SPECIFIC CONFIGURATION
+	if (headerOptions.mode === 'list') {
+		params['traffic'] = Array.from(listOptions.services)
 			.map(service => {
 				switch (service) {
-					case 'cercanias':
+					case ServiceType.Cercanias:
 						return 'C';
-					case 'larga-distancia':
+					case ServiceType.LargaDistancia:
 						return 'L';
-					case 'media-distancia':
+					case ServiceType.MediaDistancia:
 						return 'R';
 					default:
 						return '';
@@ -92,6 +71,7 @@ export function buildUrl({
 			})
 			.join(',');
 
+		// TODO: traffic puede ser una lista.
 		if (params['traffic'] === 'C') {
 			params['subtitle'] = 'CERC';
 		} else if (params['traffic'] === 'L') {
@@ -100,29 +80,32 @@ export function buildUrl({
 			params['subtitle'] = 'MD';
 		}
 
-		params['countdown'] = countdown ? 'true' : 'false';
-
-		params['show-access'] = showAccess ? 'true' : 'false';
-		params['show-platform'] = showPlatform ? 'true' : 'false';
-		params['show-product'] = showProduct ? 'true' : 'false';
-		params['show-number'] = showNumber ? 'true' : 'false';
-		params['show-platform-preview'] = showPlatformPreview ? 'true' : 'false';
-		params['show-header'] = showHeader ? 'true' : 'false';
-	} else if (mode === 'platform') {
-		params['platform-location'] = platformLocation;
-		params['number-if-no-trains'] = numberIfNoTrains;
-		params['platform-mode'] = platformMode;
-	} else if (mode === 'clock' || mode === 'black-clock') {
-		params['platform-location'] = platformLocation;
-		params['number-if-no-trains'] = numberIfNoTrains;
+		params['countdown'] = listOptions.countdown ? 'true' : 'false';
+		params['show-access'] = listOptions.showAccess ? 'true' : 'false';
+		params['show-platform'] = listOptions.showPlatform ? 'true' : 'false';
+		params['show-product'] = listOptions.showProduct ? 'true' : 'false';
+		params['show-number'] = listOptions.showNumber ? 'true' : 'false';
+		params['show-platform-preview'] = listOptions.showPlatformPreview ? 'true' : 'false';
+		params['show-header'] = listOptions.showHeader ? 'true' : 'false';
+	} else if (headerOptions.mode === 'platform') {
+		params['platform-location'] = platformOptions.platformLocation;
+		params['number-if-no-trains'] = numberOptions.numberIfNoTrains;
+		params['platform-mode'] = platformOptions.platformMode;
+	} else if (headerOptions.mode === 'clock' || headerOptions.mode === 'black-clock') {
+		params['platform-location'] = platformOptions.platformLocation;
+		params['number-if-no-trains'] = numberOptions.numberIfNoTrains;
+	} else if (headerOptions.mode === 'number' || headerOptions.mode === 'black-number') {
+		params['platform-location'] = numberOptions.platformLocation;
+		params['number-if-no-trains'] = numberOptions.numberIfNoTrains;
 	}
 
+	// FONT SIZE CONFIGURATION
 	params['font-size'] = fontSize.toString();
 
 	return (
 		'https://info.adif.es/?' +
 		new URLSearchParams({
-			s: stationCode, // This is the station code, it should be included in the URL so that the app can fetch the correct data
+			s: headerOptions.stationCode,
 			a: `a&${Object.entries(params)
 				.map(([key, value]) => `${key}=${encodeURIComponent(value)}`)
 				.join('&')}#`
