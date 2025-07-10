@@ -15,6 +15,8 @@ import { PlatformOptions, PlatformMode } from './components/panel/PlatformOption
 import type { PlatformOptionsState } from './components/panel/PlatformOptions';
 import { NumberOptions } from './components/panel/NumberOptions';
 import type { NumberOptionsState } from './components/panel/NumberOptions';
+import { toast } from 'sonner';
+import ThemeSelect from './components/theme-select';
 
 function App() {
 	const [headerOptions, setHeaderOptions] = useState<HeaderOptionsState>({
@@ -59,10 +61,21 @@ function App() {
 
 	return (
 		<div className="w-screen min-h-screen flex flex-col items-center justify-center bg-background gap-4">
-			<img src={logoAdif} alt="ADIF Logo" className="max-w-[200px]" />
+			<div
+				className="max-w-[200px] w-[200px] h-[60px]"
+				style={{
+					backgroundColor: 'var(--primary)',
+					WebkitMask: `url(${logoAdif}) center/contain no-repeat`,
+					mask: `url(${logoAdif}) center/contain no-repeat`
+				}}
+				aria-label="ADIF Logo"
+			/>
+			<div className="absolute top-4 right-4">
+				<ThemeSelect />
+			</div>
 			<Card className="w-full max-w-2xl">
 				<CardHeader>
-					<CardTitle>Configurador de Paneles de ADIF</CardTitle>
+					<CardTitle>Configurador de Paneles de Adif</CardTitle>
 				</CardHeader>
 				<CardContent className="space-y-4">
 					<PanelHeader value={headerOptions} onChange={setHeaderOptions} />
@@ -128,7 +141,10 @@ function App() {
 							<span className="break-all font-mono text-sm">{url}</span>
 							<CopyIcon
 								className="ml-2 min-h-5 min-w-5 cursor-pointer"
-								onClick={() => navigator.clipboard.writeText(url)}
+								onClick={() => {
+									navigator.clipboard.writeText(url);
+									toast.success('URL copiada al portapapeles');
+								}}
 							/>
 						</Card>
 					</Field>
@@ -146,7 +162,7 @@ function App() {
 				</CardContent>
 			</Card>
 			<p className="max-w-2xl text-xs text-foreground/60 text-center">
-				Este proyecto no está afiliado a ADIF. Algunas configuraciones pueden no funcionar como se espera.
+				Este proyecto no está afiliado a Adif. Algunas configuraciones pueden no funcionar como se espera.
 			</p>
 			<div className="flex items-center justify-center">
 				<GithubIcon className="h-3.5 w-3.5 inline-block mr-1 stroke-foreground/60" />
