@@ -16,7 +16,8 @@ export enum Direction {
 export enum ServiceType {
 	Cercanias = 'cercanias',
 	MediaDistancia = 'media-distancia',
-	LargaDistancia = 'larga-distancia'
+	LargaDistancia = 'larga-distancia',
+	AltaVelocidad = 'alta-velocidad'
 }
 
 export enum Product {
@@ -110,7 +111,12 @@ export function ListOptions({
 			<Field>
 				<Label className="text-xs font-medium">Servicios</Label>
 				<div className="flex flex-col gap-3">
-					{[ServiceType.Cercanias, ServiceType.MediaDistancia, ServiceType.LargaDistancia].map(serviceType => (
+					{[
+						ServiceType.Cercanias,
+						ServiceType.MediaDistancia,
+						ServiceType.LargaDistancia,
+						ServiceType.AltaVelocidad
+					].map(serviceType => (
 						<div className="flex items-center gap-3" key={serviceType}>
 							<Checkbox
 								id={serviceType}

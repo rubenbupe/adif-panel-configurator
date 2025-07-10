@@ -65,6 +65,8 @@ export function buildUrl({
 						return 'L';
 					case ServiceType.MediaDistancia:
 						return 'R';
+					case ServiceType.AltaVelocidad:
+						return 'A';
 					default:
 						return '';
 				}
