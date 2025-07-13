@@ -1,7 +1,7 @@
 import { PanelMode, type HeaderOptionsState } from '@/components/configurator/PanelHeader';
 import type { NumberOptionsState } from '@/components/configurator/NumberOptions';
 import type { PlatformOptionsState } from '@/components/configurator/PlatformOptions';
-import { ServiceType, type ListOptionsState } from '../components/configurator/ListOptions';
+import { ListInterface, ServiceType, type ListOptionsState } from '../components/configurator/ListOptions';
 import { PANEL_URL } from '@/constants';
 
 // Tipos estrictos para los datos de URL y props de Gravita
@@ -94,13 +94,30 @@ const allowedPropsByMode: Record<PanelMode, string[]> = {
 	[PanelMode.Clock]: ['interfaz', 'stationCode', 'traffic', 'languages', 'fontSize']
 };
 
-const interfazMap: Record<PanelMode, string> = {
-	[PanelMode.Arrivals]: 'arrivals',
-	[PanelMode.Departures]: 'departures',
-	[PanelMode.Platform]: 'platform',
-	[PanelMode.Clock]: 'clock',
-	[PanelMode.Number]: 'number'
-};
+function modeToInterfaz(mode: PanelMode, listInterfaz: ListInterface): string {
+	switch (mode) {
+		case PanelMode.Arrivals:
+			switch (listInterfaz) {
+				case ListInterface.Cercanias:
+					return 'adif-gravita-arrivals-cercanias';
+				default:
+					return 'adif-gravita-arrivals';
+			}
+		case PanelMode.Departures:
+			switch (listInterfaz) {
+				case ListInterface.Cercanias:
+					return 'adif-gravita-departures-cercanias';
+				default:
+					return 'adif-gravita-departures';
+			}
+		case PanelMode.Platform:
+			return 'adif-gravita-platform';
+		case PanelMode.Clock:
+			return 'adif-gravita-clock';
+		case PanelMode.Number:
+			return 'adif-gravita-number';
+	}
+}
 
 export function dataToUrlParams({
 	headerOptions,
@@ -121,7 +138,7 @@ export function dataToUrlParams({
 		stationCode: headerOptions.stationCode,
 		languages: headerOptions.languages, // corregido: es string[]
 		fontSize,
-		interfaz: interfazMap[mode],
+		interfaz: modeToInterfaz(mode, listOptions.interfaz),
 		traffic: listOptions.services && listOptions.services.size > 0 ? Array.from(listOptions.services) : [],
 		showHeader: listOptions.showHeader,
 		showAccess: listOptions.showAccess,
@@ -187,7 +204,7 @@ export function dataToGravitaProps(data: PanelUrlParamsData): Record<string, any
 		IdEstacion: data.stationCode,
 		languages: data.languages.join(','),
 		'font-size': data.fontSize,
-		interfaz: `adif-gravita-${data.interfaz}`,
+		interfaz: data.interfaz,
 		traffic:
 			data.traffic.length > 0
 				? data.traffic

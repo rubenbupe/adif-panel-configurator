@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { GithubIcon } from 'lucide-react';
 import { PanelMode, Language, type HeaderOptionsState } from '../components/configurator/PanelHeader';
-import { ServiceType } from '../components/configurator/ListOptions';
+import { ListInterface, ServiceType } from '../components/configurator/ListOptions';
 import type { ListOptionsState } from '../components/configurator/ListOptions';
 import { PlatformMode } from '../components/configurator/PlatformOptions';
 import type { PlatformOptionsState } from '../components/configurator/PlatformOptions';
@@ -19,7 +19,14 @@ export default function Configurator() {
 	});
 
 	const [listOptions, setListOptions] = useState<ListOptionsState>({
-		services: new Set([ServiceType.Cercanias]),
+		services: new Set([
+			ServiceType.Cercanias,
+			ServiceType.Regional,
+			ServiceType.LargaDistancia,
+			ServiceType.AltaVelocidad,
+			ServiceType.ServicioInterno
+		]),
+		interfaz: ListInterface.Default,
 		countdown: true,
 		showAccess: false,
 		showPlatform: true,

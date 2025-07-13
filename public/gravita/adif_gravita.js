@@ -143,7 +143,7 @@ function AdGr24_startListMonitors() {
     // Se ejecuta al recargar el explorador
 
     //Los seleccionamos:
-    var list_monitors = $('.adif-gravita-departures, .adif-gravita-arrivals');
+    var list_monitors = $('.adif-gravita-departures, .adif-gravita-arrivals, .adif-gravita-arrivals-cercanias, .adif-gravita-departures-cercanias');
     
     //Números de grupo negativos para los monitores que no los declaren
     var unasigned_group = -1
@@ -163,12 +163,12 @@ function AdGr24_startListMonitors() {
     //Los ordenamos por salidas/llegadas, por grupos, y dentro de grupos, por orden
     list_monitors.sort(function(a, b) {
 
-        if ($(a).hasClass('adif-gravita-departures')) {
+        if ($(a).hasClass('adif-gravita-departures') || $(a).hasClass('adif-gravita-departures-cercanias')) {
             var a_kind = 1;
         } else {
             var a_kind = 0;
         }
-        if ($(b).hasClass('adif-gravita-departures')) {
+        if ($(b).hasClass('adif-gravita-departures') || $(b).hasClass('adif-gravita-departures-cercanias')) {
             var b_kind = 1;
         } else {
             var b_kind = 0;
@@ -238,9 +238,13 @@ function AdGr24_startListMonitors() {
         //Consultamos si estamos en un monitor de tipo departures o arrivals
         if($(this).hasClass('adif-gravita-departures')) {
             var monitor_class = 'departures';
-        } else {
-            var monitor_class = 'arrivals';
-        }
+        } else if($(this).hasClass('adif-gravita-departures-cercanias')) {
+            var monitor_class = 'departures-cercanias';
+        } else if($(this).hasClass('adif-gravita-arrivals')) {
+						var monitor_class = 'arrivals';
+				} else if($(this).hasClass('adif-gravita-arrivals-cercanias')) {
+						var monitor_class = 'arrivals-cercanias';
+				}
 
         //Obtenemos los porcentajes de anchura de los elementos de la tabla
 
@@ -685,6 +689,8 @@ function AdGr24_updateMonitors() {
             this_monitor.removeClass('adif-gravita-clock');
             this_monitor.removeClass('adif-gravita-arrivals');
             this_monitor.removeClass('adif-gravita-departures');
+						this_monitor.removeClass('adif-gravita-arrivals-cercanias');
+						this_monitor.removeClass('adif-gravita-departures-cercanias');
             this_monitor.removeClass('adif-gravita-number');
             this_monitor.removeClass('adif-gravita-black-number');
             this_monitor.removeClass('adif-gravita-black-clock');
@@ -881,9 +887,34 @@ function AdGr24_updateMonitors() {
     }
 
     //Actualización monitores de salidas y llegadas (.adif-gravita-departures, .adif-gravita-arrivals)
-    $('.adif-gravita-departures, .adif-gravita-arrivals').each(function () {
+    $('.adif-gravita-departures, .adif-gravita-arrivals, .adif-gravita-arrivals-cercanias, .adif-gravita-departures-cercanias').each(function () {
 
+			// Mostrar el fondo en base a la estación del año
+				if($(this).hasClass('adif-gravita-departures-cercanias') || $(this).hasClass('adif-gravita-arrivals-cercanias')) {
+					const d = new Date();
+					const seasonArray = [
+							{name: 'Spring', date: new Date(d.getFullYear(),2,(d.getFullYear() % 4 === 0) ? 19 : 20).getTime()},
+							{name: 'Summer', date: new Date(d.getFullYear(),5,(d.getFullYear() % 4 === 0) ? 20 : 21).getTime()},
+							{name: 'Autumn', date: new Date(d.getFullYear(),8,(d.getFullYear() % 4 === 0) ? 22 : 23).getTime()},
+							{name: 'Winter', date: new Date(d.getFullYear(),11,(d.getFullYear() % 4 === 0) ? 20 : 21).getTime()}
+					];
 
+					const season = seasonArray.filter(({ date }) => date <= d).slice(-1)[0] || {name: "Winter"}
+
+					if (season.name === 'Spring') {
+						// Primavera
+						$(this).css('background', 'url(/gravita/imgs/bg-cercanias-1.webp) center center / cover no-repeat');
+					} else if (season.name === 'Summer') {
+						// Verano
+						$(this).css('background', 'url(/gravita/imgs/bg-cercanias-2.webp) center center / cover no-repeat');
+					} else if (season.name === 'Autumn') {
+						// Otoño
+						$(this).css('background', 'url(/gravita/imgs/bg-cercanias-3.webp) center center / cover no-repeat');
+					} else {
+						// Invierno
+						$(this).css('background', 'url(/gravita/imgs/bg-cercanias-4.webp) center center / cover no-repeat');
+					}
+				}
         //Consultamos si estamos en un monitor de tipo departures o arrivals y si estamos en modo cuenta atrás
         if($(this).hasClass('adif-gravita-departures')) {
             var monitor_class = 'departures';
@@ -2132,11 +2163,19 @@ function AdGr24_logoHTML(monitor_class,width) {
     el.attr('style','width: ' + width + '%;');
     var img = $("<img>");
     img.addClass('svg_en_img')
-    img.attr('src',getMultimediaFolder('svg') + "adifsumma.svg");
+		if (monitor_class == 'departures-cercanias' || monitor_class == 'arrivals-cercanias') {
+			img.attr('src', './imgs/cercanias-logo.png');
+		} else {
+			img.attr('src',getMultimediaFolder('svg') + "adifsumma.svg");
+		}
     if (monitor_class == 'departures') {
         img.addClass('color-gravita-azul-primario');
     } else if (monitor_class == 'arrivals') {
         img.addClass('color-gravita-blanco');
+		} else if (monitor_class == 'departures-cercanias') {
+				el.attr('style','width: 40%;');
+		} else if (monitor_class == 'arrivals-cercanias') {
+				el.attr('style','width: 40%;');
     } else if (monitor_class == 'clock') {
         img.addClass('color-gravita-blanco');
     } else if (monitor_class == 'black') {
@@ -5139,7 +5178,7 @@ function AdGr24_updateClock() {
     minutes = minutes < 10 ? '0' + minutes : minutes;
     seconds = seconds < 10 ? '0' + seconds : seconds;
 
-    var clock_time = hours + ':' + minutes + '<small>:' + seconds + '</small>';
+    var clock_time = hours + ':' + minutes + '<small>.' + seconds + '</small>';
     $(".clock p").html(clock_time);
 }
 

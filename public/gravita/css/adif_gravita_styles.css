@@ -37,6 +37,15 @@ body {
 
 /* ORGANIZACIÓN GENERAL DEL MONITOR: CABECERA Y TABLA */
 
+.adif-gravita-departures-cercanias,
+.adif-gravita-arrivals-cercanias {
+	padding: 2% 5% 0 10%;
+	background: linear-gradient(to right, #ffffff, #ffffff);
+	background-size: cover;
+	background-position: center;
+    
+}
+
 .adif-gravita-departures .header {
     /* Respecto a .adif-gravita-departures */
     height: var(--header-height);
@@ -46,6 +55,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-color: #BFEFD5;
+    color: #102341;
+}
+
+.adif-gravita-departures-cercanias .header {
+    /* Respecto a .adif-gravita-departures */
+    height: auto;
+    font-size: var(--header-height);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
     color: #102341;
 }
 
@@ -62,10 +82,24 @@ body {
 }
 
 
+.adif-gravita-arrivals-cercanias .header {
+    /* Respecto a .adif-gravita-arrivals */
+    height: auto;
+    font-size: var(--header-height);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    color: #102341;
+}
+
+
 
 
 .adif-gravita-departures .table,
-.adif-gravita-arrivals .table {
+.adif-gravita-arrivals .table,
+.adif-gravita-departures-cercanias .table,
+.adif-gravita-arrivals-cercanias .table {
     /* Respecto a .adif-gravita-departures */
     height: var(--table-height);
     font-size: var(--table-height);
@@ -76,7 +110,9 @@ body {
 
 
 .adif-gravita-departures .header .logo,
-.adif-gravita-arrivals .header .logo{
+.adif-gravita-arrivals .header .logo,
+.adif-gravita-departures-cercanias .header .logo,
+.adif-gravita-arrivals-cercanias .header .logo{
     /* Respecto a .header */
     height: 100;
     font-size: 100%;
@@ -97,8 +133,23 @@ body {
 
 }
 
+.adif-gravita-departures-cercanias .header .title,
+.adif-gravita-arrivals-cercanias .header .title {
+    /* Respecto a .header */
+    height: 100%;
+		width: 60% !important;
+    font-size: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+
+}
+
 .adif-gravita-departures .header .clock,
-.adif-gravita-arrivals .header .clock {
+.adif-gravita-arrivals .header .clock,
+.adif-gravita-departures-cercanias .header .clock,
+.adif-gravita-arrivals-cercanias .header .clock {
     /* Respecto a .header */
     height: 66%;
     font-size: 66%;
@@ -110,9 +161,17 @@ body {
 
 /* Organización de .header .logo */
 .adif-gravita-departures .header .logo img,
-.adif-gravita-arrivals .header .logo img  {
+.adif-gravita-arrivals .header .logo img {
     /* Respecto a .header */
     width: 80%;
+}
+
+.adif-gravita-departures-cercanias .header .logo img,
+.adif-gravita-arrivals-cercanias .header .logo img {
+    /* Respecto a .header */
+    width: 100%;
+		margin-bottom: 10px;
+		margin-left: -20px;
 }
 
 
@@ -132,8 +191,48 @@ body {
 
 }
 
+.adif-gravita-departures-cercanias .header .title,
+.adif-gravita-arrivals-cercanias .header .title {
+    /* Respecto a .title */
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+		align-items: center;
+    width: auto;
+		justify-content: center;
+		background: linear-gradient(to right, #ffffff 0%, #ffffff 65%, #bfbfbf 100%);
+		border-left: 2px solid white;
+		box-sizing: border-box;
+		transform: translateY(2px);
+		z-index: 1;
+		border-top-left-radius: 100px 100%;
+		border-top-right-radius: 20px 10px;
+}
+
+.adif-gravita-departures-cercanias .header .title .title-text,
+.adif-gravita-arrivals-cercanias .header .title .title-text {
+    /* Respecto a .title */
+    font-family: 'AdifHaussMedium', sans-serif;
+    font-size: 100%;
+    text-align: left;
+    font-weight: 500;
+		color: #454545;
+		text-shadow: 2px 2px 3px #5b5b5b;
+		transform: translateX(-5px);
+}
+
+
+.adif-gravita-departures-cercanias .header .title .title-text-margin,
+.adif-gravita-arrivals-cercanias .header .title .title-text-margin {
+    /* Respecto a .title */
+    display: none !important;
+
+}
+
 .adif-gravita-departures .header .title .title-text span,
-.adif-gravita-arrivals .header .title .title-text span {
+.adif-gravita-arrivals .header .title .title-text span,
+.adif-gravita-departures-cercanias .header .title .title-text span,
+.adif-gravita-arrivals-cercanias .header .title .title-text span {
     /* Respecto a .title */
 
     font-family: 'AdifHaussLight', sans-serif;
@@ -158,7 +257,9 @@ body {
 }
 
 .adif-gravita-departures .header .title .title-text-margin,
-.adif-gravita-arrivals .header .title .title-text-margin {
+.adif-gravita-arrivals .header .title .title-text-margin,
+.adif-gravita-departures-cercanias .header .title .title-text-margin,
+.adif-gravita-arrivals-cercanias .header .title .title-text-margin {
     display: flex;
     flex-wrap: wrap;
     height: 10%;
@@ -181,6 +282,11 @@ body {
     color: #102341;
 }
 
+.adif-gravita-departures-cercanias .header .header-legend {
+    /* Respecto a .adif-gravita-departures */
+    display: none;
+}
+
 .adif-gravita-arrivals .header .header-legend {
     /* Respecto a .adif-gravita-departures */
     display: flex;
@@ -189,6 +295,11 @@ body {
     flex-wrap: wrap;
     background-color: #102341;
     color: white;
+}
+
+.adif-gravita-arrivals-cercanias .header .header-legend {
+    /* Respecto a .adif-gravita-departures */
+    display: none
 }
 
 .header .header-legend .legend-margin {
@@ -248,12 +359,83 @@ body {
     background-color: #102341;
 }
 
+.adif-gravita-departures-cercanias .train-table {
+    background-color: #102341;
+}
+
 .adif-gravita-arrivals .train-table {
     background-color: #BFEFD5;
 }
 
 
+.adif-gravita-arrivals-cercanias .train-table {
+    background-color: #BFEFD5;
+}
+
+
 .adif-gravita-departures .table .train-row {
+    /* Respecto a .table */
+    height: var(--row-height);
+    font-size: var(--row-height);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.adif-gravita-departures-cercanias .table,
+.adif-gravita-arrivals-cercanias .table {
+    /* Respecto a .table */
+		position: relative;
+    display: flex;
+		flex-direction: column;
+		gap: 15px;
+		padding: 15px;
+		border: 2px solid white;
+		border-right: 0;
+		border-bottom: 0;
+		background: linear-gradient(to right, #bfbfbf 0%, #ffffff 20%, #ffffff 80%, #bfbfbf 100%);
+}
+
+@media (max-width: 768px) {
+	.adif-gravita-departures-cercanias .table,
+	.adif-gravita-arrivals-cercanias .table {
+			gap: 5px;
+			padding: 5px;
+	}
+}
+
+.adif-gravita-departures-cercanias .table::after,
+.adif-gravita-arrivals-cercanias .table::after {
+    position: fixed;
+		margin: 2% 5% 0 10%;
+		content: "";
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 7%;
+		border-left: 2px solid white;
+		background: linear-gradient(to right, #bfbfbf 0%, #ffffff 20%, #ffffff 80%, #bfbfbf 100%);
+}
+
+.adif-gravita-departures-cercanias .table::before,
+.adif-gravita-arrivals-cercanias .table::before {
+    position: fixed;
+		margin: 2% 6.5% 0 11.5%;
+		content: "";
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 6%;
+		background-color: #7a7a7a;
+		z-index: 100;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 5px;
+  	transform: skew(-10deg);
+}
+
+.adif-gravita-departures-cercanias .table .train-row {
     /* Respecto a .table */
     height: var(--row-height);
     font-size: var(--row-height);
@@ -273,6 +455,17 @@ body {
     width: 100%;
     box-sizing: border-box;
     color: #102341;
+}
+
+.adif-gravita-arrivals-cercanias .table .train-row {
+    /* Respecto a .table */
+    height: var(--row-height);
+    font-size: var(--row-height);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
 }
 
 
@@ -416,6 +609,17 @@ body {
     white-space: nowrap;
 }
 
+.adif-gravita-departures-cercanias .train-table .train-row .train-platform-preview {
+    font-size: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 100%;
+    white-space: nowrap;
+}
+
 .adif-gravita-arrivals .train-table .train-row .train-platform-preview {
     font-size: 32%;
     display: flex;
@@ -423,6 +627,17 @@ body {
     align-items: center;
     text-align: center;
     color: #045648;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.adif-gravita-arrivals-cercanias .train-table .train-row .train-platform-preview {
+    font-size: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
     max-width: 100%;
     white-space: nowrap;
 }
@@ -474,6 +689,36 @@ body {
     justify-content: flex-start;
 }
 
+.adif-gravita-departures-cercanias .train-table .train-row .train-status.teorical {
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-end; 
+}
+
+.adif-gravita-departures-cercanias .train-table .train-row .train-status.cancelled {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FF8557;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+.adif-gravita-departures-cercanias .train-table .train-row .train-status {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5FE0AF;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
 .adif-gravita-arrivals .train-table .train-row .train-status.cancelled {
     white-space: nowrap;
     overflow: hidden;
@@ -486,6 +731,27 @@ body {
 
 
 .adif-gravita-arrivals .train-table .train-row .train-status {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #4358E0;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+.adif-gravita-arrivals-cercanias .train-table .train-row .train-status.cancelled {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #521625;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+
+.adif-gravita-arrivals-cercanias .train-table .train-row .train-status {
     white-space: nowrap;
     overflow: hidden;
     color: #4358E0;
@@ -572,7 +838,25 @@ body {
 
 }
 
+.adif-gravita-departures-cercanias .train-table .train-row .train-info {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5FE0AF;
+    align-items: stretch;
+
+
+}
+
 .adif-gravita-arrivals .train-table .train-row .train-info {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #4358E0;
+    align-items: stretch;
+
+
+}
+
+.adif-gravita-arrivals-cercanias .train-table .train-row .train-info {
     white-space: nowrap;
     overflow: hidden;
     color: #4358E0;
@@ -787,6 +1071,28 @@ body {
     background-color: #102341;
 }
 
+
+.adif-gravita-departures-cercanias .table {
+	width: auto;
+}
+
+.adif-gravita-departures-cercanias .table .train-row {
+	position: relative;
+	background: linear-gradient(to right, #a63084 0%, #830065 20%, #830065 80%, #a63084);
+	border-radius: 5px;
+}
+
+.adif-gravita-departures-cercanias .table .train-row::after {
+	content: "";
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+	right: 5px;
+	width: 2px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
 .adif-gravita-arrivals .table[colors="normal"] .train-row:nth-child(odd) {
     background-color: #BFEFD5;
 }
@@ -803,6 +1109,15 @@ body {
     background-color: #ACDAC6;
 }
 
+.adif-gravita-arrivals-cercanias .table {
+	width: auto;
+}
+
+.adif-gravita-arrivals-cercanias .table .train-row {
+		position: relative;
+    background: linear-gradient(to right, #a63084 0%, #830065 20%, #830065 80%, #a63084);
+		border-radius: 5px;
+}
 
 
 /** MONITOR DE VÍA (PLATFORM) **/

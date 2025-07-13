@@ -14,6 +14,7 @@ const GravitaWrapper = (props: Props) => {
 	const { stationCode, onData, onStatus, ...restProps } = props;
 
 	const [status, setStatus] = useState<string>('connecting');
+	const [loading, setLoading] = useState<boolean>(true);
 	const lastMessageRaw = useRef<string | null>(null);
 	const connection = useRef<signalR.HubConnection | null>(null);
 	const boardRef = useRef<HTMLIFrameElement | null>(null);
@@ -33,6 +34,9 @@ const GravitaWrapper = (props: Props) => {
 
 	const sendBoardData = (msg: string) => {
 		boardRef.current?.contentWindow?.postMessage({ target: 'grvta.setData', objData: msg }, '*');
+		setTimeout(() => {
+			setLoading(false);
+		}, 1000);
 	};
 
 	const handleIncoming = (raw: string) => {
@@ -96,7 +100,7 @@ const GravitaWrapper = (props: Props) => {
 
 	return (
 		<div className="relative flex-1 flex flex-col">
-			{status !== 'online' && (
+			{!!loading && (
 				<div className="absolute inset-0 flex flex-col gap-8 items-center justify-center bg-background z-50">
 					<div
 						className="bg-primary md:w-64 w-48 border border-red-500"

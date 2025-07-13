@@ -6,6 +6,7 @@ import { MultiSelect } from '../ui/multi-select';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 import { cn } from '@/lib/utils';
 import { Input } from '../ui/input';
+import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
 
 export enum ServiceType {
 	Cercanias = 'cercanias',
@@ -13,6 +14,11 @@ export enum ServiceType {
 	LargaDistancia = 'larga-distancia',
 	AltaVelocidad = 'alta-velocidad',
 	ServicioInterno = 'servicio-interno'
+}
+
+export enum ListInterface {
+	Default = 'default',
+	Cercanias = 'cercanias'
 }
 
 export enum Product {
@@ -52,6 +58,7 @@ export enum Subtitle {
 
 export interface ListOptionsState {
 	services: Set<ServiceType>;
+	interfaz: ListInterface;
 	countdown: boolean;
 	showAccess: boolean;
 	showPlatform: boolean;
@@ -81,31 +88,53 @@ export function ListOptions({
 
 	return (
 		<>
-			<Field>
+			<Field className="md:col-span-2">
+				<Label className="text-xs font-medium">Interfaz</Label>
+				<RadioGroup
+					value={value.interfaz}
+					onValueChange={interfaz => onValueChange({ interfaz: interfaz as ListInterface })}
+				>
+					<div className="grid grid-cols-2 gap-4">
+						<div className="flex items-center gap-3">
+							<RadioGroupItem id="default" value={ListInterface.Default} />
+							<Label htmlFor="default">Predeterminada</Label>
+						</div>
+						<div className="flex items-center gap-3">
+							<RadioGroupItem id="cercanias" value={ListInterface.Cercanias} />
+							<Label htmlFor="cercanias">Cercanías</Label>
+						</div>
+					</div>
+				</RadioGroup>
+			</Field>
+			<Field className="md:col-span-2">
 				<Label className="text-xs font-medium">Servicios</Label>
-				<div className="flex flex-col gap-3">
-					{[ServiceType.Cercanias, ServiceType.Regional, ServiceType.LargaDistancia, ServiceType.AltaVelocidad].map(
-						serviceType => (
-							<div className="flex items-center gap-3" key={serviceType}>
-								<Checkbox
-									id={serviceType}
-									checked={value.services.has(serviceType)}
-									onCheckedChange={checked => {
-										const newService = new Set(value.services);
-										if (checked) {
-											newService.add(serviceType);
-										} else {
-											newService.delete(serviceType);
-										}
-										onValueChange({ services: newService });
-									}}
-								/>
-								<Label htmlFor={serviceType}>
-									{serviceType.charAt(0).toUpperCase() + serviceType.slice(1).replace('-', ' ')}
-								</Label>
-							</div>
-						)
-					)}
+				<div className="flex flex-col gap-3 grid md:grid-cols-2">
+					{[
+						ServiceType.Cercanias,
+						ServiceType.Regional,
+						ServiceType.LargaDistancia,
+						ServiceType.AltaVelocidad,
+						ServiceType.ServicioInterno
+					].map(serviceType => (
+						<div className="flex items-center gap-3" key={serviceType}>
+							<Checkbox
+								id={serviceType}
+								checked={value.services.has(serviceType)}
+								onCheckedChange={checked => {
+									const newService = new Set(value.services);
+									if (checked) {
+										newService.add(serviceType);
+									} else {
+										newService.delete(serviceType);
+									}
+									onValueChange({ services: newService });
+								}}
+							/>
+							<Label htmlFor={serviceType}>
+								{serviceType.charAt(0).toUpperCase() + serviceType.slice(1).replace('-', ' ')}
+							</Label>
+						</div>
+					))}
 				</div>
 			</Field>
 			<Field className="md:col-span-2">
