@@ -18,7 +18,8 @@ export enum ServiceType {
 
 export enum ListInterface {
 	Default = 'default',
-	Cercanias = 'cercanias'
+	Cercanias = 'cercanias',
+	Old = 'old'
 }
 
 export enum Product {
@@ -102,6 +103,10 @@ export function ListOptions({
 						<div className="flex items-center gap-3">
 							<RadioGroupItem id="cercanias" value={ListInterface.Cercanias} />
 							<Label htmlFor="cercanias">Cercanías</Label>
+						</div>
+						<div className="flex items-center gap-3">
+							<RadioGroupItem id="old" value={ListInterface.Old} />
+							<Label htmlFor="old">Antiguo</Label>
 						</div>
 					</div>
 				</RadioGroup>

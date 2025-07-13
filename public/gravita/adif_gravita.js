@@ -143,7 +143,7 @@ function AdGr24_startListMonitors() {
     // Se ejecuta al recargar el explorador
 
     //Los seleccionamos:
-    var list_monitors = $('.adif-gravita-departures, .adif-gravita-arrivals, .adif-gravita-arrivals-cercanias, .adif-gravita-departures-cercanias');
+    var list_monitors = $('.adif-gravita-departures, .adif-gravita-arrivals, .adif-gravita-arrivals-cercanias, .adif-gravita-departures-cercanias, .adif-gravita-arrivals-old, .adif-gravita-departures-old');
     
     //Números de grupo negativos para los monitores que no los declaren
     var unasigned_group = -1
@@ -163,12 +163,12 @@ function AdGr24_startListMonitors() {
     //Los ordenamos por salidas/llegadas, por grupos, y dentro de grupos, por orden
     list_monitors.sort(function(a, b) {
 
-        if ($(a).hasClass('adif-gravita-departures') || $(a).hasClass('adif-gravita-departures-cercanias')) {
+        if ($(a).hasClass('adif-gravita-departures') || $(a).hasClass('adif-gravita-departures-cercanias') || $(a).hasClass('adif-gravita-departures-old')) {
             var a_kind = 1;
         } else {
             var a_kind = 0;
         }
-        if ($(b).hasClass('adif-gravita-departures') || $(b).hasClass('adif-gravita-departures-cercanias')) {
+        if ($(b).hasClass('adif-gravita-departures') || $(b).hasClass('adif-gravita-departures-cercanias') || $(b).hasClass('adif-gravita-departures-old')) {
             var b_kind = 1;
         } else {
             var b_kind = 0;
@@ -240,10 +240,14 @@ function AdGr24_startListMonitors() {
             var monitor_class = 'departures';
         } else if($(this).hasClass('adif-gravita-departures-cercanias')) {
             var monitor_class = 'departures-cercanias';
+        } else if($(this).hasClass('adif-gravita-departures-old')) {
+            var monitor_class = 'departures-old';
         } else if($(this).hasClass('adif-gravita-arrivals')) {
 						var monitor_class = 'arrivals';
 				} else if($(this).hasClass('adif-gravita-arrivals-cercanias')) {
 						var monitor_class = 'arrivals-cercanias';
+				} else if($(this).hasClass('adif-gravita-arrivals-old')) {
+						var monitor_class = 'arrivals-old';
 				}
 
         //Obtenemos los porcentajes de anchura de los elementos de la tabla
@@ -691,6 +695,8 @@ function AdGr24_updateMonitors() {
             this_monitor.removeClass('adif-gravita-departures');
 						this_monitor.removeClass('adif-gravita-arrivals-cercanias');
 						this_monitor.removeClass('adif-gravita-departures-cercanias');
+						this_monitor.removeClass('adif-gravita-arrivals-old');
+						this_monitor.removeClass('adif-gravita-departures-old');
             this_monitor.removeClass('adif-gravita-number');
             this_monitor.removeClass('adif-gravita-black-number');
             this_monitor.removeClass('adif-gravita-black-clock');
@@ -887,7 +893,7 @@ function AdGr24_updateMonitors() {
     }
 
     //Actualización monitores de salidas y llegadas (.adif-gravita-departures, .adif-gravita-arrivals)
-    $('.adif-gravita-departures, .adif-gravita-arrivals, .adif-gravita-arrivals-cercanias, .adif-gravita-departures-cercanias').each(function () {
+    $('.adif-gravita-departures, .adif-gravita-arrivals, .adif-gravita-arrivals-cercanias, .adif-gravita-departures-cercanias, .adif-gravita-arrivals-old, .adif-gravita-departures-old').each(function () {
 
 			// Mostrar el fondo en base a la estación del año
 				if($(this).hasClass('adif-gravita-departures-cercanias') || $(this).hasClass('adif-gravita-arrivals-cercanias')) {
@@ -2165,6 +2171,8 @@ function AdGr24_logoHTML(monitor_class,width) {
     img.addClass('svg_en_img')
 		if (monitor_class == 'departures-cercanias' || monitor_class == 'arrivals-cercanias') {
 			img.attr('src', './imgs/cercanias-logo.png');
+		} else if (monitor_class == 'departures-old' || monitor_class == 'arrivals-old') {
+			img.attr('src', './imgs/logo-adif.webp');
 		} else {
 			img.attr('src',getMultimediaFolder('svg') + "adifsumma.svg");
 		}
@@ -2226,7 +2234,7 @@ function AdGr24_titleTextHTML(monitor_class, languages, subtitle) {
 
             }
         }
-        if (monitor_class == 'departures') {
+        if (monitor_class == 'departures' || monitor_class == 'departures-cercanias' || monitor_class == 'departures-old') {
             if(subtitle_reference == "") p.html(AdGr24_frases['Salidas'][language]);
             else if(AdGr24_subtitulos[subtitle_reference][language].includes("<br>")) {
                 p.html(AdGr24_frases['Salidas'][language] + "&nbsp;<span style='font-size: 60%;'>" + subtitle_text + "</span>");
@@ -4823,7 +4831,7 @@ function AdGr24_filtroTrenes(monitor_class, train, class_stop_filter, traffic_fi
 
     if (!(access_include.length === 0)) {
         var found = false;
-        if (monitor_class == "departures") {
+        if (monitor_class == "departures" || monitor_class == "departures-cercanias" || monitor_class == "departures-old") {
             if(Array.isArray(train.departures_access)) {
                 train.departures_access.forEach(function(access) {
                     if (access_include.includes(access)) {
@@ -5204,7 +5212,6 @@ function AdGr24_changeUpdateDataInterval(update_interval_seconds) {
 }
     
 
-if(AdGr24_updateDataIntervalID === undefined) AdGr24_changeUpdateDataInterval(10);
 setInterval(AdGr24_reload,60 * 60 * 1000 - 100);
 setInterval(AdGr24_updateClock, 250);
 setInterval(AdGr24_sizeAdjustments, 250);

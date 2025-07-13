@@ -100,6 +100,8 @@ function modeToInterfaz(mode: PanelMode, listInterfaz: ListInterface): string {
 			switch (listInterfaz) {
 				case ListInterface.Cercanias:
 					return 'adif-gravita-arrivals-cercanias';
+				case ListInterface.Old:
+					return 'adif-gravita-arrivals-old';
 				default:
 					return 'adif-gravita-arrivals';
 			}
@@ -107,6 +109,8 @@ function modeToInterfaz(mode: PanelMode, listInterfaz: ListInterface): string {
 			switch (listInterfaz) {
 				case ListInterface.Cercanias:
 					return 'adif-gravita-departures-cercanias';
+				case ListInterface.Old:
+					return 'adif-gravita-departures-old';
 				default:
 					return 'adif-gravita-departures';
 			}
