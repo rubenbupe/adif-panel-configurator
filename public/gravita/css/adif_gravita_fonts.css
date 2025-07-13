@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'AdifHauss';
+    src: url('../fonts/WOFF2/AdifHauss-Medium.woff2') format('woff2'),
+    url('../fonts/WOFF/AdifHauss-Medium.woff') format('woff');
+  }
+
+@font-face {
+  font-family: 'AdifHaussBold';
+  src: url('../fonts/WOFF2/AdifHauss-Bold.woff2') format('woff2'),
+  url('../fonts/WOFF/AdifHauss-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AdifHaussLight';
+  src: url('../fonts/WOFF2/AdifHauss-Light.woff2') format('woff2'),
+  url('../fonts/WOFF/AdifHauss-Light.woff') format('woff');
+}
+
+

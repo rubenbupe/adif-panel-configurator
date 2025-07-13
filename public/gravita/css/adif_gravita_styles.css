@@ -1,0 +1,1522 @@
+
+
+
+body {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* Topología de la pantalla 1x1 */
+
+
+
+
+/* Características generales monitores Gravita */
+
+
+.adif-gravita {
+    font-family: "AdifHauss", sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.adif-gravita .monospace {
+    /* Campos con números monoespaciados */
+    font-feature-settings: "tnum" 1;
+}
+
+.adif-gravita-collapse {
+    height: 0 !important;
+}
+
+
+/* Configuración de tamaño de los elementos y fuentes */
+
+
+/* ORGANIZACIÓN GENERAL DEL MONITOR: CABECERA Y TABLA */
+
+.adif-gravita-departures .header {
+    /* Respecto a .adif-gravita-departures */
+    height: var(--header-height);
+    font-size: var(--header-height);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BFEFD5;
+    color: #102341;
+}
+
+.adif-gravita-arrivals .header {
+    /* Respecto a .adif-gravita-arrivals */
+    height: var(--header-height);
+    font-size: var(--header-height);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #102341;
+    color: white;
+}
+
+
+
+
+.adif-gravita-departures .table,
+.adif-gravita-arrivals .table {
+    /* Respecto a .adif-gravita-departures */
+    height: var(--table-height);
+    font-size: var(--table-height);
+    width: 100%;
+}
+
+/* ORGANIZACIÓN DE CABECERA: LOGO, TÍTULO, RELOJ Y HEADER-LEGEND */
+
+
+.adif-gravita-departures .header .logo,
+.adif-gravita-arrivals .header .logo{
+    /* Respecto a .header */
+    height: 100;
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adif-gravita-departures .header .title,
+.adif-gravita-arrivals .header .title {
+    /* Respecto a .header */
+    height: 100%;
+    font-size: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.adif-gravita-departures .header .clock,
+.adif-gravita-arrivals .header .clock {
+    /* Respecto a .header */
+    height: 66%;
+    font-size: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Organización de .header .logo */
+.adif-gravita-departures .header .logo img,
+.adif-gravita-arrivals .header .logo img  {
+    /* Respecto a .header */
+    width: 80%;
+}
+
+
+/* Organización de .header .title */
+.adif-gravita-departures .header .title .title-text,
+.adif-gravita-arrivals .header .title .title-text {
+    /* Respecto a .title */
+    font-family: 'AdifHaussBold', sans-serif;
+    height: 90%;
+    font-size: 100%;
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+
+}
+
+.adif-gravita-departures .header .title .title-text span,
+.adif-gravita-arrivals .header .title .title-text span {
+    /* Respecto a .title */
+
+    font-family: 'AdifHaussLight', sans-serif;
+    vertical-align: baseline;
+
+}
+
+.header .title .title-text div {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    width: 100%;
+    height: 90%;
+    align-items: center;
+
+}
+
+
+
+.header .title .title-text div.hidden {
+    display: none;
+}
+
+.adif-gravita-departures .header .title .title-text-margin,
+.adif-gravita-arrivals .header .title .title-text-margin {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+    width: 100%;
+}
+
+
+/* Organización de .header .clock */
+.clock small {
+  /* Respecto a .clock (minutero) */
+    font-size: 60%;
+}
+
+.adif-gravita-departures .header .header-legend {
+    /* Respecto a .adif-gravita-departures */
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #BFEFD5;
+    color: #102341;
+}
+
+.adif-gravita-arrivals .header .header-legend {
+    /* Respecto a .adif-gravita-departures */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #102341;
+    color: white;
+}
+
+.header .header-legend .legend-margin {
+    height: 34%;
+}
+
+.header .header-legend .no-legend-margin-sup {
+    height: 15%;
+}
+
+.header .header-legend .no-legend-margin-inf {
+    height: 19%;
+}
+
+.header .header-legend .access-header,
+.header .header-legend .platform-header {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 34%;
+    height: 34%;
+    overflow: hidden;
+}
+
+.header .header-legend .access-header .access-tag,
+.header .header-legend .platform-header .platform-tag {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    font-size: 80%;
+    overflow: hidden;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header .header-legend .access-header p.hidden,
+.header .header-legend .platform-header p.hidden
+{
+    display: none;
+}
+
+.header .header-legend .access-header .header-margin,
+.header .header-legend .platform-header .header-margin {
+    height: 100%;
+}
+
+
+
+
+
+/* ORGANIZACIÓN DE TABLA: FILAS DE TRENES (TRAIN-ROW) */
+
+.adif-gravita-departures .train-table {
+    background-color: #102341;
+}
+
+.adif-gravita-arrivals .train-table {
+    background-color: #BFEFD5;
+}
+
+
+.adif-gravita-departures .table .train-row {
+    /* Respecto a .table */
+    height: var(--row-height);
+    font-size: var(--row-height);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.adif-gravita-arrivals .table .train-row {
+    /* Respecto a .table */
+    height: var(--row-height);
+    font-size: var(--row-height);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    color: #102341;
+}
+
+
+/* ORGANIZACAIÓN DE LA FILA DE TREN */
+/* El ancho se asigna dinámicamente */
+
+
+
+/* FILA SUPERIOR */
+.train-table .train-row .train-time,
+.train-table .train-row .train-direction,
+.train-table .train-row .train-commercial-id,
+.train-table .train-row .train-access,
+.train-table .train-row .train-platform,
+.train-table .train-row .train-platform-preview
+.train-table .train-row .list-margin-sup
+{
+    height: 60%;
+}
+
+.train-table .train-row .train-time,
+.train-table .train-row .train-direction,
+.train-table .train-row .train-commercial-id,
+.train-table .train-row .train-access,
+.train-table .train-row .train-platform
+{
+    font-size: 50%;
+}
+
+.train-table .train-row .train-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-time.countdown-delayed {
+    color: #5FE0AF;
+}
+
+.train-time.cancelled {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.train-direction {
+    display: block;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: left;
+    overflow: hidden;
+}
+
+.train-direction.cancelled {
+    /* text-decoration: line-through; */
+    opacity: 0.5;
+}
+
+.train-direction-iteration.opaque {
+    opacity: 0%;
+}
+
+
+.train-commercial-id {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.train-commercial-id .train-commercial-id-iteration {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-commercial-id .train-commercial-id-iteration.hidden {
+    display: none;
+}
+
+
+.train-table .train-row .train-access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-table .train-row .train-access .access-tag {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+}
+
+.train-table .train-row .train-access .access-tag.access-time {
+    color: #5FE0AF;
+}
+
+.train-table .train-row .train-access img.picto {
+    height: 110%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 0.9em;
+    /* padding-left: 0.3em; */
+    width: auto;
+
+}
+
+.train-platform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.train-platform .train-platform-tag,
+.train-platform-preview .train-platform-tag
+{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+}
+
+
+.adif-gravita-departures .train-table .train-row .train-platform-preview {
+    font-size: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #B9D0FF;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.adif-gravita-arrivals .train-table .train-row .train-platform-preview {
+    font-size: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #045648;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.train-platform img {
+    height: 85%;
+    max-width: 100%;
+}
+
+
+/* FILA INFERIOR */
+.train-table .train-row .train-status,
+.train-table .train-row .train-horizontal-journey,
+.train-table .train-row .train-info,
+.train-table .train-row .list-margin-inf
+{
+    height: 40%;
+    font-size: 32%;
+}
+
+
+.adif-gravita-departures .train-table .train-row .train-status.teorical {
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-end; 
+}
+
+.adif-gravita-departures .train-table .train-row .train-status.cancelled {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FF8557;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+.adif-gravita-departures .train-table .train-row .train-status {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5FE0AF;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+.adif-gravita-arrivals .train-table .train-row .train-status.cancelled {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #521625;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+
+.adif-gravita-arrivals .train-table .train-row .train-status {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #4358E0;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: flex-start;
+}
+
+
+.train-table .train-row .train-status:not(.teorical) div {
+    display: flex;
+    height: 100%;
+    padding-left: var(--delay-padding);
+}
+
+.train-table .train-row .train-status.teorical div {
+    display: flex;
+    height: 100%;
+    padding-right: var(--delay-padding);
+}
+
+.train-table .train-row .train-status:not(.teorical) div.hidden{
+    display: none;
+
+}
+
+
+.train-horizontal-journey  {
+    overflow: hidden;
+}
+
+.train-horizontal-journey.cancelled {
+    text-decoration: line-through;
+    opacity: 50%;
+}
+
+.train-horizontal-journey div  {
+    height: 100%;
+}
+
+.train-horizontal-journey div.scrollableX {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.train-horizontal-journey div.scrollableX div {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.train-horizontal-journey div.scroll-by-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    white-space: wrap;
+}
+
+.train-horizontal-journey div.scroll-by-stations
+ {
+    display: block;
+    white-space: wrap;
+}
+
+.train-horizontal-journey .station-combo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    white-space: nowrap;
+    height: 100%;
+}
+
+
+
+
+.adif-gravita-departures .train-table .train-row .train-info {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5FE0AF;
+    align-items: stretch;
+
+
+}
+
+.adif-gravita-arrivals .train-table .train-row .train-info {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #4358E0;
+    align-items: stretch;
+
+
+}
+
+.train-table .train-row .train-info div.scrollableX {
+    height: 100%;
+    white-space: nowrap;
+}
+
+.train-table .train-row .train-info div.scrollableS {
+    white-space: normal;
+    height: 100%;
+    line-height: 125%; 
+    position: relative;
+    top: -0.10em;
+    
+}
+
+
+/* ORGANIZACIÓN DE FILA DE TREN EN TABLAS */
+/* El ancho se asigna dinámicamente */
+
+
+
+.train-direction div.train-direction-iteration,
+.train-direction div.train-direction-iteration .station-combo {
+    display: flex;
+    flex-flow: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.train-direction div.hidden {
+    display: none;
+}
+
+
+.train-vertical-journey  .station-combo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    white-space: nowrap;
+    height: 100%;
+
+
+}
+
+.station-combo .line {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    max-height: 0.9em;
+    padding-right: 0.2em;
+}
+
+
+
+.station-combo div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.train-horizontal-journey .station-combo div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+
+
+.station-combo img.picto {
+    height: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 0.9em;
+    /* padding-left: 0.3em; */
+    width: auto;
+
+}
+
+.train-horizontal-journey  .station-combo img.picto {
+    height: 90%;
+    max-height: 0.9em;
+    padding-top: 0.1em;
+
+}
+
+
+
+.train-product {
+    height: 100%;
+    font-size: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+.train-product img {
+
+    max-width: 100%;
+    height: 85%;
+    width: auto;
+    border-radius: 0.25em;
+}
+
+.train-product .train-product-tag {
+    display: flex;
+    height: 100%;
+    width: 94%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.train-product .train-product-tag p {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.train-product .train-product-margin {
+    height: 100%;
+}
+
+
+.train-number {
+    height: 100%;
+    font-size: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+    text-align: center;
+}
+
+.train-number-tag {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.train-composition {
+    overflow: visible;
+}
+
+.train-composition svg {
+    overflow: visible;
+}
+
+.adif-gravita-platform .platform-info {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #5FE0AF;
+    align-items: stretch;
+    padding-bottom: 0.08em;
+
+
+}
+
+.adif-gravita-platform .platform-info .short-observation {
+    text-align: center;
+
+}
+
+
+
+
+
+/* Colores alternados en listas */
+
+.adif-gravita-departures .table[colors="normal"] .train-row:nth-child(odd) {
+    background-color: #1A3254;
+}
+
+.adif-gravita-departures .table[colors="normal"] .train-row:nth-child(even) {
+    background-color: #102341;
+}
+
+.adif-gravita-departures .table[colors="inverse"] .train-row:nth-child(even) {
+    background-color: #1A3254;
+}
+
+.adif-gravita-departures .table[colors="inverse"] .train-row:nth-child(odd) {
+    background-color: #102341;
+}
+
+.adif-gravita-arrivals .table[colors="normal"] .train-row:nth-child(odd) {
+    background-color: #BFEFD5;
+}
+
+.adif-gravita-arrivals .table[colors="normal"] .train-row:nth-child(even) {
+    background-color: #ACDAC6;
+}
+
+.adif-gravita-arrivals .table[colors="inverse"] .train-row:nth-child(even) {
+    background-color: #BFEFD5;
+}
+
+.adif-gravita-arrivals .table[colors="inverse"] .train-row:nth-child(odd) {
+    background-color: #ACDAC6;
+}
+
+
+
+/** MONITOR DE VÍA (PLATFORM) **/
+
+.platform-train {
+    /* Respecto a .adif-gravita-platform */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: white;
+    font-size: 100%;
+}
+
+.platform-train:nth-child(odd) {
+    background-color: #001B41;
+}
+
+.platform-train:nth-child(even) {
+    background-color: #1A3254;
+}
+
+
+
+.platform-train .platform-header {
+    /* Respecto a .adif-gravita-platform */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 100%;
+}
+
+
+.adif-gravita-platform .platform-sign {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-width: 0 0 0.02em 0;
+    border-color:  #5FE0AF;
+    border-style: solid;
+}
+
+.adif-gravita-number .platform-sign {
+    background-color: #001B41; 
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.platform-sign .platform-sign-bar {
+    width: 12.5%;
+    background-color: #5FE0AF;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: visible;
+}
+
+.platform-sign .platform-sign-number-box {
+    width: 87.5%;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.platform-sign .platform-sign-number-box .platform-sign-number-margin-sup {
+    width: 100%;
+    height: 14.2%;
+}
+
+.platform-sign .platform-sign-number-box .platform-sign-number-margin-inf {
+    width: 100%;
+    height: 20.2%;
+}
+
+.platform-sign .platform-sign-number-box .platform-sign-number-margin-left,
+.platform-sign .platform-sign-number-box .platform-sign-number-margin-right {
+    height: 65.6%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.platform-sign .platform-sign-number-box .platform-sign-number-margin-left {
+    justify-content: flex-end;
+}
+
+.platform-sign .platform-sign-number-box .platform-sign-number-margin-right {
+    justify-content: flext-start;
+}
+
+.platform-sign .platform-sign-number-box .train-platform {
+    width: 90%;
+    font-size: 90%;
+    height: 65.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-sign .platform-sign-number-box .platform-sign-number p {
+    vertical-align: middle;
+}
+
+.platform-sign .arrow {
+    transform: translateY(0%);
+}
+
+
+
+.platform-train .platform-header .platform-train-header {
+    height: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100%;
+} 
+
+
+.platform-train .platform-header .platform-train-header .platform-train-header-margin-sup,
+.platform-train .platform-header .platform-train-header .train-time {
+    height: 100%;
+    font-size: 100%;
+    white-space: nowrap;
+}
+
+.platform-train .platform-header .platform-train-header .train-commercial-id {
+    height: 100%;
+    font-size: 82%;
+}
+
+.platform-train .platform-header .platform-train-header .train-time span {
+    font-size: 60%;
+    color: #5FE0AF;
+    padding-left: 0.3em;
+    padding-bottom: 0.05em;
+}
+
+
+.platform-train .platform-header .platform-train-header .platform-train-header-upper-row {
+    width: 100%; 
+    height: 43%; 
+    font-size: 45%; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.platform-train .platform-header .platform-train-header .platform-train-header-lower-row {
+    width: 100%; 
+    height: 57%; 
+    font-size: 50%; 
+    display: flex; 
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.platform-train .platform-header .platform-train-header .platform-train-header-margin-inf,
+.platform-train .platform-header .platform-train-header .train-direction {
+    height: 90%;
+    font-size: 100%;
+    overflow: visible;
+}
+
+.platform-train .platform-header .platform-train-header .train-direction .train-direction-iteration,
+.platform-train .platform-header .platform-train-header .train-direction .train-direction-iteration .station-combo {
+    overflow: visible;
+}
+
+
+.platform-train .platform-header .platform-train-header .platform-train-header-margin-bottom {
+    height: 10%;
+}
+
+.platform-train .platform-horizontal-journey  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-train .platform-horizontal-journey .train-horizontal-journey  {
+    height: 100%;
+    font-size: 90%;
+}
+
+
+.platform-train .platform-horizontal-journey .platform-train-journey-margin {
+    height: 100%;
+}
+
+
+.platform-train .platform-train-header .inf {
+    height: 50%;
+    font-size: 50%;
+    padding-bottom: 5%;
+    
+}
+
+.platform-train .platform-train-header .train-time {
+    display: flex;
+    align-items: end;
+    height: 100%;
+    padding-top: 0.05em;
+}
+
+.platform-train .platform-train-header .train-time p {
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+
+
+
+
+
+.platform-train .train-vertical-journey {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.platform-train .train-vertical-journey .train-vertical-journey-container {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    display: block;
+}
+
+
+.platform-train .train-vertical-journey  .train-vertical-journey-container .train-vertical-journey-stop {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.platform-train .train-vertical-journey .train-vertical-journey-container .stop-swap-colors:nth-child(odd) {
+    background-color: #001B41;
+}
+
+.platform-train .train-vertical-journey .train-vertical-journey-container .stop-swap-colors:nth-child(even) {
+    background-color: #1A3254;
+}
+
+.platform-train .train-vertical-journey .train-vertical-journey-container .train-vertical-journey-stop .train-vertical-journey-stop-time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    font-size: 90%;
+}
+
+
+
+.platform-train .train-vertical-journey .train-vertical-journey-container .train-vertical-journey-stop .train-vertical-journey-stop-circle {
+    display: block;
+    height: 100%;
+    overflow: visible;
+    position: relative;
+}
+
+.platform-train .train-vertical-journey .train-vertical-journey-container .train-vertical-journey-stop .train-vertical-journey-stop-circle svg {
+    display: block;
+    height: 100%;
+    overflow: visible;
+    position: absolute;
+}
+
+
+
+/** Monitor CLOCK **/
+.adif-clock:not(.adif-black-clock) {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #001B41;
+    color: white;
+}
+
+.adif-clock.adif-black-clock {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: #999999;
+}
+
+
+
+.adif-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.adif-logo  .logo {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.adif-logo .logo img {
+    max-width: 70%;
+    max-height: 70%;
+    height: auto;
+}
+
+.adif-clock .adif-clock-time {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.adif-clock .adif-clock-time .clock {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.adif-number-black {
+    color: #999999;
+    text-align: right; 
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/** FILTOS DE COLOR PARA LOGOS VECTORIALES MONOCROMÁTICOS **/
+.color-gravita-azul-primario {
+    /* Colorea a #102341 */
+    -webkit-filter: invert(8%) sepia(81%) saturate(1349%) hue-rotate(197deg) brightness(96%) contrast(94%);
+    filter: invert(8%) sepia(81%) saturate(1349%) hue-rotate(197deg) brightness(96%) contrast(94%);
+}
+
+.color-gravita-verde-primario {
+    /* Colorea a #5FE0AF */
+    -webkit-filter: invert(75%) sepia(47%) saturate(414%) hue-rotate(104deg) brightness(95%) contrast(94%);
+    filter: invert(75%) sepia(47%) saturate(414%) hue-rotate(104deg) brightness(95%) contrast(94%);
+}
+
+.color-gravita-blanco {
+    /* Colorea a #5FE0AF */
+    -webkit-filter: invert(99%) sepia(1%) saturate(769%) hue-rotate(25deg) brightness(114%) contrast(100%);
+    filter: invert(99%) sepia(1%) saturate(769%) hue-rotate(25deg) brightness(114%) contrast(100%);
+}
+
+.color-gravita-naranja {
+    /* Colorea a #FF8557 */
+    -webkit-filter: invert(56%) sepia(31%) saturate(953%) hue-rotate(328deg) brightness(106%) contrast(101%);
+    filter: invert(56%) sepia(31%) saturate(953%) hue-rotate(328deg) brightness(106%) contrast(101%);
+}
+
+.color-gravita-ocre {
+    /* Colorea a #FFCE6C */
+    -webkit-filter: brightness(0) saturate(100%) invert(73%) sepia(82%) saturate(321%) hue-rotate(340deg) brightness(103%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(73%) sepia(82%) saturate(321%) hue-rotate(340deg) brightness(103%) contrast(101%);
+}
+
+.color-gravita-gris {
+    /* Colorea a #999999 */
+    -webkit-filter: invert(65%) sepia(6%) saturate(15%) hue-rotate(314deg) brightness(93%) contrast(89%);
+    filter: invert(65%) sepia(6%) saturate(15%) hue-rotate(314deg) brightness(93%) contrast(89%);
+}
+
+
+/** EFECTOS Y ANIMACIONES **/
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.15; }
+    100% { opacity: 1; }
+}
+
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking {
+    -webkit-animation: blink 1s;
+    animation: blink 1s;
+}
+
+
+
+
+
+
+
+@keyframes scrollX {
+    0% {
+        transform: translateX(0);
+
+    }
+    100% {
+        transform: translateX(var(--scrollX-width));
+    }
+}
+
+@keyframes scrollX-fadeout {
+    0% {
+        transform: translateX(var(--scrollX-width));
+        opacity: 1;
+
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(var(--scrollX-width));
+    }
+    75% {
+        opacity: 0;
+        transform: translateX(var(--scrollX-width));
+    }
+    76% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.scrollingX-moving {
+    animation: scrollX var(--scrollX-time) linear 3s;
+}
+
+.scrollingX-fade {
+    animation: scrollX-fadeout 4s linear;
+}
+
+
+
+
+@keyframes scrollS {
+    0% {
+        transform: translateY(var(--scrollS-start));
+
+    }
+    70% {
+        transform: translateY(var(--scrollS-start));
+
+    }
+    95% {
+        transform: translateY(var(--scrollS-end));
+    }
+    100% {
+        transform: translateY(var(--scrollS-end));
+    }
+}
+
+@keyframes scrollS-stop {
+    0% {
+        transform: translateY(var(--scrollS-start));
+
+    }
+    100% {
+        transform: translateY(var(--scrollS-start));
+    }
+}
+
+@keyframes scrollS-fadeout {
+    0% {
+        transform: translateY(var(--scrollS-start));
+        opacity: 1;
+
+    }
+    75% {
+        transform: translateY(var(--scrollS-start));
+        opacity: 1;
+
+    }
+    83% {
+        opacity: 1;
+        transform: translateY(var(--scrollS-start));
+    }
+    90% {
+        opacity: 0;
+        transform: translateY(var(--scrollS-start));
+    }
+    91% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.scrollingS-moving {
+    animation: scrollS 4s ease forwards;
+}
+
+.scrollingS-fade {
+    animation: scrollS-fadeout 4s ease both;
+}
+
+.scrollingS-stop {
+    animation: scrollS-stop 0.1s ease forwards;
+}
+
+.scrollingS-fade-stop {
+    animation: scrollS-stop 0.1s ease both;
+}
+
+
+
+@keyframes scrollY {
+    0% {
+        transform: translateY(0);
+
+    }
+    100% {
+        transform: translateY(var(--scrollY-height));
+    }
+}
+
+@keyframes scrollY-fadeout {
+    0% {
+        transform: translateY(var(--scrollY-height));
+        opacity: 1;
+
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(var(--scrollY-height));
+    }
+    75% {
+        opacity: 0;
+        transform: translateY(var(--scrollY-height));
+    }
+    76% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.scrollingY {
+    animation: scrollY var(--scrollY-time) linear 3s;
+}
+
+.scrollingY-fade {
+    animation: scrollY-fadeout 4s linear;
+}
+
+
+
+@keyframes scrollL-fadeout {
+    0% {
+        opacity: 1;
+
+    }
+    80% {
+        opacity: 1;
+
+    }
+    100% {
+        opacity: 0;
+
+    }
+}
+
+@keyframes scrollL-fadein {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.scrollingL-fadeout {
+    animation: scrollL-fadeout 2.5s ease forwards;
+}
+
+.scrollingL-fadein {
+    animation: scrollL-fadein 2.5s ease forwards;
+}
+
+
+
+@keyframes scrollF-fadeout {
+    0% {
+        transform: rotateX(0deg);
+
+    }
+    85% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(90deg);
+    }
+}
+
+@keyframes scrollF-fadein {
+    0% {
+        transform: rotateX(270deg);
+    }
+    15% {
+        transform: rotateX(360deg);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+
+
+
+
+.train-direction.scrollingF1-fadeout {
+    animation: scrollF-fadeout 2s ease forwards;
+}
+
+.train-direction.scrollingF1-fadein {
+    animation: scrollF-fadein 2s ease forwards;
+}
+
+.train-commercial-id.scrollingF2-fadeout {
+    animation: scrollF-fadeout 1.8s ease forwards;
+}
+
+.train-commercial-id.scrollingF2-fadein {
+    animation: scrollF-fadein 1.8s ease forwards;
+}
+
+
+
+
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translate(0,-5%);
+    }
+    50% {
+        transform: translate(0,0);
+    }
+}
+
+.bouncing {
+    animation: bounce 1s infinite ease-in-out;
+}
+
+.not-bouncing {
+    transform: translate(0,0%);
+}
+
+
+@keyframes moving-strokes {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: -30;
+    }
+}
+
+
+.moving-strokes {
+    animation: moving-strokes 2s infinite linear;
+}
+
+@keyframes moving-strokes-reversed {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: 30;
+    }
+}
+
+
+.moving-strokes-reversed {
+    animation: moving-strokes-reversed 2s infinite linear;
+}

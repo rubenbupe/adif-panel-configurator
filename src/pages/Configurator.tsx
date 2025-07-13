@@ -1,27 +1,26 @@
 import { useMemo, useState } from 'react';
 import { GithubIcon } from 'lucide-react';
-import { buildUrl } from './lib/url';
-import { PanelMode, Language, type HeaderOptionsState } from './components/panel/PanelHeader';
-import { Direction, ServiceType } from './components/panel/ListOptions';
-import type { ListOptionsState } from './components/panel/ListOptions';
-import { PlatformMode } from './components/panel/PlatformOptions';
-import type { PlatformOptionsState } from './components/panel/PlatformOptions';
-import type { NumberOptionsState } from './components/panel/NumberOptions';
-import Panel from './components/panel';
-import Preview from './components/panel/Preview';
-import Navbar from './components/Navbar';
+import { PanelMode, Language, type HeaderOptionsState } from '../components/configurator/PanelHeader';
+import { ServiceType } from '../components/configurator/ListOptions';
+import type { ListOptionsState } from '../components/configurator/ListOptions';
+import { PlatformMode } from '../components/configurator/PlatformOptions';
+import type { PlatformOptionsState } from '../components/configurator/PlatformOptions';
+import type { NumberOptionsState } from '../components/configurator/NumberOptions';
+import ConfiguratorForm from '../components/configurator';
+import Preview from '../components/configurator/Preview';
+import Navbar from '../components/Navbar';
+import { buildPanelUrlFromData } from '@/lib/props';
 
-function App() {
+export default function Configurator() {
 	const [headerOptions, setHeaderOptions] = useState<HeaderOptionsState>({
 		stationCode: '17000',
 		languages: [Language.ESP],
-		mode: PanelMode.List
+		mode: PanelMode.Departures
 	});
 
 	const [listOptions, setListOptions] = useState<ListOptionsState>({
-		direction: Direction.Departures,
 		services: new Set([ServiceType.Cercanias]),
-		countdown: false,
+		countdown: true,
 		showAccess: false,
 		showPlatform: true,
 		showProduct: true,
@@ -47,7 +46,7 @@ function App() {
 	const [fontSize, setFontSize] = useState(1);
 
 	const url = useMemo(() => {
-		return buildUrl({
+		return buildPanelUrlFromData({
 			headerOptions,
 			listOptions,
 			platformOptions,
@@ -61,7 +60,7 @@ function App() {
 			<Navbar />
 			<div className="w-full max-w-full flex-1 flex flex-col items-center justify-center bg-background gap-4">
 				<div className="grid lg:grid-cols-2 items-center gap-4 w-full p-4 max-w-7xl">
-					<Panel
+					<ConfiguratorForm
 						headerOptions={headerOptions}
 						setHeaderOptions={setHeaderOptions}
 						listOptions={listOptions}
@@ -92,5 +91,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;

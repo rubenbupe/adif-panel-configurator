@@ -3,13 +3,14 @@ import { Label } from '../ui/label';
 import { Slider } from '../ui/slider';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
 import { Field } from '../field';
-import { PanelHeader, PanelMode, type HeaderOptionsState } from '../panel/PanelHeader';
-import { ListOptions, type ListOptionsState } from '../panel/ListOptions';
-import { PlatformOptions, type PlatformOptionsState } from '../panel/PlatformOptions';
-import { NumberOptions, type NumberOptionsState } from '../panel/NumberOptions';
+import { PanelHeader, PanelMode, type HeaderOptionsState } from '../configurator/PanelHeader';
+import { ListOptions, type ListOptionsState } from '../configurator/ListOptions';
+import { PlatformOptions, type PlatformOptionsState } from '../configurator/PlatformOptions';
+import { NumberOptions, type NumberOptionsState } from '../configurator/NumberOptions';
 import { ScrollArea } from '../ui/scroll-area';
+import { ArrowDownLeft, ArrowUpRight, ClockIcon, HashIcon, TrainTrackIcon } from 'lucide-react';
 
-export default function Panel({
+export default function ConfiguratorForm({
 	headerOptions,
 	setHeaderOptions,
 	listOptions,
@@ -44,37 +45,58 @@ export default function Panel({
 					<ScrollArea className="w-full">
 						<div className="w-full overflow-x-auto pb-2">
 							<TabsList>
-								<TabsTrigger value={PanelMode.List}>Listado de trenes</TabsTrigger>
-								<TabsTrigger value={PanelMode.Platform}>Vía</TabsTrigger>
-								<TabsTrigger value={PanelMode.Clock}>Reloj</TabsTrigger>
-								{/* <TabsTrigger value={PanelMode.BlackClock}>Reloj oscuro</TabsTrigger> */}
-								<TabsTrigger value={PanelMode.Number}>Número</TabsTrigger>
-								{/* <TabsTrigger value={PanelMode.BlackNumber}>Número oscuro</TabsTrigger> */}
+								<TabsTrigger value={PanelMode.Departures}>
+									<ArrowUpRight className="mr-1" size={16} />
+									Salidas
+								</TabsTrigger>
+								<TabsTrigger value={PanelMode.Arrivals}>
+									<ArrowDownLeft className="mr-1" size={16} />
+									Llegadas
+								</TabsTrigger>
+								<TabsTrigger value={PanelMode.Platform}>
+									<TrainTrackIcon className="mr-1" size={16} />
+									Vías
+								</TabsTrigger>
+								<TabsTrigger value={PanelMode.Clock}>
+									<ClockIcon className="mr-1" size={16} />
+									Reloj
+								</TabsTrigger>
+								<TabsTrigger value={PanelMode.Number}>
+									<HashIcon className="mr-1" size={16} />
+									Número
+								</TabsTrigger>
 							</TabsList>
 						</div>
 					</ScrollArea>
-					<TabsContent value="list">
+					<TabsContent value={PanelMode.Arrivals}>
 						<Card>
 							<CardContent className="grid md:grid-cols-2 gap-4 py-0">
 								<ListOptions value={listOptions} onChange={setListOptions} />
 							</CardContent>
 						</Card>
 					</TabsContent>
-					<TabsContent value="platform">
+					<TabsContent value={PanelMode.Departures}>
+						<Card>
+							<CardContent className="grid md:grid-cols-2 gap-4 py-0">
+								<ListOptions value={listOptions} onChange={setListOptions} />
+							</CardContent>
+						</Card>
+					</TabsContent>
+					<TabsContent value={PanelMode.Platform}>
 						<Card>
 							<CardContent className="grid md:grid-cols-2 gap-4">
 								<PlatformOptions value={platformOptions} onChange={setPlatformOptions} />
 							</CardContent>
 						</Card>
 					</TabsContent>
-					<TabsContent value="number">
+					<TabsContent value={PanelMode.Clock}>
 						<Card>
 							<CardContent className="grid md:grid-cols-2 gap-4">
 								<NumberOptions value={numberOptions} onChange={setNumberOptions} />
 							</CardContent>
 						</Card>
 					</TabsContent>
-					<TabsContent value="black-number">
+					<TabsContent value={PanelMode.BlackNumber}>
 						<Card>
 							<CardContent className="grid md:grid-cols-2 gap-4">
 								<NumberOptions value={numberOptions} onChange={setNumberOptions} />

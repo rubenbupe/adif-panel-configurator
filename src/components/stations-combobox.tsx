@@ -23,7 +23,8 @@ export function StationsCombobox({ onChange, value }: { onChange: (value: string
 				<Button variant="outline" role="combobox" aria-expanded={open} className="justify-between w-full">
 					{value ? (
 						<span className="truncate">
-							{selectedStation?.description} <strong>[Cód. {selectedStation?.code}]</strong>
+							<span className="font-medium">{selectedStation?.description}</span>
+							<span className="text-xs text-foreground/60 ml-2">{selectedStation?.code}</span>
 						</span>
 					) : (
 						'Selecciona una estación...'
@@ -31,7 +32,7 @@ export function StationsCombobox({ onChange, value }: { onChange: (value: string
 					<ChevronsUpDownIcon className="ml-2 h-4 w-4 shrink-0 opacity-50" />
 				</Button>
 			</PopoverTrigger>
-			<PopoverContent className="p-0">
+			<PopoverContent className="p-0" align="start">
 				<Command>
 					<CommandInput placeholder="Busca una escatión..." />
 					<CommandList>
@@ -47,8 +48,13 @@ export function StationsCombobox({ onChange, value }: { onChange: (value: string
 										setOpen(false);
 									}}
 								>
-									<CheckIcon className={cn('mr-2 h-4 w-4', value === station.code ? 'opacity-100' : 'opacity-0')} />
-									{station.description}
+									<CheckIcon
+										className={cn('mr-2 h-4 w-4 min-h-4 min-w-4', value === station.code ? 'opacity-100' : 'opacity-0')}
+									/>
+									<div>
+										<div>{station.description}</div>
+										<div className=" text-xs text-foreground/60">{station.code}</div>
+									</div>
 								</CommandItem>
 							))}
 						</CommandGroup>

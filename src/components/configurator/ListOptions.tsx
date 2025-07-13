@@ -1,6 +1,5 @@
 import { Field } from '../field';
 import { Label } from '../ui/label';
-import { RadioGroup, RadioGroupItem } from '../ui/radio-group';
 import { Checkbox } from '../ui/checkbox';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
 import { MultiSelect } from '../ui/multi-select';
@@ -8,16 +7,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { cn } from '@/lib/utils';
 import { Input } from '../ui/input';
 
-export enum Direction {
-	Departures = 'departures',
-	Arrivals = 'arrivals'
-}
-
 export enum ServiceType {
 	Cercanias = 'cercanias',
-	MediaDistancia = 'media-distancia',
+	Regional = 'regional',
 	LargaDistancia = 'larga-distancia',
-	AltaVelocidad = 'alta-velocidad'
+	AltaVelocidad = 'alta-velocidad',
+	ServicioInterno = 'servicio-interno'
 }
 
 export enum Product {
@@ -56,7 +51,6 @@ export enum Subtitle {
 }
 
 export interface ListOptionsState {
-	direction: Direction;
 	services: Set<ServiceType>;
 	countdown: boolean;
 	showAccess: boolean;
@@ -88,55 +82,30 @@ export function ListOptions({
 	return (
 		<>
 			<Field>
-				<Label className="text-xs font-medium">Modo</Label>
-				<RadioGroup
-					value={value.direction}
-					onValueChange={direction => {
-						onValueChange({
-							direction: direction as Direction,
-							countdown: direction !== Direction.Departures ? false : value.countdown
-						});
-					}}
-				>
-					<div className="flex items-center gap-3">
-						<RadioGroupItem value={Direction.Departures} id="tipo-salidas" />
-						<Label htmlFor="tipo-salidas">Salidas</Label>
-					</div>
-					<div className="flex items-center gap-3">
-						<RadioGroupItem value={Direction.Arrivals} id="tipo-llegadas" />
-						<Label htmlFor="tipo-llegadas">Llegadas</Label>
-					</div>
-				</RadioGroup>
-			</Field>
-			<Field>
 				<Label className="text-xs font-medium">Servicios</Label>
 				<div className="flex flex-col gap-3">
-					{[
-						ServiceType.Cercanias,
-						ServiceType.MediaDistancia,
-						ServiceType.LargaDistancia,
-						ServiceType.AltaVelocidad
-					].map(serviceType => (
-						<div className="flex items-center gap-3" key={serviceType}>
-							<Checkbox
-								id={serviceType}
-								disabled={value.services.has(serviceType) && value.services.size === 1}
-								checked={value.services.has(serviceType)}
-								onCheckedChange={checked => {
-									const newService = new Set(value.services);
-									if (checked) {
-										newService.add(serviceType);
-									} else {
-										newService.delete(serviceType);
-									}
-									onValueChange({ services: newService });
-								}}
-							/>
-							<Label htmlFor={serviceType}>
-								{serviceType.charAt(0).toUpperCase() + serviceType.slice(1).replace('-', ' ')}
-							</Label>
-						</div>
-					))}
+					{[ServiceType.Cercanias, ServiceType.Regional, ServiceType.LargaDistancia, ServiceType.AltaVelocidad].map(
+						serviceType => (
+							<div className="flex items-center gap-3" key={serviceType}>
+								<Checkbox
+									id={serviceType}
+									checked={value.services.has(serviceType)}
+									onCheckedChange={checked => {
+										const newService = new Set(value.services);
+										if (checked) {
+											newService.add(serviceType);
+										} else {
+											newService.delete(serviceType);
+										}
+										onValueChange({ services: newService });
+									}}
+								/>
+								<Label htmlFor={serviceType}>
+									{serviceType.charAt(0).toUpperCase() + serviceType.slice(1).replace('-', ' ')}
+								</Label>
+							</div>
+						)
+					)}
 				</div>
 			</Field>
 			<Field className="md:col-span-2">
@@ -150,7 +119,7 @@ export function ListOptions({
 						{ label: 'Alvia', value: Product.ALVIA },
 						{ label: 'Avant', value: Product.AVANT },
 						{ label: 'Media Distancia', value: Product.MD },
-						{ label: 'Reg. Express', value: Product.REX },
+						{ label: 'Reg. Exprés', value: Product.REX },
 						{ label: 'Intercity', value: Product.ICITY },
 						{ label: 'Servicions Especiales', value: Product.SSERV },
 						{ label: 'Cercanías', value: Product.CERCAN }
@@ -210,11 +179,10 @@ export function ListOptions({
 					<AccordionTrigger>Configuración de columnas</AccordionTrigger>
 					<AccordionContent>
 						<div className="grid md:grid-cols-2 gap-4">
-							<div className="flex items-center gap-3" title="La cuenta atrás solo está disponible para salidas.">
+							<div className="flex items-center gap-3">
 								<Checkbox
 									id="countdown"
 									checked={value.countdown}
-									disabled={value.direction !== Direction.Departures}
 									onCheckedChange={() => onValueChange({ countdown: !value.countdown })}
 								/>
 								<Label htmlFor="countdown">Mostrar cuenta atrás</Label>

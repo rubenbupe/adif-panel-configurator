@@ -4,12 +4,11 @@ import { StationsCombobox } from '../stations-combobox';
 import { MultiSelect } from '../ui/multi-select';
 
 export enum PanelMode {
-	List = 'list',
+	Arrivals = 'arrivals',
+	Departures = 'departures',
 	Platform = 'platform',
 	Clock = 'clock',
-	BlackClock = 'black-clock',
-	Number = 'number',
-	BlackNumber = 'black-number'
+	Number = 'number'
 }
 
 export enum Language {
