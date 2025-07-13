@@ -96,7 +96,7 @@ export default function ConfiguratorForm({
 							</CardContent>
 						</Card>
 					</TabsContent>
-					<TabsContent value={PanelMode.BlackNumber}>
+					<TabsContent value={PanelMode.Number}>
 						<Card>
 							<CardContent className="grid md:grid-cols-2 gap-4">
 								<NumberOptions value={numberOptions} onChange={setNumberOptions} />
