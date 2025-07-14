@@ -48,7 +48,8 @@ body {
 
 .adif-gravita-departures-old,
 .adif-gravita-arrivals-old {
-	background: linear-gradient(to right, #046A38 0%, #046A38 11.75%, #fcffbc 11.75%, #fcffbc 100%);
+	font-family: 'HelveticaCondensed', sans-serif;
+	background: linear-gradient(to right, #046A38 0%, #046A38 11.5%, #fcffbc 11.5%, #fcffbc 100%);
 }
 
 .adif-gravita-departures .header {
@@ -270,7 +271,7 @@ body {
 .adif-gravita-departures-old .header .title .title-text,
 .adif-gravita-arrivals-old .header .title .title-text {
     /* Respecto a .title */
-    font-family: 'AdifHaussBold', sans-serif;
+    font-family: 'HelveticaCondensed', sans-serif;
     height: 90%;
     font-size: 80%;
 		letter-spacing: 8px;
@@ -569,17 +570,15 @@ body {
     flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
-    color: #343434;
-		padding: px;
+    color: #575757;
 		position: relative;
-		background: linear-gradient(to right, #046A38 0%, #046A38 11.75%, transparent 11.75%, transparent 100%);
+		background: linear-gradient(to right, #046A38 0%, #046A38 11.5%, transparent 11.5%, transparent 100%);
 }
 
 .adif-gravita-departures-old .table .train-row .train-time,
 .adif-gravita-arrivals-old .table .train-row .train-time {
     /* Respecto a .table */
 		color: white;
-		transform: translateX(-4px);
 }
 
 .adif-gravita-departures-old .table .train-row .train-status,
@@ -592,14 +591,23 @@ body {
 
 .adif-gravita-departures-old .table .train-row .train-direction,
 .adif-gravita-arrivals-old .table .train-row .train-direction {
-    transform: translateX(15px);
+		text-transform: uppercase;
+		font-weight: 700;
+    transform: translateX(15px) !important;
 }
 
 .adif-gravita-departures-old .table .train-row .train-horizontal-journey,
 .adif-gravita-arrivals-old .table .train-row .train-horizontal-journey {
 		opacity: 0;
+		min-height: 30px !important;
 }
 
+@media (max-width: 768px) {
+	.adif-gravita-departures-old .table .train-row .train-horizontal-journey,
+	.adif-gravita-arrivals-old .table .train-row .train-horizontal-journey {
+			min-height: 20px !important;
+	}
+}
 
 .adif-gravita-arrivals .table .train-row {
     /* Respecto a .table */
