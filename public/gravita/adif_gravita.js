@@ -587,6 +587,10 @@ function AdGr24_updateMonitors() {
             var substitution_class = this_monitor.attr("if-no-trains");
             if (substitution_class == "arrivals") substitution_class = 'adif-gravita-arrivals';
             else if (substitution_class == "departures") substitution_class = 'adif-gravita-departures';
+						else if (substitution_class == "arrivals-cercanias") substitution_class = 'adif-gravita-arrivals-cercanias';
+						else if (substitution_class == "departures-cercanias") substitution_class = 'adif-gravita-departures-cercanias';
+						else if (substitution_class == "arrivals-old") substitution_class = 'adif-gravita-arrivals-old';
+						else if (substitution_class == "departures-old") substitution_class = 'adif-gravita-departures-old';
             else if (substitution_class == "clock") substitution_class = 'adif-gravita-clock';
             else if (substitution_class == "black") substitution_class = 'adif-gravita-black';
             else if (substitution_class == "number") substitution_class = 'adif-gravita-number';
@@ -674,7 +678,7 @@ function AdGr24_updateMonitors() {
             if (!this_monitor.hasClass(substitution_class)) {
                 this_monitor.empty();
                 this_monitor.addClass(substitution_class);  
-                if ((substitution_class == 'adif-gravita-departures' || substitution_class == 'adif-gravita-arrivals')) {
+                if ((substitution_class == 'adif-gravita-departures' || substitution_class == 'adif-gravita-arrivals') || substitution_class == 'adif-gravita-departures-cercanias' || substitution_class == 'adif-gravita-arrivals-cercanias' || substitution_class == 'adif-gravita-departures-old' || substitution_class == 'adif-gravita-arrivals-old') {
                  //Si se va a poner un monitor de lista de sustitucion hay que recalcular los parametros necesarios de los monitores de lista de la pantalla
                  //boleano para proceder a hacerlo una vez examinados todos los platform monitores
                  restart_list_monitors = true;
@@ -922,8 +926,8 @@ function AdGr24_updateMonitors() {
 					}
 				}
         //Consultamos si estamos en un monitor de tipo departures o arrivals y si estamos en modo cuenta atrás
-        if($(this).hasClass('adif-gravita-departures')) {
-            var monitor_class = 'departures';
+        if($(this).hasClass('adif-gravita-departures') || $(this).hasClass('adif-gravita-departures-cercanias') || $(this).hasClass('adif-gravita-departures-old')) {
+            var monitor_class = $(this).hasClass('adif-gravita-departures-cercanias') ? 'departures-cercanias' : $(this).hasClass('adif-gravita-departures-old') ? 'departures-old' : 'departures';
             if ($(this).attr('countdown') == 'true') {
                 var countdown_active = true;
                 if ($(this).attr('countdown-traffics') !== undefined) {
@@ -936,7 +940,7 @@ function AdGr24_updateMonitors() {
                 var countdown_traffics = [];
             }
         } else {
-            var monitor_class = 'arrivals';
+            var monitor_class = $(this).hasClass('adif-gravita-arrivals-cercanias') ? 'arrivals-cercanias' : $(this).hasClass('adif-gravita-arrivals-old') ? 'arrivals-old' : 'arrivals';
             var countdown_active = false;
             var countdown_traffics = [];
         }
@@ -1097,7 +1101,7 @@ function AdGr24_updateMonitors() {
 
         // Ordenamos la lista de trenes segun la configuracion del monitor
 
-        if(monitor_class == 'departures') {
+        if(monitor_class == 'departures' || monitor_class == 'departures-cercanias' || monitor_class == 'departures-old') {
             var class_stop_filter = ["intermediate","origin"];
             if(countdown_active) {
                 list_trains = [...AdGr24_trains_data.trains];
@@ -2424,6 +2428,8 @@ function AdGr24_trainTimeHTML(train, monitor_class, width, countdown_active, cou
 
     switch(monitor_class) {
         case "departures":
+				case "departures-cercanias":
+				case "departures-old":
             if (countdown_active && AdGr24_isInCountdownMode(train)) {
                 // Muestra cuenta atrás
                 ps.html(train.countdown + " min");
@@ -2459,6 +2465,8 @@ function AdGr24_trainTimeHTML(train, monitor_class, width, countdown_active, cou
             break;
          
         case "arrivals":
+				case "arrivals-cercanias":
+				case "arrivals-old":
             if(estimated_time_traffics.includes(train.traffic_type)) {
                 ps.html(AdGr24_isoToHoraMinutos(train.arrival_time,train.delay_in));
                 check_value = check_value + AdGr24_isoToHoraMinutos(train.arrival_time,train.delay_in);
@@ -2562,6 +2570,8 @@ function AdGr24_trainDirectionHTML(train,monitor_class,width,abbreviation) {
     switch(monitor_class) {
         
         case "departures":
+				case "departures-cercanias":
+				case "departures-old":
             el.addClass('destination-station');
             for(let i = 0;i < train.destinations.length;i++) {
                 var d = $("<div style='width: 100%; height: 100%; font-size: 100%'>");
@@ -2591,6 +2601,8 @@ function AdGr24_trainDirectionHTML(train,monitor_class,width,abbreviation) {
             el.attr('unhidden_line',0)
             break;
         case "arrivals":
+				case "arrivals-cercanias":
+				case "arrivals-old":
             let j = 0;
             for(let i = train.origins.length - 1;i >=0;i--) {
                 var d = $("<div style='width: 100%; height: 100%; font-size: 100%'>");
@@ -2835,7 +2847,7 @@ function AdGr24_trainAccessHTML(train,monitor_class,width) {
     }
 
 
-    if(monitor_class == 'departures') {
+    if(monitor_class == 'departures' || monitor_class == 'departures-cercanias' || monitor_class == 'departures-old') {
         if(Array.isArray(train.departures_access)) {
             
             var access_list = train.departures_access.join("")
@@ -2964,7 +2976,7 @@ function AdGr24_trainPlatformHTML(train,monitor_class,width,show_platform_previe
 
     
 
-    if (train.platform_in === undefined || monitor_class == "departures" || monitor_class == "platform") {
+    if (train.platform_in === undefined || monitor_class == "departures" || monitor_class == "departures-cercanias" || monitor_class == "departures-old" || monitor_class == "platform") {
         if (train.platform == "") {
             if(train.platform_preview !== undefined && show_platform_preview) {
                 if (train.platform_preview[0] != "_") ps.html("<p>" + train.platform_preview + "</p>");
@@ -2987,7 +2999,7 @@ function AdGr24_trainPlatformHTML(train,monitor_class,width,show_platform_previe
                 img.addClass("picto");
                 img.addClass('svg_en_img')
                 img.attr("src",getMultimediaFolder('svg') + "bus" + ".svg");
-                if(monitor_class == "arrivals") {
+                if(monitor_class == "arrivals" || monitor_class == "arrivals-cercanias" || monitor_class == "arrivals-old") {
                     img.addClass('color-gravita-azul-primario');
                 } else {
                     img.addClass('color-gravita-blanco');
@@ -3093,7 +3105,8 @@ function AdGr24_trainStatusHTML(train,languages,monitor_class,width,countdown_ac
     var p = $("<div>");
     switch(monitor_class) {
         case "departures":
-
+				case "departures-cercanias":
+				case "departures-old":
             
             if(countdown_active && AdGr24_isInCountdownMode(train)) {
                 // En hora sale el tren en cuenta atrás
@@ -3132,6 +3145,8 @@ function AdGr24_trainStatusHTML(train,languages,monitor_class,width,countdown_ac
             break;
 
         case "arrivals":
+				case "arrivals-cercanias":
+				case "arrivals-old":
             el.attr('style','width: ' + width + '%;');
             if (estimated_time_traffics.includes(train.traffic_type)) {
                 // En hora sale la hora prevista, no ponemos nada.
@@ -3366,6 +3381,8 @@ function AdGr24_stationHTML(station, monitor_class, abbreviation, show_line) {
             img2.attr("src",getMultimediaFolder('station_pictos') + AdGr24_station_list[station.code].picto + ".svg");
             switch(monitor_class) {
                 case "departures":
+								case "departures-cercanias":
+								case "departures-old":
                 case "platform":
                     img2.addClass('color-gravita-blanco');
                     break;
@@ -4853,7 +4870,7 @@ function AdGr24_filtroTrenes(monitor_class, train, class_stop_filter, traffic_fi
     }
     
     if (!(platform_include.length === 0)) {
-        if (monitor_class == "arrivals" && train.platform_in !== undefined) {
+        if ((monitor_class == "arrivals" || monitor_class == "arrivals-cercanias" || monitor_class == "arrivals-old") && train.platform_in !== undefined) {
             if (platform_include.some(platf => train.platform_locations_in.includes(platf))) {
                 return true;
             }
@@ -4866,7 +4883,7 @@ function AdGr24_filtroTrenes(monitor_class, train, class_stop_filter, traffic_fi
 
     if (!(stop_include.length === 0)) {
         var found = false;
-        if (monitor_class == "arrivals") {
+        if (monitor_class == "arrivals" || monitor_class == "arrivals-cercanias" || monitor_class == "arrivals-old") {
             train.journey_stops_origin.forEach(function(stop) {
                 if(stop_include.includes(stop.code)) {
                     found = true;
@@ -4925,7 +4942,7 @@ function AdGr24_filtroTrenes(monitor_class, train, class_stop_filter, traffic_fi
     
     if (!(access_filter.length === 0)) {
         var found = false;
-        if (monitor_class == "departures") {
+        if (monitor_class == "departures" || monitor_class == "departures-cercanias" || monitor_class == "departures-old") {
             if(Array.isArray(train.departures_access)) {
                 train.departures_access.forEach(function(access) {
                     if (access_filter.includes(access)) {
@@ -4953,7 +4970,7 @@ function AdGr24_filtroTrenes(monitor_class, train, class_stop_filter, traffic_fi
     }
 
     if (!(platform_filter.length === 0)) {
-        if (monitor_class == "arrivals" && train.platform_in !== undefined) {
+        if ((monitor_class == "arrivals" || monitor_class == "arrivals-cercanias" || monitor_class == "arrivals-old") && train.platform_in !== undefined) {
             if (!platform_filter.some(platf => train.platform_locations_in.includes(platf))) {
                 return false;
             }
@@ -4976,7 +4993,7 @@ function AdGr24_filtroTrenes(monitor_class, train, class_stop_filter, traffic_fi
 
     if (!(stop_filter.length === 0)) {
         var found = false;
-        if (monitor_class == "arrivals") {
+        if (monitor_class == "arrivals" || monitor_class == "arrivals-cercanias" || monitor_class == "arrivals-old") {
             train.journey_stops_origin.forEach(function(stop) {
                 if(stop_filter.includes(stop.code)) {
                     found = true;
