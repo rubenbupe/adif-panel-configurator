@@ -54,7 +54,8 @@ export enum Subtitle {
 	CERCMDLDCONV = 'CERCMDLDCONV',
 	AEROPUERTO = 'AEROPUERTO',
 	OPERADOR = 'OPERADOR:$',
-	VIA = 'VIA:$'
+	VIA = 'VIA:$',
+	VIAS = 'VIAS:$'
 }
 
 export interface ListOptionsState {
@@ -197,6 +198,7 @@ export function ListOptions({
 						<SelectItem value={Subtitle.AEROPUERTO}>Conexiones al aeropuerto</SelectItem>
 						<SelectItem value={Subtitle.OPERADOR}>Servicios operados por ...</SelectItem>
 						<SelectItem value={Subtitle.VIA}>Vía ...</SelectItem>
+						<SelectItem value={Subtitle.VIAS}>Vías ...</SelectItem>
 					</SelectContent>
 				</Select>
 			</Field>

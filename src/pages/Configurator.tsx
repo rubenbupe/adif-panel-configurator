@@ -69,7 +69,7 @@ export default function Configurator() {
 			<div className="w-full max-w-full flex-1 flex flex-col items-center justify-center bg-background gap-4 mt-4">
 				<p className="max-w-2xl text-sidebar-foreground text-center text-balance bg-sidebar p-4 rounded-lg mx-4">
 					Esta herramienta <strong>NO ES OFICIAL</strong> y <strong>NO ESTÁ AFILIADA</strong> a Adif de ninguna manera.
-					Está diseñada para ayudar a los usuarios a consultar los paneles informaticos de las estaciones de Adif.
+					Está diseñada para ayudar a los usuarios a consultar los paneles informativos de las estaciones de Adif.
 				</p>
 				<div className="grid lg:grid-cols-2 items-center gap-4 w-full p-4 max-w-7xl">
 					<ConfiguratorForm

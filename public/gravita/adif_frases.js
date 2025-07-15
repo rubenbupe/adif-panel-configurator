@@ -166,7 +166,17 @@ var AdGr24_subtitulos = {
         "EUS": "$. Trenbidea",
         "ENG": "Platform $",
         "FRA": "Voie $",        
-    }
+    },
+
+		"VIAS": {
+				"ESP": "Vías $",
+				"CAT": "Vies $",
+				"VAL": "Vies $",
+				"GAL": "Vías $",
+				"EUS": "$. Trenbideak",
+				"ENG": "Platforms $",
+				"FRA": "Voies"
+		},
 
 }
 
