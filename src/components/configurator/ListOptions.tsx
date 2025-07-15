@@ -68,6 +68,7 @@ export interface ListOptionsState {
 	showPlatformPreview: boolean;
 	showHeader: boolean;
 	productFilter: Set<Product>;
+	platformFilter: string;
 	companyFilter: Set<Company>;
 	subtitle: Subtitle | null;
 	subtitleParam: string;
@@ -205,6 +206,14 @@ export function ListOptions({
 					value={value.subtitleParam}
 					onChange={e => onValueChange({ subtitleParam: e.target.value })}
 					placeholder="Parámetro del subtítulo"
+					className="w-full"
+				/>
+			</Field>
+			<Field className="md:col-span-2">
+				<Label className="text-xs font-medium">Vías (separadas por comas, sin espacios)</Label>
+				<Input
+					value={value.platformFilter}
+					onChange={e => onValueChange({ platformFilter: e.target.value })}
 					className="w-full"
 				/>
 			</Field>

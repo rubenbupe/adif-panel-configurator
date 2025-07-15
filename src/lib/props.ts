@@ -22,6 +22,7 @@ export interface PanelUrlParamsData {
 	subtitleParam?: string;
 	platformLocation: string;
 	platformMode: string;
+	platformFilter: string;
 	fontSize: number;
 	numberIfNoTrains?: string;
 }
@@ -61,6 +62,7 @@ const allowedPropsByMode: Record<PanelMode, string[]> = {
 		'countdown',
 		'productFilter',
 		'companyFilter',
+		'platformFilter',
 		'subtitle',
 		'subtitleParam'
 	],
@@ -78,6 +80,7 @@ const allowedPropsByMode: Record<PanelMode, string[]> = {
 		'countdown',
 		'productFilter',
 		'companyFilter',
+		'platformFilter',
 		'subtitle',
 		'subtitleParam'
 	],
@@ -158,6 +161,7 @@ export function dataToUrlParams({
 		subtitleParam: listOptions.subtitleParam || undefined,
 		platformLocation: platformOptions.platformLocation || numberOptions.platformLocation || '',
 		platformMode: platformOptions.platformMode || '',
+		platformFilter: listOptions.platformFilter || '',
 		numberIfNoTrains: numberOptions.numberIfNoTrains || undefined
 	};
 
@@ -197,6 +201,7 @@ export function urlParamsToData(params: URLSearchParams): PanelUrlParamsData {
 		subtitleParam: params.get('subtitleParam') || undefined,
 		platformLocation: params.get('platformLocation') || '',
 		platformMode: params.get('platformMode') || '',
+		platformFilter: params.get('platformFilter') || '',
 		fontSize: Number(params.get('fontSize')) || 1,
 		numberIfNoTrains: params.get('numberIfNoTrains') || undefined
 	};
@@ -242,6 +247,7 @@ export function dataToGravitaProps(data: PanelUrlParamsData): Record<string, any
 		subtitle: data.subtitleParam ? data.subtitle.replace(/\$$/, data.subtitleParam) : data.subtitle || undefined,
 		'platform-location': data.platformLocation,
 		'platform-mode': data.platformMode,
+		'platform-filter': data.platformFilter || undefined,
 		'number-if-no-trains': data.numberIfNoTrains || undefined
 	};
 

@@ -36,6 +36,7 @@ export default function Configurator() {
 		showHeader: true,
 		productFilter: new Set(),
 		companyFilter: new Set(),
+		platformFilter: '',
 		subtitle: null,
 		subtitleParam: ''
 	});
