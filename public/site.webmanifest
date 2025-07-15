@@ -1,6 +1,6 @@
 {
-  "name": "Configurador panel ADIF",
-  "short_name": "Configurador panel ADIF",
+  "name": "Ferropanel",
+  "short_name": "Ferropanel",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#045245",
+  "background_color": "#045648",
   "display": "standalone"
 }

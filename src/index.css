@@ -42,13 +42,13 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(0.8502 0.0555 166.68);
+  --background: oklch(85.025% 0.05544 166.777);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.4057 0.0741 176.48);
+  --primary: #045648;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
