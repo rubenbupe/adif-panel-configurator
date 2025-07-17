@@ -34,7 +34,7 @@ export function StationsCombobox({ onChange, value }: { onChange: (value: string
 			</PopoverTrigger>
 			<PopoverContent className="p-0" align="start">
 				<Command>
-					<CommandInput placeholder="Busca una escatión..." />
+					<CommandInput placeholder="Busca una estatión..." />
 					<CommandList>
 						<CommandEmpty>No se ha encontrado la estación.</CommandEmpty>
 						<CommandGroup>
