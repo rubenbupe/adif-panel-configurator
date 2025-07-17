@@ -98,7 +98,7 @@ const allowedPropsByMode: Record<PanelMode, string[]> = {
 	[PanelMode.Clock]: ['interfaz', 'stationCode', 'traffic', 'languages', 'fontSize']
 };
 
-function modeToInterfaz(mode: PanelMode, listInterfaz: ListInterface): string {
+export function modeToInterfaz(mode: PanelMode, listInterfaz: ListInterface): string {
 	switch (mode) {
 		case PanelMode.Arrivals:
 			switch (listInterfaz) {

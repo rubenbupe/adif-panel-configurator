@@ -1,4 +1,4 @@
-import { CopyIcon, ExternalLinkIcon, LaptopIcon, SmartphoneIcon } from 'lucide-react';
+import { CopyIcon, ExternalLinkIcon, InfoIcon, LaptopIcon, SmartphoneIcon } from 'lucide-react';
 import { Field } from '../field';
 import { Card, CardContent } from '../ui/card';
 import { Label } from '../ui/label';
@@ -7,7 +7,7 @@ import { Button } from '../ui/button';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 
-export default function Preview({ url }: { url: string }) {
+export default function Preview({ url, isExternal }: { url: string; isExternal: boolean }) {
 	const [orientation, setOrientation] = useState<'landscape' | 'portrait'>('landscape');
 
 	return (
@@ -15,6 +15,18 @@ export default function Preview({ url }: { url: string }) {
 			<CardContent className="space-y-4">
 				<Field>
 					<Label className="text-sm font-medium">Vista previa</Label>
+					<Card
+						className={cn(
+							'py-2 px-3 bg-sidebar text-sidebar-foreground rounded-sm flex flex-row gap-3 items-center',
+							!isExternal && 'hidden'
+						)}
+					>
+						<InfoIcon className="h-4 w-4 min-h-4 min-w-4" />
+						<p className="text-sm">
+							El contenido que se muestra a continuación es una vista previa de un sitio web de terceros, alojado en{' '}
+							<span className="underline">https://info.adif.es</span>.
+						</p>
+					</Card>
 					<iframe
 						src={`${url}&preview=true`}
 						className={cn('w-full rounded-sm border', orientation === 'landscape' ? 'aspect-video' : 'aspect-[9/16]')}

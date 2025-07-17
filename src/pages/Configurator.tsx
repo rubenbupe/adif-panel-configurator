@@ -9,7 +9,7 @@ import type { NumberOptionsState } from '../components/configurator/NumberOption
 import ConfiguratorForm from '../components/configurator';
 import Preview from '../components/configurator/Preview';
 import Navbar from '../components/Navbar';
-import { buildPanelUrlFromData } from '@/lib/props';
+import { buildPanelUrlFromData, isDefaultInterfaz, modeToInterfaz } from '@/lib/props';
 
 export default function Configurator() {
 	const [headerOptions, setHeaderOptions] = useState<HeaderOptionsState>({
@@ -63,6 +63,10 @@ export default function Configurator() {
 		});
 	}, [headerOptions, listOptions, platformOptions, numberOptions, fontSize]);
 
+	const isExternal = useMemo(() => {
+		return isDefaultInterfaz(modeToInterfaz(headerOptions.mode, listOptions.interfaz));
+	}, [listOptions.interfaz, headerOptions.mode]);
+
 	return (
 		<div className="w-screen min-h-screen max-w-screen flex flex-col">
 			<Navbar />
@@ -84,7 +88,7 @@ export default function Configurator() {
 						fontSize={fontSize}
 						setFontSize={setFontSize}
 					/>
-					<Preview url={url} />
+					<Preview url={url} isExternal={isExternal} />
 				</div>
 				<p className="max-w-2xl text-xs text-foreground/60 text-center">
 					Este proyecto no está afiliado a Adif y tiene proposito educacional. Algunas configuraciones pueden no
