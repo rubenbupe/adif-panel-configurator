@@ -25,6 +25,7 @@ export interface PanelUrlParamsData {
 	platformFilter: string;
 	fontSize: number;
 	numberIfNoTrains?: string;
+	preview?: boolean;
 }
 
 export interface PanelGravitaProps {
@@ -126,6 +127,16 @@ function modeToInterfaz(mode: PanelMode, listInterfaz: ListInterface): string {
 	}
 }
 
+export function isDefaultInterfaz(interfaz: string): boolean {
+	return (
+		interfaz === 'adif-gravita-arrivals' ||
+		interfaz === 'adif-gravita-departures' ||
+		interfaz === 'adif-gravita-platform' ||
+		interfaz === 'adif-gravita-clock' ||
+		interfaz === 'adif-gravita-number'
+	);
+}
+
 export function dataToUrlParams({
 	headerOptions,
 	listOptions,
@@ -203,7 +214,8 @@ export function urlParamsToData(params: URLSearchParams): PanelUrlParamsData {
 		platformMode: params.get('platformMode') || '',
 		platformFilter: params.get('platformFilter') || '',
 		fontSize: Number(params.get('fontSize')) || 1,
-		numberIfNoTrains: params.get('numberIfNoTrains') || undefined
+		numberIfNoTrains: params.get('numberIfNoTrains') || undefined,
+		preview: parseBool(params.get('preview'), false)
 	};
 }
 

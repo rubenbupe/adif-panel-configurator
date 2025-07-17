@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState, useMemo } from 'react';
 import * as signalR from '@microsoft/signalr';
 import logoAdif from '../../assets/logo-adif.webp';
-import { dataToGravitaProps, type PanelUrlParamsData } from '@/lib/props';
-import { Loader2Icon } from 'lucide-react';
-import { GRAVITA_ROOT } from '@/constants';
+import { dataToGravitaProps, isDefaultInterfaz, type PanelUrlParamsData } from '@/lib/props';
+import { Loader2Icon, TrainTrackIcon } from 'lucide-react';
+import { ADIF_GRAVITA_ROOT, GRAVITA_ROOT } from '@/constants';
 
 type Props = PanelUrlParamsData & {
 	onData?: (data: any) => void;
@@ -28,7 +28,9 @@ const GravitaWrapper = (props: Props) => {
 			IdEstacion: stationCode,
 			...gravitaParamsObj
 		});
-		const url = `${GRAVITA_ROOT}/gravita.html?${gravitaParams.toString()}`;
+		const url = `${
+			isDefaultInterfaz(gravitaParamsObj.interfaz) ? ADIF_GRAVITA_ROOT : GRAVITA_ROOT
+		}/gravita.html?${gravitaParams.toString()}`;
 		return url;
 	}, [stationCode, restProps]);
 
@@ -102,15 +104,19 @@ const GravitaWrapper = (props: Props) => {
 		<div className="relative flex-1 flex flex-col">
 			{!!loading && (
 				<div className="absolute inset-0 flex flex-col gap-8 items-center justify-center bg-background z-50">
-					<div
-						className="bg-primary md:w-64 w-48 border border-red-500"
-						style={{
-							WebkitMask: `url(${logoAdif}) center/contain no-repeat`,
-							mask: `url(${logoAdif}) center/contain no-repeat`
-						}}
-					>
-						<img src={logoAdif} alt="ADIF Logo" className="w-full h-full object-cover opacity-0" />
-					</div>
+					{props.preview ? (
+						<TrainTrackIcon className="text-primary md:w-32 w-24 md:h-32 h-24" />
+					) : (
+						<div
+							className={'bg-primary md:w-64 w-48'}
+							style={{
+								WebkitMask: `url(${logoAdif}) center/contain no-repeat`,
+								mask: `url(${logoAdif}) center/contain no-repeat`
+							}}
+						>
+							<img src={logoAdif} alt="ADIF Logo" className="w-full h-full object-cover opacity-0" />
+						</div>
+					)}
 					<Loader2Icon className="animate-spin text-primary h-8 w-8" />
 				</div>
 			)}

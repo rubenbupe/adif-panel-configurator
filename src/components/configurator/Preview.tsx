@@ -16,7 +16,7 @@ export default function Preview({ url }: { url: string }) {
 				<Field>
 					<Label className="text-sm font-medium">Vista previa</Label>
 					<iframe
-						src={url}
+						src={`${url}&preview=true`}
 						className={cn('w-full rounded-sm border', orientation === 'landscape' ? 'aspect-video' : 'aspect-[9/16]')}
 						title="ADIF Panel Preview"
 					/>
